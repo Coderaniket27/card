@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,18 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.Card-inner{
+  width:350px;
+  height: 200px;
+  background-color: darkblue;
+  border: 1px solid white;
+  border-radius: 5%;
+  position: relative;
+  
+}
+.Card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
