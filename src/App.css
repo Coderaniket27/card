@@ -44,8 +44,11 @@ li:hover{
   cursor: pointer;
   
 }
+li{
+  color:"blue"
+}
 .hover{
-  color:"#0018A8"
+  color:"orange"
 }
 .imgSlider{
   position: relative;

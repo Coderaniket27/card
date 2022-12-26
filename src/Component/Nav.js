@@ -22,7 +22,7 @@ const Nav = () => {
           </div>
 <ul className='Navitems'>
  {navlist.map((e,i) =>{
-  return(<li className="hover"style={{paddingRight:"50px",}}key={i}>{e}</li>)
+  return(<li className="hover"style={{paddingRight:"50px"}}key={i}>{e}</li>)
  })}
 </ul>
 </div> 
