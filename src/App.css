@@ -12,3 +12,135 @@
   border: 1px solid white;
   border-radius: 5px;
 }
+.Navitems{
+  list-style: none;
+  display: flex;
+  margin-top: 40px;
+  font-weight: 800;
+  font-size: 18px;
+}
+.NavFull{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  overflow: hidden;
+}
+.Navlogo{
+margin-left: 20px;
+}
+.NavBar{
+  background-color: rgb(35, 32, 32);
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+
+}
+
+.Hamburger{
+  display: none;
+}
+li:hover{
+  cursor: pointer;
+}
+.imgSlider{
+  position: relative;
+  z-index: -1;
+  height: 500px;
+  background-image: url("../public/d2.jpg");
+  background-size: 100% 100%;
+  box-shadow: rgba(149,157,165,0.2) 0px,8px,24px;
+  animation: changeImage 40s ease-in-out infinite;
+  margin-top: 100px;
+
+}
+
+@media only screen and (min-width: 280px) 
+    and (max-width: 480px){
+      .Navitems{
+  display: none;
+}
+.Navlogo{
+  margin-left: 10px;
+  }
+.Hamburger{
+  display: block;
+}
+.Navlist{
+  margin-top: 30px;
+  margin-right: 15px;
+}
+.imgSlider{
+  height: 250px;
+}
+}
+
+@media only screen and (min-width: 481px) 
+    and (max-width: 766px){
+      .Navitems{
+  display: none;
+}
+.Navlogo{
+  margin-left: 10px;
+  }
+.Hamburger{
+  display: block;
+}
+
+}
+
+@media only screen and (min-width: 821px) 
+    and (max-width: 1023px){
+      .Navitems{
+  display: none;
+}
+.Navlogo{
+  margin-left: 10px;
+  }
+.Hamburger{
+  display: block;
+}
+
+}
+@media only screen and (min-width: 1089px) and (max-width:1200px) {
+  .Navitems{
+    display: block;
+  }.Navlogo{
+    margin-left: 50px;
+    }
+
+  .Hamburger{
+    display: none;
+  }
+
+}
+
+
+
+
+
+
+
+@keyframes changeImage{
+  0%{
+    background-image: url("../public/d2.jpg");
+
+}
+25%{
+  background-image: url("../public/blood.jpg");
+
+}
+50%{
+  background-image: url("../public/ambulance.jpg");
+
+}
+
+75%{
+  background-image: url("../public/hospital.jpg");
+
+}
+100%{
+  background-image: url("../public/d2.jpg");
+
+}
+}

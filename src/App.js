@@ -1,20 +1,13 @@
 import './App.css';
-import React, { useState } from 'react';
-
-
+import Nav from './Component/Nav';
+import Banner from './Component/Banner';
 function App() {
-  const[Name,SetName]=useState("")
-  const [count, setCount] = useState(" ");
-const[id,setid]=useState(" ")
-
+  
   return (
-    <div className="App">
-    <div className='Card'>
-      <a href='https://www.mediassist.in/'>doctor click</a>
-    </div>
-        
+    <div >
+        <Nav/>
 
-
+<Banner/>
 
     </div>
   );
