@@ -40,15 +40,12 @@ margin-left: 20px;
 .Hamburger{
   display: none;
 }
-li:hover{
+.hovers{
   cursor: pointer;
-  
+  color: red;
 }
-li{
-  color:"blue"
-}
-.hover{
-  color:"orange"
+.hovers:hover{
+  color: orange;
 }
 .imgSlider{
   position: relative;
@@ -61,9 +58,9 @@ li{
   margin-top: 82px;
 
 }
-.hover:hover{
+/* .hover:hover{
   color: red;
-}
+} */
 
 @media only screen and (min-width: 280px) 
     and (max-width: 480px){
