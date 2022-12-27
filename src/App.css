@@ -19,6 +19,21 @@
   font-weight: 800;
   font-size: 18px;
 }
+.list-item{
+  position: fixed;
+  top:40px;
+  right:50px;
+}
+.hamburger-list{
+  padding: 5px;
+  border: 1px solid black;
+  color:rgb(186, 9, 9);
+  background-color: whitesmoke;
+  font-weight: bolder;
+}
+.hamburger-list:hover{
+  background-color: aqua;
+}
 .NavFull{
   display: flex;
   justify-content: space-between;

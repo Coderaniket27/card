@@ -1,7 +1,11 @@
 import React from 'react'
 import Hamburger from 'hamburger-react'
+import { useState } from 'react'
 
 const Nav = () => {
+  const[list,showlist]=useState(false)
+  const navlists=["Home","About Us","Products","Benefits","Offers","Lab Test","Hospital","Ambulance","Doctor Appointment","Home Care","Health Checkup","Mental Health & Fitness"]
+
   const navlist=["Home","About Us","Products","Benefits","Offers"]
   return (
     <div className='NavBar' style={{"width":"100%"}}>
@@ -13,10 +17,9 @@ const Nav = () => {
           <div className='Hamburger'>
           <Hamburger size={48}label={"Show menu"} durstion={20} color={"#0018A8"}onToggle={toggled => {
   if (toggled) {
-     
+     showlist(true)
   } else {
-    console.log("off")
-  }
+showlist(false)  }
 }} />
 
           </div>
@@ -26,6 +29,15 @@ const Nav = () => {
  })}
 </ul>
 </div> 
+{list?<div className='list-item'>
+  <ul style={{listStyle:"none"}}>
+    {navlists.map((e,i)=>{
+      return (<li className='hamburger-list' key={i}>{e}</li>)
+    })}
+
+  </ul>
+
+</div>:""}
           </div>
             
     </div>
