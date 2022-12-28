@@ -11,8 +11,8 @@ const Nav = () => {
 
   // const navlist=["Home","About Us","Products","Benefits","Offers"]
   return (
-    <div className='NavBar' style={{"width":"100%"}}>
-        <div className='NavFull'>
+    <div  className='NavBar' style={{"width":"100%"}}>
+        <div  className='NavFull'>
           <div style={{"color":"#0018A8"}} className='Navlogo'>
 <img  alt="logo" height="100px" width="100px"src='newlog.jpg'/>
           </div>
@@ -27,9 +27,10 @@ showlist(false)  }
 
           </div>
 <ul className='Navitems'>
-  <li className="hovers"style={{paddingRight:"50px"}}>Home</li>
+<li className="hovers"style={{paddingRight:"50px"}}>  <Link activeClass="active" to="home" spy={true} smooth={true}>Home</Link></li>
 <li className="hovers"style={{paddingRight:"50px"}}>  <Link activeClass="active" to="about" spy={true} smooth={true}>About Us</Link></li>
-         
+<li className="hovers"style={{paddingRight:"50px"}}>  <Link activeClass="active" to="other services" spy={true} smooth={true}>Other Services</Link></li>
+       
 <li onClick={(e) =>{
   setlist1(!list1)
 }} className="hovers"style={{paddingRight:"50px"}}>Products

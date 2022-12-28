@@ -5,7 +5,7 @@ import '../App.css';
 const Banner = () => {
  
   return (
-    <div>
+    <div id="home">
             <div className='imgSlider '>
               
                 </div>
