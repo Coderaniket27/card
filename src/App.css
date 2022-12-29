@@ -75,7 +75,7 @@ margin-left: 20px;
   background-image: url("../public/d2.jpg");
   background-size: 100% 100%;
   box-shadow: rgba(149,157,165,0.2) 0px,8px,24px;
-  animation: changeImage 40s ease-in-out infinite;
+  animation: changeImage 20s ease-in-out infinite;
   margin-top: 82px;
 
 }

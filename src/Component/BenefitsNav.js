@@ -1,22 +1,19 @@
+import { useNavigate } from "react-router-dom"; // v6
+
 import React from 'react'
 import Hamburger from 'hamburger-react'
 import { useState } from 'react'
 import {Link} from 'react-scroll'
-import { useNavigate } from "react-router-dom"; // v6
+const BenefitsNav = () => {
+      const navigate = useNavigate();
 
+    const[list,showlist]=useState(false)
+  const navlists=["Home","Lab Test","Hospital","Ambulance","Doctor Appointment","Home Care","Health Checkup","Mental Health & Fitness","Other"]
+  const navlist=["LabTest","Hospital","Ambulance","DoctorAppointment","HomeCare","HealthCheckup","MentalHealth & Fitness","Other"]
 
-
-const Nav = () => {
-
-  const navigate = useNavigate();
-
-  const[list,showlist]=useState(false)
-  const[list1,setlist1]=useState(false)
-  const navlists=["Home","About Us","Benefits","Offers","Lab Test","Hospital","Ambulance","Doctor Appointment","Home Care","Health Checkup","Mental Health & Fitness"]
-
-  // const navlist=["Home","About Us","Products","Benefits","Offers"]
   return (
-    <div  className='NavBar' style={{"width":"100%"}}>
+    <div>
+         <div  className='NavBar' style={{"width":"100%"}}>
         <div  className='NavFull'>
           <div style={{"color":"#0018A8"}} className='Navlogo'>
 <img  alt="logo" height="100px" width="100px"src='newlog.jpg'/>
@@ -32,22 +29,16 @@ showlist(false)  }
 
           </div>
 <ul className='Navitems'>
-<li className="hovers"style={{paddingRight:"50px"}}>  <Link activeClass="active"  to="home" spy={true} smooth={true}>Home</Link></li>
-<li className="hovers"style={{paddingRight:"50px"}}>  <Link activeClass="active" to="about" spy={true} smooth={true}>About Us</Link></li>
-<li className="hovers"style={{paddingRight:"50px"}}>  <Link activeClass="active" to="other services" spy={true} smooth={true}>Other Services</Link></li>
-       
-<li onClick={(e) =>{
-  setlist1(!list1)
-}} className="hovers"style={{paddingRight:"50px"}}>Products
+<li className="hovers"style={{paddingRight:"40px"}}>  <Link activeClass="active"  onClick={()=>navigate('/')} to="home" spy={true} smooth={true}>Home</Link></li>
+  
+{navlist.map((e,i)=>{
+      return (<li className="hovers"style={{paddingRight:"40px"}} key={i}> <Link activeClass="active" to="about" spy={true} smooth={true}>{e}</Link></li>)
+    })}
 
- </li>
-
-  <li onClick={()=>navigate('/benefits')} className="hovers"style={{paddingRight:"50px"}}>Benefits</li>
-  <li className="hovers"style={{paddingRight:"50px"}}>Offers</li>
 
 </ul>
 </div> 
-{list1?<div className='list-item1'>
+{/* {list1?<div className='list-item1'>
 <ul style={{  listStyle: "none"}}>
   <li onClick={(e) =>{
   setlist1(!list1)
@@ -84,7 +75,7 @@ showlist(false)  }
 }} className='hamburger-list'>
   Mental Health & Fitness  </li>
 </ul>
-</div>:""}
+</div>:""} */}
 {list?<div className='list-item'>
   <ul style={{listStyle:"none"}}>
     
@@ -99,7 +90,8 @@ showlist(false)  }
           </div>
             
     </div>
+    </div>
   )
 }
 
-export default Nav
+export default BenefitsNav

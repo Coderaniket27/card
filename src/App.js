@@ -1,21 +1,25 @@
 import './App.css';
-import Nav from './Component/Nav';
-import Banner from './Component/Banner';
-import Aboutus from './Component/Aboutus';
-import Mission from './Component/Mission';
-import Otherbenefits from './Component/Otherbenefits';
+import Benefits from './Component/Benefits';
+import Home from './Component/Home';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+
+ 
 function App() {
   return (
     <div >
-        <Nav/>
-
-<Banner/>
-<Aboutus/>
-<Mission/>
-<Otherbenefits/>
-
-
-
+        {/* <Home/>
+<Benefits/> */}
+<BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home/>} />
+      <Route path="benefits" element={<Benefits />} />
+      
+    </Routes>
+  </BrowserRouter>,
 
     </div>
   );
