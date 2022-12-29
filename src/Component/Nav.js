@@ -12,7 +12,6 @@ const Nav = () => {
 
   const[list,showlist]=useState(false)
   const[list1,setlist1]=useState(false)
-  const navlists=["Home","About Us","Benefits","Offers","Lab Test","Hospital","Ambulance","Doctor Appointment","Home Care","Health Checkup","Mental Health & Fitness"]
 
   // const navlist=["Home","About Us","Products","Benefits","Offers"]
   return (
@@ -87,11 +86,14 @@ showlist(false)  }
 </div>:""}
 {list?<div className='list-item'>
   <ul style={{listStyle:"none"}}>
-    
-    {navlists.map((e,i)=>{
-      return (<li className='hamburger-list' key={i}> <Link activeClass="active" to="about" spy={true} smooth={true}>{e}</Link></li>)
-    })}
+  <li className='hamburger-list' >Home</li>
+  <li   className='hamburger-list' > <Link activeClass="active" to="about" spy={true} smooth={true}>About Us</Link></li>
+  <li  onClick={()=>navigate('/benefits')} className='hamburger-list' > Benefits</li>
+  <li className='hamburger-list' > <Link activeClass="active" to="about" spy={true} smooth={true}>Products</Link></li>
+  <li className='hamburger-list' > <Link activeClass="active" to="about" spy={true} smooth={true}>Other Services</Link></li>
+  <li className='hamburger-list' > <Link activeClass="active" to="about" spy={true} smooth={true}>Offers</Link></li>
 
+    
   </ul>
 
 </div>:""}
