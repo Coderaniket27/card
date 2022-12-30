@@ -3,6 +3,7 @@
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .First-Heading{
@@ -40,8 +41,78 @@
 }
 
 
+/* All benefits */
 
 
+.First-Heads{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    --tw-bg-opacity: 1;
+    background-color: #f9fafb;
+}
+
+.First-Headings{
+    padding-top: 90px;
+    width: 50%;
+}
+.Headings{
+    font-size: 50px;
+    -tw-text-opacity: 1;
+    color: #0d1a35;
+    font-family: 'PT Serif';
+    font-weight: 800;
+    padding-left: 15%;
+}
+.Paragraphs{
+    font-size: 50px;
+    -tw-text-opacity: 1;
+    color: #7c8cab;
+
+    font-family: 'PT Serif';
+    font-size: 18px;
+    line-height: 1.5rem;
+    padding-left: 15%;
+    padding-right: 8%;
+    margin-top: 20px;
+}
+.First-Pics{
+    width: 50%;
+    
+}
+.First-icons{
+    height: 750px;
+    width: 100%;
+    padding-top: 50px;
+
+}
+.icons{
+    height:65px;
+    width:50px
+}
+.points{
+    display: flex;
+    margin-top: 5%;
+    padding-left: 14%;
+}
+.Points-Brief{
+    padding-right: 20%;
+    
+    padding-left: 4%;
+}
+.Points-Head{
+    font-size: 20px;
+    font-weight: 800;
+    color:black;
+}
+.Points-point{
+    -tw-text-opacity: 1;
+    color: #7c8cab;
+    line-height: 1.5rem;
+    margin-top: 10px;
+}
+/* benefits */
 
 
 
@@ -95,6 +166,79 @@
         
      
 }
+
+
+
+
+.First-Heads{
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    --tw-bg-opacity: 1;
+    background-color: #f9fafb;
+}
+
+.First-Headings{
+    padding-top: 20px;
+    width: 100%;
+}
+.Headings{
+    font-size: 50px;
+    -tw-text-opacity: 1;
+    color: #0d1a35;
+    font-family: 'PT Serif';
+    font-weight: 800;
+    padding-left: 15%;
+}
+.Paragraphs{
+    font-size: 50px;
+    -tw-text-opacity: 1;
+    color: #7c8cab;
+
+    font-family: 'PT Serif';
+    font-size: 18px;
+    line-height: 1.5rem;
+    padding-left: 15%;
+    padding-right: 8%;
+    margin-top: 20px;
+}
+.First-Pics{
+    width: 100%;
+    
+}
+.First-icons{
+    height: 550px;
+    width: 100%;
+    padding-top: 02px;
+
+}
+.icons{
+    height:65px;
+    width:50px
+}
+.points{
+    display: flex;
+    margin-top: 5%;
+    padding-left: 14%;
+}
+.Points-Brief{
+    padding-right: 20%;
+    
+    padding-left: 4%;
+}
+.Points-Head{
+    font-size: 20px;
+    font-weight: 800;
+    color:black;
+}
+.Points-point{
+    -tw-text-opacity: 1;
+    color: #7c8cab;
+    line-height: 1.5rem;
+    margin-top: 10px;
+}
+
+
 }
 
 @media only screen and (min-width: 700px) 
@@ -143,6 +287,74 @@
      
 }
       
+.First-Heads{
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    --tw-bg-opacity: 1;
+    background-color: #f9fafb;
+}
+
+.First-Headings{
+    padding-top: 20px;
+    width: 100%;
+}
+.Headings{
+    font-size: 50px;
+    -tw-text-opacity: 1;
+    color: #0d1a35;
+    font-family: 'PT Serif';
+    font-weight: 800;
+    padding-left: 15%;
+}
+.Paragraphs{
+    font-size: 50px;
+    -tw-text-opacity: 1;
+    color: #7c8cab;
+
+    font-family: 'PT Serif';
+    font-size: 18px;
+    line-height: 1.5rem;
+    padding-left: 15%;
+    padding-right: 8%;
+    margin-top: 20px;
+}
+.First-Pics{
+    width: 100%;
+    
+}
+.First-icons{
+    height: 550px;
+    width: 100%;
+    padding-top: 02px;
+
+}
+.icons{
+    height:65px;
+    width:50px
+}
+.points{
+    display: flex;
+    margin-top: 5%;
+    padding-left: 14%;
+}
+.Points-Brief{
+    padding-right: 20%;
+    
+    padding-left: 4%;
+}
+.Points-Head{
+    font-size: 20px;
+    font-weight: 800;
+    color:black;
+}
+.Points-point{
+    -tw-text-opacity: 1;
+    color: #7c8cab;
+    line-height: 1.5rem;
+    margin-top: 10px;
+}
+
 }
 @media only screen and (min-width: 960px) 
     and (max-width: 1050px){
