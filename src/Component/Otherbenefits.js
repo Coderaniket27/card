@@ -3,7 +3,7 @@ import React from 'react'
 const Otherbenefits = () => {
   return (
     <>
-    <div  id ="other services"className='main'>
+    <div  id ="other"className='main'>
     <div className='Other-Services'>
             Other Services
         </div>
@@ -19,7 +19,7 @@ const Otherbenefits = () => {
     <div className='Dental-Brief'>
     With our expanded network coverage, you can subsidise or provide low-cost access to dental services for your employees and loved ones.     </div>
     <div className='Other-icon'>
-<img  className="icon" src='vaccine.png' alt="dental"/>
+<img  className="icon" src='vaccph.png' alt="dental"/>
     </div>
     <div className='Dental-Head'>
     Vaccination Drive
@@ -27,7 +27,7 @@ const Otherbenefits = () => {
     <div className='Dental-Brief'>
     Be it flu, COVID, typhoid, or any other vaccinations, ABC can get your employees inoculated either at home, at the office, or via on-site camps.    </div>
     <div className='Other-icon'>
-<img  className="icon" src='friend.png' alt="dental"/>
+<img  className="icon" src='ffb.png' alt="dental"/>
     </div>
     <div className='Dental-Head'>
     Friend'S Care
@@ -39,7 +39,7 @@ const Otherbenefits = () => {
 </div>
 <div className='Other-Second'>
 <div className='Other-icon'>
-<img  className="icon" src='yogas.jfif' alt="dental"/>
+<img  className="icon" src='yga.png' alt="dental"/>
     </div>
     <div className='Dental-Head'>
     Exercise Session
@@ -47,7 +47,7 @@ const Otherbenefits = () => {
     <div className='Dental-Brief'>
     Whether it's exercise or online yoga, ABC can assist you in organising and managing engagement activities for you and your employees in order to keep them fit.     </div>
     <div className='Other-icon'>
-<img  className="icon" src='stress.jfif' alt="dental"/>
+<img  className="icon" src='stress.png' alt="dental"/>
     </div>
     <div className='Dental-Head'>
     Stress Care
@@ -55,7 +55,7 @@ const Otherbenefits = () => {
     <div className='Dental-Brief'>
     Whether it's a motivational session or an online brain game, ABC can assist you in organising and managing engagement activities for you and your employees    </div>
     <div className='Other-icon'>
-<img  className="icon" src='3467830.png' alt="dental"/>
+<img  className="icon" src='healthca.png' alt="dental"/>
     </div>
     <div className='Dental-Head'>
     Health Master
