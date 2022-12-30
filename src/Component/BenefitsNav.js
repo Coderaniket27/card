@@ -8,8 +8,8 @@ const BenefitsNav = () => {
       const navigate = useNavigate();
 
     const[list,showlist]=useState(false)
-  const navlists=["Lab Test","Hospital","Ambulance","Doctor Appointment","Home Care","Health Checkup","Mental Health & Fitness","Other"]
-  const navlist=["LabTest","Hospital","Ambulance","DoctorAppointment","HomeCare","HealthCheckup","MentalHealth & Fitness","Other"]
+  const navlists=["Lab Test","Hospital","Ambulance","Doctor-Consultation","Home-Care","Health-Camp","Mental Health & Fitness","Other"]
+  const navlist=["LabTest","Hospital","Ambulance","Doctor-Consultation","Home-Care","Health-Camp","Mental Health & Fitness","Other"]
 
   return (
     <div>
