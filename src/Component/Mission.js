@@ -28,7 +28,10 @@ const Mission = () => {
              <div className='In'>
              We want to be a company that becomes a role model in the healthcare industry. We want to be affordable, dependable, and accessible to all strata of the community in the future by providing high-quality healthcare services at the tip of your finger. 
 
-                          </div>            </div>
+                          </div>            
+                          
+                          
+                          </div>
 
           </div>
         </div>

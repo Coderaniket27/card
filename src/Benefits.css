@@ -1,0 +1,193 @@
+.First-Head{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.First-Heading{
+    padding-top: 250px;
+    width: 50%;
+}
+.Heading{
+    font-size: 50px;
+    -tw-text-opacity: 1;
+    color: #0d1a35;
+    font-family: 'PT Serif';
+    font-weight: 800;
+    padding-left: 20%;
+}
+.Paragraph{
+    font-size: 50px;
+    -tw-text-opacity: 1;
+    color: #7c8cab;
+
+    font-family: 'PT Serif';
+    font-size: 25px;
+    line-height: 1.5rem;
+    padding-left: 20%;
+    margin-top: 30px;
+}
+.First-Pic{
+    width: 50%;
+    
+}
+.First-icon{
+    height: 450px;
+    width: 100%;
+    padding-top: 150px;
+
+}
+
+
+
+
+
+
+
+
+
+/* ///first HEADING// */
+@media only screen and (min-width: 280px) 
+    and (max-width: 480px){
+
+        .First-Head{
+            width: 100%;
+            overflow: hidden;
+            display: block;
+        }
+        
+        .First-Heading{
+            padding-top: 130px;
+            width: 100%;
+        }
+        .Heading{
+            font-size: 30px;
+            -tw-text-opacity: 1;
+            color: #0d1a35;
+            font-family: 'PT Serif';
+            font-weight: 800;
+            text-align: center;
+            padding: 0%;
+
+        }
+        .Paragraph{
+            font-size: 30px;
+            -tw-text-opacity: 1;
+            color: #7c8cab;
+        
+            font-family: 'PT Serif';
+            font-size: 19px;
+            line-height: 1.5rem;
+            padding-left: 0%;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .First-Pic{
+            width: 100%;
+            
+        }
+        .First-icon{
+            height: 450px;
+            width: 100%;
+            padding-top: 10px;
+            padding-left: 0px;
+        
+     
+}
+}
+
+@media only screen and (min-width: 700px) 
+    and (max-width: 940px){
+        .First-Head{
+            width: 100%;
+            overflow: hidden;
+            display: block;
+        }
+        
+        .First-Heading{
+            padding-top: 130px;
+            width: 100%;
+        }
+        .Heading{
+            font-size: 50px;
+            -tw-text-opacity: 1;
+            color: #0d1a35;
+            font-family: 'PT Serif';
+            font-weight: 800;
+            text-align: center;
+            padding: 0%;
+
+        }
+        .Paragraph{
+            font-size: 30px;
+            -tw-text-opacity: 1;
+            color: #7c8cab;
+        
+            font-family: 'PT Serif';
+            line-height: 1.5rem;
+            padding-left: 0%;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .First-Pic{
+            width: 100%;
+            
+        }
+        .First-icon{
+            height: 450px;
+            width: 100%;
+            padding-top: 10px;
+            padding-left: 0px;
+        
+     
+}
+      
+}
+@media only screen and (min-width: 960px) 
+    and (max-width: 1050px){
+        .First-Head{
+            width: 100%;
+            overflow: hidden;
+            display: block;
+        }
+        
+        .First-Heading{
+            padding-top: 130px;
+            width: 100%;
+        }
+        .Heading{
+            font-size: 50px;
+            -tw-text-opacity: 1;
+            color: #0d1a35;
+            font-family: 'PT Serif';
+            font-weight: 800;
+            text-align: center;
+            padding: 0%;
+
+        }
+        .Paragraph{
+            font-size: 30px;
+            -tw-text-opacity: 1;
+            color: #7c8cab;
+        
+            font-family: 'PT Serif';
+            line-height: 1.5rem;
+            padding-left: 0%;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .First-Pic{
+            width: 100%;
+            
+        }
+        .First-icon{
+            height: 450px;
+            width: 100%;
+            padding-top: 10px;
+            padding-left: 0px;
+        
+     
+}
+      
+}
