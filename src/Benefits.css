@@ -112,6 +112,31 @@
     line-height: 1.5rem;
     margin-top: 10px;
 }
+.pro-img{
+    height: 550px;
+    width: 100%;
+    opacity: 0.4;
+}
+
+.Pro-Main{ 
+    width: 100%;
+    overflow: hidden;
+}
+.Products-Head{
+    position: absolute;
+    top: 400px;
+    left: 450px;
+}
+
+.Product-Head{
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 80px;
+}
+.Pro-Pack{
+    background-color: rgba(255, 242, 242, 1);
+}
 /* benefits */
 
 

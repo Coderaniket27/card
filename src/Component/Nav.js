@@ -34,7 +34,7 @@ showlist(false)  }
 <li className="hovers"style={{paddingRight:"50px"}}>  <Link activeClass="active" to="about" spy={true} smooth={true}>About Us</Link></li>
 <li className="hovers"style={{paddingRight:"50px"}}>  <Link activeClass="active" to="other" spy={true} smooth={true}>Other Services</Link></li>
        
-<li  className="hovers"style={{paddingRight:"50px"}}>Products
+<li onClick={()=>navigate('/products')} className="hovers"style={{paddingRight:"50px"}}>Products
 
  </li>
 
@@ -48,9 +48,9 @@ showlist(false)  }
   <ul style={{listStyle:"none"}}>
   <li className='hamburger-list' >Home</li>
   <li   className='hamburger-list' > <Link activeClass="active" to="about" spy={true} smooth={true}>About Us</Link></li>
-  <li className='hamburger-list' > <Link activeClass="active" to="about" spy={true} smooth={true}>Products</Link></li>
   <li className='hamburger-list' > <Link activeClass="active" to="other" spy={true} smooth={true}>Other Services</Link></li>
   <li  onClick={()=>navigate('/benefits')} className='hamburger-list' > Benefits</li>
+  <li  onClick={()=>navigate('/products')}  className='hamburger-list' > Products</li>
 
   <li className='hamburger-list' > <Link activeClass="active" to="about" spy={true} smooth={true}>Offers</Link></li>
 
