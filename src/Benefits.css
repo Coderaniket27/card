@@ -137,6 +137,18 @@
 .Pro-Pack{
     background-color: rgba(255, 242, 242, 1);
 }
+.Product-Brief{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: cursive;
+    margin-top: 20px;
+    padding-left: 11%;
+    padding-right: 11%;
+    line-height: 30px;
+}
+.Pro-Package{
+    display: flex;
+}
 /* benefits */
 
 
@@ -262,7 +274,22 @@
     line-height: 1.5rem;
     margin-top: 10px;
 }
-
+.Products-Head{
+    position: absolute;
+    top: 40px;
+    left: 6px;
+}
+.pro-img{
+    height: 225px;
+    width: 100%;
+    opacity: 0.4;
+}
+.Product-Head{
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 20px;
+}
 
 }
 
@@ -380,6 +407,22 @@
     margin-top: 10px;
 }
 
+.Products-Head{
+    position: absolute;
+    top: 120px;
+    left: 110px;
+}
+.pro-img{
+    height: 325px;
+    width: 100%;
+    opacity: 0.4;
+}
+.Product-Head{
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 20px;
+}
 }
 @media only screen and (min-width: 960px) 
     and (max-width: 1050px){
@@ -426,5 +469,20 @@
         
      
 }
-      
+.Products-Head{
+    position: absolute;
+    top: 135px;
+    left: 195px;
+}
+.pro-img{
+    height: 325px;
+    width: 100%;
+    opacity: 0.4;
+}
+.Product-Head{
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 20px;
+}
 }
