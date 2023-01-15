@@ -24,7 +24,7 @@ const Products = () => {
   </div>
   <div className='Pro-Package'>
     <div className='Pro-pack1'>
-      <ul  className="Package-A" style={{listStyle:"none",color:"grey"}}>
+      <ul  className="Package-A" style={{color:"grey"}}>
       <div className='Premium'> Basic-Package</div>
         <li>
         Qualified Nurse Deputation.
@@ -60,7 +60,7 @@ const Products = () => {
 
     </div>
     <div className='Pro-pack2'>
-      <ul className="Package-B" style={{listStyle:"none",color:"grey"}}>
+      <ul className="Package-B" style={{color:"grey"}}>
         <div className='Premium'> Premium-Package</div>
         <li>
         Student/ Employee Health Records
