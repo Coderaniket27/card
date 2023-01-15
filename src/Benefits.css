@@ -148,6 +148,25 @@
 }
 .Pro-Package{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.Package-A{
+    line-height: 25.99px;
+    border: 1px solid green;
+}
+.Package-B{
+   
+    border: 1px solid green;
+}
+.Premium{
+    font-size: 25px;
+    font-weight: 900;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 /* benefits */
 
@@ -258,10 +277,14 @@
     margin-top: 5%;
     padding-left: 14%;
 }
-.Points-Brief{
-    padding-right: 20%;
-    
-    padding-left: 4%;
+.Product-Brief{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: cursive;
+    margin-top: 20px;
+    padding-left: 11%;
+    padding-right: 11%;
+    line-height: 20px;
 }
 .Points-Head{
     font-size: 20px;
@@ -390,10 +413,14 @@
     margin-top: 5%;
     padding-left: 14%;
 }
-.Points-Brief{
-    padding-right: 20%;
-    
-    padding-left: 4%;
+.Product-Brief{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: cursive;
+    margin-top: 20px;
+    padding-left: 11%;
+    padding-right: 11%;
+    line-height: 20px;
 }
 .Points-Head{
     font-size: 20px;
@@ -460,6 +487,16 @@
         .First-Pic{
             width: 100%;
             
+        }
+
+        .Product-Brief{
+            font-size: 15px;
+            font-weight: 500;
+            font-family: cursive;
+            margin-top: 20px;
+            padding-left: 11%;
+            padding-right: 11%;
+            line-height: 20px;
         }
         .First-icon{
             height: 450px;

@@ -24,7 +24,8 @@ const Products = () => {
   </div>
   <div className='Pro-Package'>
     <div className='Pro-pack1'>
-      <ul>
+      <ul  className="Package-A" style={{listStyle:"none",color:"grey"}}>
+      <div className='Premium'> Basic-Package</div>
         <li>
         Qualified Nurse Deputation.
         </li>
@@ -49,11 +50,18 @@ const Products = () => {
         <li>
         Accidental Cover of Rs.100000 per person.
         </li>
+        <li>
+        Mental Wellness Sessions (Yoga,Meditation,Counselling Session)
+        </li>
+        <li style={{paddingBottom:"20px"}}>
+        Physical Wellness Session (Physiotherapy,Diet,Zumba etc).
+        </li>
       </ul>
 
     </div>
     <div className='Pro-pack2'>
-      <ul>
+      <ul className="Package-B" style={{listStyle:"none",color:"grey"}}>
+        <div className='Premium'> Premium-Package</div>
         <li>
         Student/ Employee Health Records
         </li>
@@ -82,13 +90,12 @@ const Products = () => {
         Accidental Cover of Rs.300000 per person.
         </li>
         <li>
-        Annual Complete Health Checkup Camp including (Eye,ENT,Dental,General
-Medicine / Pediatrics or as per requirement).
+        Annual Complete Health Checkup Camp including.
         </li>
         <li>
         Mental Wellness Sessions (Yoga,Meditation,Counselling Session)
         </li>
-        <li>
+        <li style={{paddingBottom:"20px"}}>
         Physical Wellness Session (Physiotherapy,Diet,Zumba etc).
         </li>
       </ul>
