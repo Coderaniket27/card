@@ -22,7 +22,7 @@ const Products = () => {
   students to give them a healthy healthcare environment. Onsite clinics are a long term solution to maintain employees' and students' health, improve cost-effectiveness
   in terms of absenteeism, and also provide a stress free work environment and timely and easy access to primary and acute care.
   </div>
-  <div className='Pro-Package'>
+  <div  style={{paddingTop:"20px"}} className='Pro-Package'>
     <div className='Pro-pack1'>
       <ul  className="Package-A" style={{color:"grey"}}>
       <div className='Premium'> Basic-Package</div>
@@ -103,7 +103,9 @@ const Products = () => {
     </div>
   </div>
 </div>
+
       </div>
+      
     </div>
   )
 }

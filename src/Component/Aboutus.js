@@ -3,8 +3,8 @@ import React from 'react'
 const Aboutus = () => {
   return (
     <>
-    <div  className='About'>
-        <div id="about"   className='About-Brief'>
+    <div id="about" className='About'>
+        <div    className='About-Brief'>
             <div   className='About-head'>About Us</div>
     We are engaged in a fervent journey to  establish ourselves as a <i>premium-quality</i> health care service provider at the lowest and most affordable price.
     We believe that quality and lowest cost are  not mutually exclusive when it comes to healthcare delivery, but we are trying to make them as compatible as possible.

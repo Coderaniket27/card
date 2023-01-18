@@ -155,10 +155,12 @@
 .Package-A{
     line-height: 25.99px;
     border: 1px solid green;
+    border-radius: 10px;
 }
 .Package-B{
    
     border: 1px solid green;
+    border-radius: 10px;
 }
 .Premium{
     font-size: 25px;
