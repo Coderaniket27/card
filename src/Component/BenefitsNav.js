@@ -16,7 +16,7 @@ const BenefitsNav = () => {
          <div  className='NavBar' style={{"width":"100%"}}>
         <div  className='NavFull'>
           <div style={{"color":"#0018A8"}} className='Navlogo'>
-<img  alt="logo" height="100px" width="100px"src='newlog.jpg'/>
+<img  alt="logo" height="100px" width="100px"src='logoo.png'/>
           </div>
          <div className='Navlist'>
           <div className='Hamburger'>
@@ -29,10 +29,10 @@ showlist(false)  }
 
           </div>
 <ul className='Navitems'>
-<li className="hovers"style={{paddingRight:"40px"}}>  <Link activeClass="active"  onClick={()=>navigate('/')} to="home" spy={true} smooth={true}>Home</Link></li>
+<li className="hovers"style={{marginRight:"40px",paddingTop:"10px",paddingBottom:"10px",paddingRight:"4px",paddingLeft:"4px"}}>  <Link activeClass="active"  onClick={()=>navigate('/')} to="home" spy={true} smooth={true}>Home</Link></li>
   
 {navlist.map((e,i)=>{
-      return (<li className="hovers"style={{paddingRight:"40px"}} key={i}> <Link activeClass="active" to="about" spy={true} smooth={true}>{e}</Link></li>)
+      return (<li className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}} key={i}> <Link activeClass="active" to="about" spy={true} smooth={true}>{e}</Link></li>)
     })}
 
 

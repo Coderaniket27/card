@@ -15,9 +15,10 @@
 .Navitems{
   list-style: none;
   display: flex;
-  margin-top: 40px;
-  font-weight: 800;
-  font-size: 18px;
+  margin-top: 38px;
+  font-weight: 900;
+  font-size: 17px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .list-item{
@@ -63,10 +64,17 @@ margin-left: 20px;
 }
 .hovers{
   cursor: pointer;
-  color: red;
+  color: blue;
+  text-align: center;
+  
 }
 .hovers:hover{
-  color: orange;
+  color: red;
+  border:2px solid black;
+  border-radius: 7%;
+  background-color: 
+  rgb(148, 224, 167);
+
 }
 .imgSlider{
   position: relative;

@@ -17,7 +17,7 @@ const Nav = () => {
     <div  className='NavBar' style={{"width":"100%"}}>
         <div  className='NavFull'>
           <div style={{"color":"#0018A8"}} className='Navlogo'>
-<img  alt="logo" height="100px" width="100px"src='newlog.jpg'/>
+<img  alt="logo" height="100px" width="100px"src='logoo.png'/>
           </div>
          <div className='Navlist'>
           <div className='Hamburger'>
@@ -30,16 +30,16 @@ showlist(false)  }
 
           </div>
 <ul className='Navitems'>
-<li className="hovers"style={{paddingRight:"50px"}}>  <Link activeClass="active"  to="home" spy={true} smooth={true}>Home</Link></li>
-<li className="hovers"style={{paddingRight:"50px"}}>  <Link activeClass="active" to="about" spy={true} smooth={true}>About Us</Link></li>
-<li className="hovers"style={{paddingRight:"50px"}}>  <Link activeClass="active" to="other" spy={true} smooth={true}>Other Services</Link></li>
+<li className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}}>  <Link activeClass="active"  to="home" spy={true} smooth={true}>Home</Link></li>
+<li className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}}>  <Link activeClass="active" to="about" spy={true} smooth={true}>About Us</Link></li>
+<li className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}}>  <Link activeClass="active" to="other" spy={true} smooth={true}>Other Services</Link></li>
        
-<li onClick={()=>navigate('/products')} className="hovers"style={{paddingRight:"50px"}}>Products
+<li onClick={()=>navigate('/products')} className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}}>Products
 
  </li>
 
-  <li onClick={()=>navigate('/benefits')} className="hovers"style={{paddingRight:"50px"}}>Benefits</li>
-  <li className="hovers"style={{paddingRight:"50px"}}>Offers</li>
+  <li onClick={()=>navigate('/benefits')} className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}}>Benefits</li>
+  <li className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}}>Offers</li>
 
 </ul>
 </div> 

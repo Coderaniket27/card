@@ -95,6 +95,7 @@
     display: flex;
     margin-top: 5%;
     padding-left: 14%;
+    position: relative;
 }
 .Points-Brief{
     padding-right: 20%;
@@ -169,6 +170,51 @@
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+.Modal-Button{
+    width: 150px;
+    height: 40px;
+    margin-left: 660px;
+    border: 1px solid greenyellow;
+    border-radius: 50px;
+    background-color: rgb(144, 229, 17);
+    box-shadow: 5px 5px greenyellow;
+}
+.Modal{
+    padding-bottom: 10px;
+}
+.Form-Modal{
+    width: 300px;
+    height: auto;
+   display: flex;
+   justify-content: center;
+}
+.Modal-Input{
+    width: 250px;
+    height: 25px;
+}
+.contact-Button{
+    display: flex;
+    justify-content: center;
+}
+.Select-Input{
+    width: 258px;
+    height: 30px;
+}
+.Button-align{
+    display:flex ;
+    justify-content: center;
+    margin-top: 20px;
+}
+.button-book{
+    width: 150px;
+    height: 40px;
+    display:flex ;
+    justify-content: center;
+   
+}
+.Modal-Color{
+    background-color: red;
 }
 /* benefits */
 
@@ -263,6 +309,7 @@
 .First-Pics{
     width: 100%;
     
+    
 }
 .First-icons{
     height: 250px;
@@ -316,6 +363,36 @@
     padding-top: 20px;
 }
 
+.Modal-Button{
+    width: 150px;
+    height: 40px;
+    margin-left: 0;
+    border: 1px solid greenyellow;
+    border-radius: 50px;
+    background-color: rgb(144, 229, 17);
+    box-shadow: 5px 5px greenyellow;
+}
+.Modal{
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.Form-Modal{
+    width: 240px;
+    height: auto;
+   display: flex;
+   justify-content: center;
+}
+.Modal-Input{
+    width: 205px;
+    height: 30px;
+
+}
+.Select-Input{
+    width: 210px;
+    height: 40px;
+}
 }
 
 @media only screen and (min-width: 700px) 
@@ -452,6 +529,36 @@
     text-align: center;
     padding-top: 20px;
 }
+.Modal-Button{
+    width: 150px;
+    height: 40px;
+    margin-left: 0;
+    border: 1px solid greenyellow;
+    border-radius: 50px;
+    background-color: rgb(144, 229, 17);
+    box-shadow: 5px 5px greenyellow;
+}
+.Modal{
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.Form-Modal{
+    width: 240px;
+    height: auto;
+   display: flex;
+   justify-content: center;
+}
+.Modal-Input{
+    width: 205px;
+    height: 30px;
+
+}
+.Select-Input{
+    width: 210px;
+    height: 40px;
+}
 }
 @media only screen and (min-width: 960px) 
     and (max-width: 1050px){
@@ -523,5 +630,18 @@
     font-weight: 900;
     text-align: center;
     padding-top: 20px;
+}
+.Modal-Button{
+    width: 150px;
+    height: 40px;
+    margin-left: 420px;
+    border: 1px solid greenyellow;
+    border-radius: 50px;
+    background-color: rgb(144, 229, 17);
+    box-shadow: 5px 5px greenyellow;
+}
+.Modal{
+    padding-bottom: 10px;
+   
 }
 }
