@@ -54,6 +54,7 @@ margin-left: 20px;
 .NavBar{
   background-color: rgb(35, 32, 32);
   position: fixed;
+  z-index: 1000;
   top: 0;
   overflow: hidden;
 

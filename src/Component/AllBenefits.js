@@ -389,7 +389,7 @@ const AllBenefits = () => {
         
       </label>
      <div className='Button-align'>
-      <div onClick={handleSubmit} className='button-book'><ReactWhatsapp onClick={onOpenModal} style={{backgroundColor:"red"}}className='whatsapp-button' number="7277706637" message={`${inputs.username} contact-${inputs.number}, ${inputs.email}  Service-${Service}`}>
+      <div onClick={handleSubmit} className='button-book'><ReactWhatsapp onClick={onOpenModal} className='whatsapp-button' number="7277706637" message={`${inputs.username} contact-${inputs.number}, ${inputs.email}  Service-${Service}`}>
           Click To Book
         </ReactWhatsapp> </div>     
       </div>

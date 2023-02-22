@@ -213,6 +213,18 @@
     justify-content: center;
    
 }
+.Modal-Button:hover{
+    background-color: red;
+    box-shadow: 5px 5px rgb(153, 8, 8);
+}
+.Modal-Button{
+   font-weight: 800;
+   font-family:cursive;
+    border: 1px solid greenyellow;
+    border-radius: 50px;
+    background-color: rgb(144, 229, 17);
+    box-shadow: 5px 5px greenyellow;
+}
 .Modal-Color{
     background-color: red;
 }
@@ -366,6 +378,8 @@
 .Modal-Button{
     width: 150px;
     height: 40px;
+    font-weight: 800;
+    font-family: cursive;
     margin-left: 0;
     border: 1px solid greenyellow;
     border-radius: 50px;
@@ -532,6 +546,8 @@
 .Modal-Button{
     width: 150px;
     height: 40px;
+    font-weight: 800;
+    font-family: cursive;
     margin-left: 0;
     border: 1px solid greenyellow;
     border-radius: 50px;

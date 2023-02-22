@@ -65,6 +65,7 @@ const Otherbenefits = () => {
     
 </div>
     </div>
+    
     </div>
     </>
   )
