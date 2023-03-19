@@ -13,7 +13,7 @@ const CardDownload = () => {
     async function  handle(e){
         e.preventDefault()
         try{
-        let response= await axios.post("http://localhost:3001/dash",{aadhar })
+        let response= await axios.post("https://api-nirog-superstar27.vercel.app/dash",{aadhar })
         console.log(response.data)
         console.log(data.phone)
         if(response.status===200 && response.data.data.phone===phone){
