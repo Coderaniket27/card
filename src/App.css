@@ -48,10 +48,10 @@
   width: 100%;
   overflow: hidden;
 }
-.Navlogo{
+.Navlogo {
 margin-left: 20px;
 }
-.NavBar{
+.NavBar {
   background-color: rgb(35, 32, 32);
   position: fixed;
   z-index: 1000;

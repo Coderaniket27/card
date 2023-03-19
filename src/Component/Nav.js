@@ -40,6 +40,7 @@ showlist(false)  }
 
   <li onClick={()=>navigate('/benefits')} className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}}>Benefits</li>
   <li className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}}>Offers</li>
+  <li onClick={()=>navigate('/card')} className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}}>Card</li>
 
 </ul>
 </div> 
@@ -53,6 +54,7 @@ showlist(false)  }
   <li  onClick={()=>navigate('/products')}  className='hamburger-list' > Products</li>
 
   <li className='hamburger-list' > <Link activeClass="active" to="about" spy={true} smooth={true}>Offers</Link></li>
+  <li  onClick={()=>navigate('/card')}  className='hamburger-list' > Card</li>
 
     
   </ul>

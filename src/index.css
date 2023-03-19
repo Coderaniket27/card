@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.CardMain{
+  background-color: blueviolet;
+  background-image: linear-gradient(blue, pink);
+ 
+}
+.CardDownload{
+display: flex;
+justify-content: center;
+align-items: center;
+height: auto;
+overflow: hidden;
+}
+.Card-Main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+  padding-top: 100px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.Card1{
+  height: 200px;
+  width: 350px;
+  border: 2px solid blue;
+  border-radius: 15px;
+  background-color: blueviolet;
+  background-image: linear-gradient(white, rgb(123, 123, 208));
+  position: relative;
+ 
+}
+.Card-Detail{
+  position: absolute;
+  top: 90px;
+  right:30px
+}

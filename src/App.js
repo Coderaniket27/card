@@ -7,6 +7,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import CardDownload from './Component/CardDownload';
 
  
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Route path="/" element={<Home/>} />
       <Route exact path="/benefits" element={<Benefits />} />
       <Route exact path="/products" element={<Products />} />
+<Route exact path ="/card" element={<CardDownload/>}/>
 
     </Routes>
   </BrowserRouter>,

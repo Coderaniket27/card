@@ -8,7 +8,7 @@ import Footer from './Footer';
 const Home = () => {
   return (
     <>
-        <Nav/>
+ <Nav/>
 
 <Banner/>
 <Aboutus/>
