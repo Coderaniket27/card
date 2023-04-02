@@ -122,6 +122,10 @@ margin-left: 20px;
   border:1px solid #f9faff;
   border-radius: 30px;
 }
+.Footeres{
+  color:red;
+  background-color: aqua;
+}
 /* .hover:hover{
   color: red;
 } */

@@ -13,6 +13,7 @@ code {
 }
 .CardMain{
   background-color: blueviolet;
+  
   background-image: linear-gradient(blue, pink);
  
 }

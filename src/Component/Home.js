@@ -4,20 +4,21 @@ import Banner from '../Component/Banner';
 import Aboutus from '../Component/Aboutus';
 import Mission from '../Component/Mission';
 import Otherbenefits from '../Component/Otherbenefits';
-import Footer from './Footer';
+import Foot from '../Component/Foot'
 const Home = () => {
   return (
-    <>
+    <div style={{height:"100vh"}}> 
+
  <Nav/>
 
 <Banner/>
 <Aboutus/>
 <Mission/>
 <Otherbenefits/>
-<Footer/>
+<Foot/>
 
-    </>
+    </div>
   )
 }
 
-export default Home
+export default Home 

@@ -29,16 +29,7 @@
     padding-left: 20%;
     margin-top: 30px;
 }
-.First-Pic{
-    width: 50%;
-    
-}
-.First-icon{
-    height: 450px;
-    width: 100%;
-    padding-top: 150px;
 
-}
 
 
 /* All benefits */
@@ -174,7 +165,7 @@
 .Modal-Button{
     width: 150px;
     height: 40px;
-    margin-left: 660px;
+    margin-left: 880px;
     border: 1px solid greenyellow;
     border-radius: 50px;
     background-color: rgb(144, 229, 17);
@@ -227,6 +218,14 @@
 }
 .Modal-Color{
     background-color: red;
+}
+.Footers{
+    padding-top: 38px;
+    z-index: 2000;
+    
+}
+.Footer-Mains{
+   color:"red !important"
 }
 /* benefits */
 

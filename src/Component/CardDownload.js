@@ -82,9 +82,9 @@ const CardDownload = () => {
 
             </div>
         </div>
-        <div style={{display:"flex",justifyContent:"center",alignItems:"center",paddingBottom:"30px"}}>
+        <div style={{display:"flex",justifyContent:"center",alignItems:"center",paddingBottom:"400px"}}>
         <Pdf x={2} y={2} scale={1} targetRef={ref} filename="code-example.pdf">
-        {({ toPdf }) => <button onClick={toPdf}>Download Card</button>}
+        {({ toPdf }) => <button  style={{paddingTop:"15px",paddingBottom:"15px"}}onClick={toPdf}>Download Card</button>}
       </Pdf>
       </div>
         </div>

@@ -5,7 +5,7 @@ import FirstBenefits from './FirstBenefits'
 
 const Benefits = () => {
   return (
-    <div>
+    <div style={{height:"100vh"}}>
         <BenefitsNav/>
         <FirstBenefits/>
         <AllBenefits/>
