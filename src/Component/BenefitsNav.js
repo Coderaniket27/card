@@ -8,9 +8,7 @@ const BenefitsNav = () => {
       const navigate = useNavigate();
 
     const[list,showlist]=useState(false)
-  const navlists=["Lab Test","Hospital","Ambulance","Doctor-Consultation","Home-Care","Health-Camp","Mental Health & Fitness","Other"]
-  const navlist=["LabTest","Hospital","Ambulance","Doctor-Consultation","Home-Care","Health-Camp","Mental Health & Fitness","Other"]
-
+  
   return (
     <div>
          <div  className='NavBar' style={{"width":"100%"}}>
@@ -30,58 +28,34 @@ showlist(false)  }
           </div>
 <ul className='Navitems'>
 <li className="hovers"style={{marginRight:"40px",paddingTop:"10px",paddingBottom:"10px",paddingRight:"4px",paddingLeft:"4px"}}>  <Link activeClass="active"  onClick={()=>navigate('/')} to="home" spy={true} smooth={true}>Home</Link></li>
-  
-{navlist.map((e,i)=>{
-      return (<li className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}} key={i}> <Link activeClass="active" to="about" spy={true} smooth={true}>{e}</Link></li>)
-    })}
+<li className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}} > <Link activeClass="active" to="hospital" spy={true} smooth={true}>Hospital</Link></li>
+<li className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}} > <Link activeClass="active" to="lab" spy={true} smooth={true}>Lab</Link></li>
+<li className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}} > <Link activeClass="active" to="radiology" spy={true} smooth={true}>Radiology</Link></li>
+<li className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}} > <Link activeClass="active" to="ambulance" spy={true} smooth={true}>Ambulance</Link></li>
+<li className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}} > <Link activeClass="active" to="bloodbank" spy={true} smooth={true}>Blood bank</Link></li>
+<li className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}} > <Link activeClass="active" to="doctor" spy={true} smooth={true}>Doctor Consultation</Link></li>
+<li className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}} > <Link activeClass="active" to="homecare" spy={true} smooth={true}>Home Care</Link></li>
+<li className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}} > <Link activeClass="active" to="healthcamp" spy={true} smooth={true}>Health Camp</Link></li>
+<li className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}} > <Link activeClass="active" to="mentalhealth" spy={true} smooth={true}>Mental Health</Link></li>
+
 
 
 </ul>
 </div> 
-{/* {list1?<div className='list-item1'>
-<ul style={{  listStyle: "none"}}>
-  <li onClick={(e) =>{
-  setlist1(!list1)
-}} className='hamburger-list'>
-   Lab Test
-  </li>
-  <li onClick={(e) =>{
-  setlist1(!list1)
-}} className='hamburger-list'>
-   Hospital
-  </li>
-  <li onClick={(e) =>{
-  setlist1(!list1)
-}}className='hamburger-list'>
-   Ambulance
-  </li>
-  <li onClick={(e) =>{
-  setlist1(!list1)
-}}className='hamburger-list'>
-  Doctor Appointment
-  </li>
-  <li onClick={(e) =>{
-  setlist1(!list1)
-}}  className='hamburger-list'>
-  Home Care
-  </li>
-  <li  onClick={(e) =>{
-  setlist1(!list1)
-}} className='hamburger-list'>
-  Health Checkup
-  </li>
-  <li  onClick={(e) =>{
-  setlist1(!list1)
-}} className='hamburger-list'>
-  Mental Health & Fitness  </li>
-</ul>
-</div>:""} */}
+
 {list?<div className='list-item'>
   <ul style={{listStyle:"none"}}>
     <li onClick={()=>navigate('/')}  className="hamburger-list">Home</li>
-    {navlists.map((e,i)=>{
-      return (<li className='hamburger-list' key={i}> <Link activeClass="active" to="about" spy={true} smooth={true}>{e}</Link></li>)
-    })}
+    
+<li className="hamburger-list" > <Link activeClass="active" to="hospital" spy={true} smooth={true}>Hospital</Link></li>
+<li className="hamburger-list" > <Link activeClass="active" to="lab" spy={true} smooth={true}>Lab</Link></li>
+<li className="hamburger-list" > <Link activeClass="active" to="radiology" spy={true} smooth={true}>Radiology</Link></li>
+<li className="hamburger-list" > <Link activeClass="active" to="ambulance" spy={true} smooth={true}>Ambulance</Link></li>
+<li className="hamburger-list" > <Link activeClass="active" to="bloodbank" spy={true} smooth={true}>Blood bank</Link></li>
+<li className="hamburger-list" > <Link activeClass="active" to="doctor" spy={true} smooth={true}>Doctor Consultation</Link></li>
+<li className="hamburger-list" > <Link activeClass="active" to="homecare" spy={true} smooth={true}>Home Care</Link></li>
+<li className="hamburger-list" > <Link activeClass="active" to="healthcamp" spy={true} smooth={true}>Health Camp</Link></li>
+<li className="hamburger-list" > <Link activeClass="active" to="mentalhealth" spy={true} smooth={true}>Mental Health</Link></li>
 
   </ul>
 

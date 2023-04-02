@@ -30,8 +30,8 @@ const AllBenefits = () => {
   return (
     <>
     
-    <div className='First-Heads'>
-<div className='First-Headings'>
+    <div id="hospital" className='First-Heads'>
+<div  className='First-Headings'>
     <div className='Headings'>Hospital</div>
     <div className='Paragraphs'>Anywhere in Bihar, you can schedule operations and hospital stays.  </div>
 <div className='points'>
@@ -72,7 +72,7 @@ const AllBenefits = () => {
     <img  className="First-icons" src='hosps.png' alt="roof"/>
 
 </div>
-<div className='First-Heads'>
+<div id="lab" className='First-Heads'>
 <div className='First-Headings'>
     <div className='Headings'>Lab Test</div>
     <div className='Paragraphs'>Book lab tests from our network lab with free sample collection from any location and at any time . </div>
@@ -116,7 +116,7 @@ const AllBenefits = () => {
 
 </div>
 
-<div className='First-Heads'>
+<div id="radiology" className='First-Heads'>
 <div className='First-Headings'>
     <div className='Headings'>Radiology</div>
     <div className='Paragraphs'>You can easily schedule a nuclear screening from anywhere in Bihar. </div>
@@ -163,7 +163,7 @@ const AllBenefits = () => {
 
     </div>
     </div>
-<div className='First-Heads'>
+<div id="ambulance" className='First-Heads'>
 <div className='First-Headings'>
     <div className='Headings'>Ambulance</div>
     <div className='Paragraphs'>Call an ambulance in Bihar from any location we will arrive in less than 20 minutes because every second counts.    </div>
@@ -210,7 +210,7 @@ const AllBenefits = () => {
     </div>
 
     </div>
-    <div className='First-Heads'>
+    <div id="bloodbank" className='First-Heads'>
 <div className='First-Headings'>
     <div className='Headings'>Blood Bank</div>
     <div className='Paragraphs'>In your difficult times, we will always stand for you and organise blood from any group at any moment.  </div>
@@ -256,7 +256,7 @@ const AllBenefits = () => {
 
     </div>
   
-    <div className='First-Heads'>
+    <div  id="doctor" className='First-Heads'>
 <div className='First-Headings'>
     <div className='Headings'>Doctor Consultation</div>
     <div className='Paragraphs'>Make an appointment with your doctor anytime at your doorstep 24 * 7.  </div>
@@ -301,7 +301,7 @@ const AllBenefits = () => {
 
 
     </div>
-    <div className='First-Heads'>
+    <div id="homecare" className='First-Heads'>
 <div className='First-Headings'>
     <div className='Headings'>Home Care</div>
     <div className='Paragraphs'>Make reservations for hospitalisation and residential care for your loved ones.
@@ -348,7 +348,7 @@ const AllBenefits = () => {
 
     </div>
    
-    <div className='First-Heads'>
+    <div id="healthcamp" className='First-Heads'>
 <div className='First-Headings'>
     <div className='Headings'>Health Camp</div>
     <div className='Paragraphs'>With the best physicians and institutions, we will set up a health camp. . </div>
@@ -394,8 +394,8 @@ const AllBenefits = () => {
 
     </div>
 
-    <div id="book" className='First-Heads'>
-<div className='First-Headings'>
+    <div id="book " className='First-Heads'>
+<div id='mentalhealth' className='First-Headings'>
     <div className='Headings'>Mental Health & Fitness</div>
     <div className='Paragraphs'>We offer mental health and wellness sessions because every second individual in the modern world is struggling with their mental health. </div>
 <div className='points'>
