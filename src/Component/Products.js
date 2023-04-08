@@ -3,7 +3,7 @@ import '../Benefits.css';
 const Products = () => {
   return (
     <div  className='Pro-Main'>
-      <div className='Product-Main'>
+      <div className='Product-Main' style={{height:"100vh"}}>
         <div className='Products-Img'>
           <img  className="pro-img" src='pro.jpg' alt='pro' />
 

@@ -17,7 +17,7 @@ const Otherbenefits = () => {
     Dental Care
     </div>
     <div className='Dental-Brief'>
-    With our expanded network coverage, you can subsidise or provide low-cost access to dental services for your employees and loved ones.     </div>
+    Our expanded network coverage offers low-cost dental services for your employees and loved ones. We provide the option to subsidise or fully cover the cost of these services, ensuring that everyone has access to quality dental care.    </div>
     <div className='Other-icon'>
 <img  className="icon" src='vaccph.png' alt="dental"/>
     </div>
@@ -25,16 +25,15 @@ const Otherbenefits = () => {
     Vaccination Drive
     </div>
     <div className='Dental-Brief'>
-    Be it flu, COVID, typhoid, or any other vaccinations, ABC can get your employees inoculated either at home, at the office, or via on-site camps.    </div>
+    Nirog Sansar offers vaccination services for various diseases including flu, COVID, and typhoid. We provide vaccination at home or on-site camps, ensuring convenience and accessibility for your employees. Trust us to help keep your workplace healthy and safe.    </div>
     <div className='Other-icon'>
 <img  className="icon" src='ffb.png' alt="dental"/>
     </div>
     <div className='Dental-Head'>
-    Friend'S Care
+    Friend's Care
     </div>
     <div className='Dental-Brief'>
-    We provide friend like care at your home, office, or hospital, and we are always ready to help you in just a few minutes. 
-    We are true friends.
+    Our team is dedicated to providing you with personalized and compassionate care wherever you are  whether it's at home,in the office,or at the hospital.With a quick response time,we are always available to help you.Trust us to be your true friends in times of need.
         </div>
 </div>
 <div className='Other-Second'>
@@ -45,7 +44,7 @@ const Otherbenefits = () => {
     Exercise Session
     </div>
     <div className='Dental-Brief'>
-    Whether it's exercise or online yoga, ABC can assist you in organising and managing engagement activities for you and your employees in order to keep them fit.     </div>
+    Nirog-Sansar helps organise exercise and online yoga activities to create a culture of health and wellness, promoting physical fitness for employees. They offer services to manage engagement activities and help employees stay healthy at work and outside of it.   </div>
     <div className='Other-icon'>
 <img  className="icon" src='stress.png' alt="dental"/>
     </div>
@@ -53,7 +52,7 @@ const Otherbenefits = () => {
     Stress Care
     </div>
     <div className='Dental-Brief'>
-    Whether it's a motivational session or an online brain game, ABC can assist you in organising and managing engagement activities for you and your employees    </div>
+    Nirog Sansar can help you plan and execute various employee engagement activities, such as motivational sessions and online brain games. With our assistance, you can keep your employees motivated, engaged and productive.   </div>
     <div className='Other-icon'>
 <img  className="icon" src='healthca.png' alt="dental"/>
     </div>
@@ -61,7 +60,7 @@ const Otherbenefits = () => {
     Health Master
     </div>
     <div className='Dental-Brief'>
-    Help employees manage their chronic health conditions like diabetes, hypertension, weight concerns and more through customized programs.    </div>
+    Nirog Sansar offers tailored programs to help employees manage chronic health conditions like diabetes, hypertension, and weight issues. These programs are designed to meet individual needs and provide comprehensive support for improving overall health and wellbeing.  </div>
     
 </div>
     </div>

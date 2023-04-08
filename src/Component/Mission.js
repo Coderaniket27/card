@@ -15,8 +15,8 @@ const Mission = () => {
               Mission
              </div>
              <div className='In'>
-             As a company engaged in the healthcare industry, we want to make this not just a business but also a healthy movement. We hope that in the future, people will be more
-             careful in choosing healthcare services and their providers, which provide reliable and quality care .
+             Our mission is to revolutionize the healthcare sector by turning it into a robust and wholesome movement. We strive to inspire individuals to give precedence to dependable and superior healthcare providers. By advocating this transformation, we aspire to enhance the general quality of healthcare, resulting in a more salubrious and thriving society.
+
 
 
                           </div>
@@ -26,7 +26,7 @@ const Mission = () => {
               Vision
              </div>
              <div className='In'>
-             We want to be a company that becomes a role model in the healthcare industry. We want to be affordable, dependable, and accessible to all strata of the community in the future by providing high-quality healthcare services at the tip of your finger. 
+             We envision a healthcare industry driven by a powerful and healthy movement, not just a profit-making enterprise. Our aim is to empower people to choose reliable and quality healthcare services and providers. Through this, we aim to create a stronger, healthier society that prioritizes well-being above all else
 
                           </div>            
                           

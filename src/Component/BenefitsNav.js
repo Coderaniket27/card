@@ -13,8 +13,8 @@ const BenefitsNav = () => {
     <div>
          <div  className='NavBar' style={{"width":"100%"}}>
         <div  className='NavFull'>
-          <div style={{"color":"#0018A8"}} className='Navlogo'>
-<img  alt="logo" height="100px" width="100px"src='logoo.png'/>
+        <div style={{"color":"#0018A8","marginTop":"20px"}} className='Navlogo'>
+<img  alt="logo" height="60px" width="60px"src='logo.png'/>
           </div>
          <div className='Navlist'>
           <div className='Hamburger'>

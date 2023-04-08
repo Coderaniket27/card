@@ -12,9 +12,12 @@ code {
     monospace;
 }
 .CardMain{
-  background-color: blueviolet;
+  background-repeat: no-repeat;
+  background-size: 800px 800px;
+  background-position: center center;
+  opacity: 0.8;
   
-  background-image: linear-gradient(blue, pink);
+  background-image: url("../public/logo.png");
  
 }
 .CardDownload{

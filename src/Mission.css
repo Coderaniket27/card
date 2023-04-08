@@ -30,6 +30,7 @@
 .In{
     font-size: 21px;
     color: rgb(111, 103, 103);
+    margin-bottom: 20px;
 }
 
 .Other-Main{
@@ -79,8 +80,8 @@
 
 }
 .Dental-Brief{
-    font-size: 14px;
-    font-weight: 200;
+    font-size: 19px;
+    font-weight: 500;
     font-family: sans-serif;
     margin-top: 1%;
     margin-bottom: 2%;

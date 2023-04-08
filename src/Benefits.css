@@ -112,7 +112,7 @@
 
 .Pro-Main{ 
     width: 100%;
-    overflow: hidden;
+    
 }
 .Products-Head{
     position: absolute;
@@ -165,7 +165,7 @@
 .Modal-Button{
     width: 150px;
     height: 40px;
-    margin-left: 880px;
+    margin-left: 680px;
     border: 1px solid greenyellow;
     border-radius: 50px;
     background-color: rgb(144, 229, 17);

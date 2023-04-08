@@ -35,7 +35,7 @@
   padding: 5px;
   border: 1px solid black;
   color:rgb(186, 9, 9);
-  background-color: whitesmoke;
+  background-color: #7FFFD4;
   font-weight: bolder;
 }
 .hamburger-list:hover{
@@ -52,7 +52,7 @@
 margin-left: 20px;
 }
 .NavBar {
-  background-color: rgb(35, 32, 32);
+  background-color: #e3f2fd;;
   position: fixed;
   z-index: 1000;
   top: 0;
@@ -94,6 +94,7 @@ margin-left: 20px;
   width: 100%;
   overflow: hidden;
   padding-top: 2%;
+ 
 }
 .About-head{
   font-size: 35px;
@@ -105,11 +106,14 @@ margin-left: 20px;
 }
 .About-Brief{
   width: 48%;
-  padding-left: 5%;
-  padding-right: 4%;
+  padding-left: 2%;
+  padding-right: 2%;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 400;
+  
+  word-spacing: 4px;
+
 }
 .LastImage{
   width: 45%;
@@ -167,7 +171,8 @@ margin-left: 20px;
   padding-left: 5%;
   padding-right: 4%;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 18px;
+  font-size: 15px;
+  
   font-weight: 300;
 }
 .LastImage {

@@ -3,6 +3,7 @@ import Pdf from 'react-to-pdf';
 import axios from 'axios'
 import { useState } from 'react';
 
+
 const ref = React.createRef();
 const CardDownload = () => {
     const [phone,setphone]=useState("")
@@ -32,10 +33,12 @@ const CardDownload = () => {
       console.log(err)
       } 
       }
+      
+
 
   return (
     <div  className="check" style={{height:"100vh"}}>
-    < div className="CardMain"><div  style={{fontFamily:"serif",fontSize:"30px",fontWeight:"800",paddingTop:"90px"}}className='CardDownload'> Fill Details</div>
+    < div className="CardMain"><div  style={{fontFamily:"serif",fontSize:"30px",fontWeight:"800",paddingTop:"10px"}}className='CardDownload'> Fill Details</div>
     <br/>
     <form className='Form-Model CardDownload'>
             <div className='Input-Align'>
@@ -45,7 +48,7 @@ const CardDownload = () => {
              className='Modal-Input' />
           </label>
           <br/>
-          <label>Enteryour number:<br/>
+          <label>Enter your number:<br/>
             <input value={phone} onChange={(e) =>{setphone(e.target.value)}}  type="text" 
             name="number" 
             className='Modal-Input'  />
@@ -66,11 +69,11 @@ const CardDownload = () => {
           </div>
           </div>
         </form>
-        <div className='Card-Main'>
+       <div className='Card-Main'>
             <div ref={ref} className='Card1'>
            <div>
             <div style={{color:"blue", fontFamily:"cursive",fontWeight:"800", marginLeft:"70px"}}>Nirog Sansar Health Card</div>
-            <img src="logoo.png" alt="logo"/></div>  
+            <img src="logo.png" style={{height:"80px",width:"100px",marginTop:"40px",marginLeft:"30px"}} alt="logo"/></div>  
              <div className='Card-Detail'>
 <div>{visible ? <b>{data.name}</b> :""}</div>
 <div>{visible ? <b>{data.member}</b> :""}</div>

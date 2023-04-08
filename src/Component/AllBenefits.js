@@ -33,7 +33,7 @@ const AllBenefits = () => {
     <div id="hospital" className='First-Heads'>
 <div  className='First-Headings'>
     <div className='Headings'>Hospital</div>
-    <div className='Paragraphs'>Anywhere in Bihar, you can schedule operations and hospital stays.  </div>
+    <div className='Paragraphs'>In Bihar, you can schedule emergency hospital stays and operations from anywhere. Hospitals are readily available, and <b>Nirog Sansar</b> staff will assist you in booking a suitable slot.  </div>
 <div className='points'>
     <div className='points-icon'>
 
@@ -41,7 +41,7 @@ const AllBenefits = () => {
     </div>
     <div className='Points-Brief'>
         <div className='Points-Head'>Bihar</div>
-    <div className='Points-point'>    With our service partners and home collection centres across bihar, all your employees and loved ones get a uniform experience.    </div>
+    <div className='Points-point'>   We have partnered with healthcare providers across Bihar to ensure that your employees and loved ones receive a consistent experience during hospitalization. This partnership enables us to deliver uniform quality healthcare services to everyone in Bihar, regardless of location. Our goal is to provide accessible and reliable healthcare to all.    </div>
 </div>
 
 </div>
@@ -52,7 +52,8 @@ const AllBenefits = () => {
     </div>
     <div className='Points-Brief'>
         <div className='Points-Head'>Certified Connection</div>
-    <div className='Points-point'>    Working with only  NABH-certified partners, we regularly monitor them to ensure service levels are impeccable.    </div>
+    <div className='Points-point'>    We collaborate exclusively with NABH-certified partners and meticulously monitor them to maintain impeccable service levels, providing our customers with the highest quality of care.
+    </div>
 </div>
 
 </div>
@@ -72,7 +73,12 @@ const AllBenefits = () => {
     <img  className="First-icons" src='hosps.png' alt="roof"/>
 
 </div>
+
 <div id="lab" className='First-Heads'>
+<div className='First-Pics'>
+    <img  className="First-icons" src='lbs.png' alt="roof"/>
+
+</div>
 <div className='First-Headings'>
     <div className='Headings'>Lab Test</div>
     <div className='Paragraphs'>Book lab tests from our network lab with free sample collection from any location and at any time . </div>
@@ -111,10 +117,7 @@ const AllBenefits = () => {
 
 </div>
 </div>
-<div className='First-Pics'>
-    <img  className="First-icons" src='LABS.png' alt="roof"/>
 
-</div>
 
 <div id="radiology" className='First-Heads'>
 <div className='First-Headings'>
@@ -164,6 +167,10 @@ const AllBenefits = () => {
     </div>
     </div>
 <div id="ambulance" className='First-Heads'>
+<div className='First-Pics'>
+    <img  className="First-icons" src='ambula.png' alt="roof"/>
+
+</div>
 <div className='First-Headings'>
     <div className='Headings'>Ambulance</div>
     <div className='Paragraphs'>Call an ambulance in Bihar from any location we will arrive in less than 20 minutes because every second counts.    </div>
@@ -201,10 +208,7 @@ const AllBenefits = () => {
 
 </div>
 </div>
-<div className='First-Pics'>
-    <img  className="First-icons" src='ambula.png' alt="roof"/>
 
-</div>
 
 
     </div>
@@ -257,6 +261,10 @@ const AllBenefits = () => {
     </div>
   
     <div  id="doctor" className='First-Heads'>
+    <div className='First-Pics'>
+    <img  className="First-icons" src='doctp.png' alt="roof"/>
+
+</div>
 <div className='First-Headings'>
     <div className='Headings'>Doctor Consultation</div>
     <div className='Paragraphs'>Make an appointment with your doctor anytime at your doorstep 24 * 7.  </div>
@@ -294,10 +302,7 @@ const AllBenefits = () => {
 
 </div>
 </div>
-<div className='First-Pics'>
-    <img  className="First-icons" src='ondoc.png' alt="roof"/>
 
-</div>
 
 
     </div>
@@ -349,6 +354,10 @@ const AllBenefits = () => {
     </div>
    
     <div id="healthcamp" className='First-Heads'>
+    <div className='First-Pics'>
+    <img  className="First-icons" src='camp.png' alt="roof"/>
+
+</div>
 <div className='First-Headings'>
     <div className='Headings'>Health Camp</div>
     <div className='Paragraphs'>With the best physicians and institutions, we will set up a health camp. . </div>
@@ -386,10 +395,7 @@ const AllBenefits = () => {
 
 </div>
 </div>
-<div className='First-Pics'>
-    <img  className="First-icons" src='camp.png' alt="roof"/>
 
-</div>
 
 
     </div>
