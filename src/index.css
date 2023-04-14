@@ -13,8 +13,8 @@ code {
 }
 .CardMain{
   background-repeat: no-repeat;
-  background-size: 800px 800px;
-  background-position: center center;
+  background-size: 600px 400px;
+  background-position:  center 160px;
   opacity: 0.8;
   
   background-image: url("../public/logo.png");

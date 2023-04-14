@@ -41,7 +41,7 @@ const AllBenefits = () => {
     </div>
     <div className='Points-Brief'>
         <div className='Points-Head'>Bihar</div>
-    <div className='Points-point'>   We have partnered with healthcare providers across Bihar to ensure that your employees and loved ones receive a consistent experience during hospitalization. This partnership enables us to deliver uniform quality healthcare services to everyone in Bihar, regardless of location. Our goal is to provide accessible and reliable healthcare to all.    </div>
+    <div className='Points-point'>   Our partnership guarantees consistent hospitalization experiences for your employees and loved ones across Bihar, providing accessible and reliable healthcare services.   </div>
 </div>
 
 </div>
@@ -52,7 +52,7 @@ const AllBenefits = () => {
     </div>
     <div className='Points-Brief'>
         <div className='Points-Head'>Certified Connection</div>
-    <div className='Points-point'>    We collaborate exclusively with NABH-certified partners and meticulously monitor them to maintain impeccable service levels, providing our customers with the highest quality of care.
+    <div className='Points-point'>    We work solely with NABH-certified partners, closely monitoring them to maintain exceptional service levels and offering our customers the highest quality of care.
     </div>
 </div>
 
@@ -64,7 +64,7 @@ const AllBenefits = () => {
     </div>
     <div className='Points-Brief'>
         <div className='Points-Head'>Discount & Cashback</div>
-    <div className='Points-point'>    We provide discounts up to 40% in ipd to ease the burden of hospital bills, as well as every assistance possible both during and after hospitalisation. We also ensure that all treatments are affordable and completely secure because we value every single life.    </div>
+    <div className='Points-point'>   We provide up to 40% discounts on IPD, assistance during and after hospitalization, and affordable and secure treatments, valuing every life.    </div>
 </div>
 
 </div>
@@ -74,7 +74,7 @@ const AllBenefits = () => {
 
 </div>
 
-<div id="lab" className='First-Heads'>
+<div id="lab"  className='First-Heads'>
 <div className='First-Pics'>
     <img  className="First-icons" src='lbs.png' alt="roof"/>
 
@@ -262,7 +262,7 @@ const AllBenefits = () => {
   
     <div  id="doctor" className='First-Heads'>
     <div className='First-Pics'>
-    <img  className="First-icons" src='doctp.png' alt="roof"/>
+    <img  className="First-icons" src='consult.png' alt="roof"/>
 
 </div>
 <div className='First-Headings'>
