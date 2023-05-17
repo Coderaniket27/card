@@ -73,13 +73,16 @@ const CardDownload = () => {
             <div ref={ref} className='Card1'>
            <div>
             <div style={{color:"blue", fontFamily:"cursive",fontWeight:"800", marginLeft:"70px"}}>Nirog Sansar Health Card</div>
+            <div style={{color:"green", fontFamily:"cursive",fontWeight:"400", marginLeft:"90px"}}>Www.Nirogsansar.com</div>
+
             <img src="logo.png" style={{height:"80px",width:"100px",marginTop:"40px",marginLeft:"30px"}} alt="logo"/></div>  
              <div className='Card-Detail'>
-<div>{visible ? <b>{data.name}</b> :""}</div>
-<div>{visible ? <b>{data.member}</b> :""}</div>
-<div>{visible ? <b>{data.date}</b> :""}</div>
+<div style={{paddingLeft:"140px"}}>{visible ? <b>{data.name}</b> :""}</div>
+<div style={{paddingLeft:"140px"}}>{visible ? <b>{data.member}</b> :""}</div>
+<div style={{paddingLeft:"140px"}}>{visible ? <b>{data.date}</b> :""}</div>
+<div style={{paddingTop:"1px",paddingLeft:"0px"}}><strong>8789654084,9110188345,8804790189</strong></div>
 
-<div style={{paddingTop:"16px",paddingLeft:"20px"}}><strong>7277706637</strong></div>
+<div style={{paddingLeft:"50px"}}><strong>info@nirogsansar.com</strong></div>
 
              </div>
 
