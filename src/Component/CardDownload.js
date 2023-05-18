@@ -75,14 +75,14 @@ const CardDownload = () => {
             <div style={{color:"blue", fontFamily:"cursive",fontWeight:"800", marginLeft:"70px"}}>Nirog Sansar Health Card</div>
             <div style={{color:"green", fontFamily:"cursive",fontWeight:"400", marginLeft:"90px"}}>Www.Nirogsansar.com</div>
 
-            <img src="logo.png" style={{height:"80px",width:"100px",marginTop:"40px",marginLeft:"30px"}} alt="logo"/></div>  
+            <img src="logo.png" style={{height:"80px",width:"100px",marginTop:"10px",marginLeft:"10px"}} alt="logo"/></div>  
              <div className='Card-Detail'>
 <div style={{paddingLeft:"140px"}}>{visible ? <b>{data.name}</b> :""}</div>
-<div style={{paddingLeft:"140px"}}>{visible ? <b>{data.member}</b> :""}</div>
+<div style={{paddingLeft:"140px",color:"blue"}}>{visible ? <b>{data.member}</b> :""}</div>
 <div style={{paddingLeft:"140px"}}>{visible ? <b>{data.date}</b> :""}</div>
-<div style={{paddingTop:"1px",paddingLeft:"0px"}}><strong>8789654084,9110188345,8804790189</strong></div>
+<div style={{paddingTop:"1px",paddingLeft:"0px",color:"red"}}><b>8789654084,9110188345,7488679011</b></div>
 
-<div style={{paddingLeft:"50px"}}><strong>info@nirogsansar.com</strong></div>
+<div style={{paddingLeft:"70px"}}><strong>info@nirogsansar.com</strong></div>
 
              </div>
 
