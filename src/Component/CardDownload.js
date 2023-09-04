@@ -48,7 +48,7 @@ const CardDownload = () => {
              className='Modal-Input' />
           </label>
           <br/>
-          <label>Enter your number:<br/>
+          <label>Enter your Registered number:<br/>
             <input value={phone} onChange={(e) =>{setphone(e.target.value)}}  type="text" 
             name="number" 
             className='Modal-Input'  />
