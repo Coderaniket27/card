@@ -16,8 +16,8 @@ const Nav = () => {
   return (
     <div  className='NavBar' style={{"width":"100%"}}>
         <div  className='NavFull'>
-          <div style={{"color":"#0018A8","marginTop":"20px"}} className='Navlogo'>
-<img  alt="logo" height="60px" width="60px"src='logo.png'/>
+          <div style={{"color":"#0018A8","marginTop":"16px","marginLeft":"52px"}} className='Navlogo'>
+<img  alt="logo" height="58px" width="69px"src='logo.png'/>
           </div>
          <div className='Navlist'>
           <div className='Hamburger'>
@@ -30,17 +30,17 @@ showlist(false)  }
 
           </div>
 <ul className='Navitems'>
-<li className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}}>  <Link activeClass="active"  to="home" spy={true} smooth={true}>Home</Link></li>
-<li className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}}>  <Link activeClass="active" to="about" spy={true} smooth={true}>About Us</Link></li>
-<li className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}}>  <Link activeClass="active" to="other" spy={true} smooth={true}>Other Services</Link></li>
+<li className="hovers"style={{marginRight:"40px",font:"inter",color:"black",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}}>  <Link activeClass="active"  to="home" spy={true} smooth={true}>Home</Link></li>
+<li className="hovers"style={{marginRight:"40px",font:"inter",color:"black",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}}>  <Link activeClass="active" to="about" spy={true} smooth={true}>About Us</Link></li>
+<li className="hovers"style={{marginRight:"40px",paddingBottom:"10px",font:"inter",color:"black",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}}>  <Link activeClass="active" to="other" spy={true} smooth={true}>Other Services</Link></li>
        
-<li onClick={()=>navigate('/products')} className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}}>Products
+<li onClick={()=>navigate('/products')} className="hovers"style={{marginRight:"40px",paddingBottom:"10px",font:"inter",color:"black",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}}>Products
 
  </li>
 
-  <li onClick={()=>navigate('/benefits')} className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}}>Benefits</li>
-  <li className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}}>Offers</li>
-  <li onClick={()=>navigate('/card')} className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}}>Card</li>
+  <li onClick={()=>navigate('/benefits')} className="hovers"style={{marginRight:"40px",paddingBottom:"10px",font:"inter",color:"black",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}}>Benefits</li>
+  <li className="hovers"style={{marginRight:"40px",paddingBottom:"10px",paddingTop:"10px",paddingRight:"4px",font:"inter",color:"black",paddingLeft:"4px"}}>Offers</li>
+  <li onClick={()=>navigate('/card')} className="hovers"style={{marginRight:"40px",paddingBottom:"10px",font:"inter",color:"black",paddingTop:"10px",paddingRight:"4px",paddingLeft:"4px"}}>Card</li>
 
 </ul>
 </div> 

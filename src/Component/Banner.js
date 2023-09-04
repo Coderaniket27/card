@@ -6,9 +6,7 @@ const Banner = () => {
  
   return (
     <div id="home">
-            <div className='imgSlider '>
-              
-                </div>
+              <img style={{width:"100%",marginTop:"5.2%",height:"60vh"}}src='headers.png' alt=""/>
 
               
     </div>

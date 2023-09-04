@@ -4,6 +4,53 @@
   align-items: center;
   justify-content: center;
 }
+.About-us{
+  width: 100%;
+  height: auto;
+  align-items: center;
+justify-content: center;
+display: flex;
+position: relative;
+bottom:8%;
+
+}
+.About-Full{
+  width: 97%;
+  
+}
+.About-Write{
+background-color: #083D77;
+border-radius: 60px;
+
+}
+.About-Header{
+ text-align: center;
+  font-family: Inter;
+font-size: 38px;
+font-weight: 600;
+line-height: 46px;
+padding-top: 4%;
+padding-bottom: 1%;
+letter-spacing: 0em;
+color:#FFFFFF;
+}
+.About-Paragraph{
+  color:#FFFFFF;
+  width:82%;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-bottom: 2%;
+ 
+}
+.About-flex{
+display: flex;
+align-items: center;
+justify-content: center;
+}
 .Card{
   width: 350px;
   height: 200px;
@@ -15,10 +62,10 @@
 .Navitems{
   list-style: none;
   display: flex;
-  margin-top: 38px;
+  margin-top: 30px;
   font-weight: 900;
-  font-size: 17px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 19px;
+  font-family: Inter;
 }
 
 .list-item{
@@ -43,7 +90,6 @@
 }
 .NavFull{
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
   overflow: hidden;
@@ -52,12 +98,15 @@
 margin-left: 20px;
 }
 .NavBar {
-  background-color: #e3f2fd;;
+  background-color: #E2EBEF;
   position: fixed;
   z-index: 1000;
   top: 0;
   overflow: hidden;
 
+}
+.Navlist{
+  margin-left: 680px;
 }
 
 .Hamburger{
@@ -68,13 +117,11 @@ margin-left: 20px;
   color: blue;
   text-align: center;
   
+  
 }
 .hovers:hover{
   color: red;
-  border:2px solid black;
-  border-radius: 7%;
-  background-color: 
-  rgb(148, 224, 167);
+  border-bottom:2px solid #1975d7;
 
 }
 .imgSlider{
@@ -133,7 +180,7 @@ margin-left: 20px;
 /* .hover:hover{
   color: red;
 } */
-
+/* 
 @media only screen and (min-width: 280px) 
     and (max-width: 480px){
       .Navitems{
@@ -146,8 +193,9 @@ margin-left: 20px;
   display: block;
 }
 .Navlist{
-  margin-top: 30px;
+  margin-top: -59px;
   margin-right: 15px;
+  margin-left: 85%;
 }
 .imgSlider{
   height: 250px;
@@ -319,4 +367,4 @@ margin-left: 20px;
   background-image: url("../public/d2.jpg");
 
 }
-}
+} */
