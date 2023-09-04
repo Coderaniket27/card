@@ -16,7 +16,7 @@ const Nav = () => {
   return (
     <div  className='NavBar' style={{"width":"100%"}}>
         <div  className='NavFull'>
-          <div style={{"color":"#0018A8","marginTop":"16px","marginLeft":"52px"}} className='Navlogo'>
+          <div  className='Navlogo'>
 <img  alt="logo" height="58px" width="69px"src='logo.png'/>
           </div>
          <div className='Navlist'>
