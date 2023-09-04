@@ -29,7 +29,7 @@ border-radius: 60px;
 font-size: 38px;
 font-weight: 600;
 line-height: 46px;
-padding-top: 4%;
+padding-top: 3%;
 padding-bottom: 1%;
 letter-spacing: 0em;
 color:#FFFFFF;
@@ -126,60 +126,52 @@ margin-left:52px
   color: red;
   border-bottom:2px solid #1975d7;
 
-}
-.imgSlider{
-  position: relative;
-  z-index: -1;
-  height: 500px;
-  background-image: url("../public/d2.jpg");
-  background-size: 100% 100%;
-  box-shadow: rgba(149,157,165,0.2) 0px,8px,24px;
-  animation: changeImage 40s ease-in-out infinite;
-  margin-top: 82px;
 
 }
+.Mission{
 
-.About{
+  width: 100%;
+}
+.Mission-Brief{
+  width: 100%;
+}
+.Mission-Full{
   display: flex;
-  width: 100%;
-  overflow: hidden;
-  padding-top: 2%;
- 
+ flex-wrap: nowrap;
+  background-color: #E2EBEF;
+  padding: 2%;
 }
-.About-head{
-  font-size: 35px;
-    font-weight: 900;
-    padding-bottom: 10px;
-    display: flex;
-    justify-content: center;
-  
+.Image-Mission{
+  width: 90%;
+  height: 230px;
+  padding-right: 10px;
 }
-.About-Brief{
-  width: 48%;
-  padding-left: 2%;
-  padding-right: 2%;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
-  font-weight: 400;
-  
-  word-spacing: 4px;
+/* .Mission-Image{
+  width:32%;
+  border-radius: 90px;
+} */
+.Mission-Heading{
+  color:#083D77;
+  font-family: Inter;
+font-size: 38px;
+font-weight: 600;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: center;
+padding-bottom: 30px;
 
 }
-.LastImage{
-  width: 45%;
-  padding-left: 2%;
-  padding-right: 2%;
+.Misiion-Detail{
+  width: 94%;
+  font-size: 18px;
+font-weight: 600;
+line-height: 26px;
+word-spacing: 10px;
+color:rgb(72, 71, 71)
 }
-.LastImg{
-  height:280px;
-  width: 100%;
-  border:1px solid #f9faff;
-  border-radius: 30px;
-}
-.Footeres{
-  color:red;
-  background-color: aqua;
-}
+
+
+
 /* .hover:hover{
   color: red;
 } */
@@ -188,6 +180,27 @@ margin-left:52px
     and (max-width: 480px){
       .Navitems{
   display: none;
+}
+.About-Header{
+  text-align: center;
+   font-family: Inter;
+ font-size: 25px;
+ font-weight: 600;
+ line-height: 46px;
+ padding-top: 3%;
+ padding-bottom: 1px;
+ letter-spacing: 0em;
+ color:#FFFFFF;
+ }
+.About-Paragraph {
+  color: #FFFFFF;
+  width: 88%;
+  font-family: Inter;
+  font-size: 9px;
+  font-weight: bolder;
+  line-height: 12px;
+  text-align: center;
+  padding-bottom: 2%;
 }
 .Navlogo {
   margin-left: 20px;
@@ -212,18 +225,74 @@ margin-left:52px
 }
 
 .About-Write{
-  background-color: orange;
+  background-color: #083D77;
   border-radius: 60px;
   
   }
 
-
+  .Mission-Full{
+    display: block;
+    background-color: #E2EBEF;
+    padding: 2%;
+  }
+  .Image-Mission{
+    width: 100%;
+    height: 230px;
+    padding-right: 10px;
+  }
+  .Mission-Image{
+    border-radius: 90px;
+  }
+  .Mission-Heading{
+    color:#083D77;
+    font-family: Inter;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-bottom: 5px;
+  
+  }
+  .Mission-Visions{
+    margin-top: -36px;
+  }
+  .Misiion-Detail{
+    width: 92%;
+    padding: 3%;
+    font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  word-spacing: 10px;
+  color:rgb(72, 71, 71)
+  }
 
 }
 
 @media only screen and (min-width: 490px) 
     and (max-width: 940px){
 
+      .About-Header{
+        text-align: center;
+         font-family: Inter;
+       font-size: 45px;
+       font-weight: 600;
+       line-height: 50px;
+       padding-top: 3%;
+       padding-bottom: 18px;
+       letter-spacing: 0em;
+       color:#FFFFFF;
+       }
+      .About-Paragraph {
+        color: #FFFFFF;
+        width: 88%;
+        font-family: Inter;
+        font-size: 21px;
+        font-weight: bolder;
+        line-height: 32px;
+        text-align: center;
+        padding-bottom: 2%;
+      }
       .Navlist{
         margin-top: 30px;
         margin-right: 20px;
@@ -232,7 +301,7 @@ margin-left:52px
   display: none;
 }
 .About-Write{
-  background-color: red;
+  background-color: #083D77;
   border-radius: 60px;
   
   }
@@ -252,10 +321,67 @@ margin-left:52px
   overflow: hidden;
 }
 
+.Mission-Full{
+  display: block;
+  background-color: #E2EBEF;
+  padding: 2%;
+}
+.Image-Mission{
+  width: 100%;
+  height: 290px;
+  padding-right: 10px;
+}
+.Mission-Image{
+  border-radius: 90px;
+}
+.Mission-Heading{
+  color:#083D77;
+  font-family: Inter;
+font-size: 38px;
+font-weight: 600;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: center;
+padding-bottom: 5px;
+
+}
+.Mission-Visions{
+  margin-top: -36px;
+}
+.Misiion-Detail{
+  width: 92%;
+  padding: 2%;
+  font-size: 26px;
+font-weight: 600;
+line-height: 26px;
+word-spacing: 10px;
+color:rgb(72, 71, 71)
+}
 }
 @media only screen and (min-width: 950px) 
     and (max-width: 1300px){
 
+      .About-Header{
+        text-align: center;
+         font-family: Inter;
+       font-size: 45px;
+       font-weight: 600;
+       line-height: 48px;
+       padding-top: 3%;
+       padding-bottom: 18px;
+       letter-spacing: 0em;
+       color:#FFFFFF;
+       }
+      .About-Paragraph {
+        color: #FFFFFF;
+        width: 88%;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: bolder;
+        line-height: 30px;
+        text-align: center;
+        padding-bottom: 2%;
+      }
       .Navlist{
         margin-top: 30px;
         margin-right: 20px;
@@ -276,7 +402,7 @@ margin-left:52px
     overflow: hidden;
   }
   .About-Write{
-    background-color: pink;
+    background-color: #083D77;
     border-radius: 60px;
     
     }
@@ -291,33 +417,44 @@ margin-left:52px
   overflow: hidden;
   padding-top: 2%;
 }
-.About-head{
-  font-size: 30px;
-    font-weight: 800;
-    padding-bottom: 10px;
-  
+
+.Mission-Full{
+  display: flex;
+  background-color: #E2EBEF;
+  padding: 2%;
 }
-.About-Brief {
-  width: 91%;
-  padding-left: 5%;
-  padding-right: 4%;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 25px;
-  font-weight: 300;
-}
-.LastImage {
-  width: 96%;
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-top: 4%;
-  background-color: black;
-}
-.LastImg{
-  height:280px;
+.Image-Mission{
   width: 100%;
-  border:1px solid #f9faff;
-  border-radius: 30px;
+  height: 260px;
+  padding-right: 10px;
 }
+.Mission-Image{
+  border-radius: 90px;
+}
+.Mission-Heading{
+  color:#083D77;
+  font-family: Inter;
+font-size: 38px;
+font-weight: 600;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: center;
+padding-bottom: 10px;
+
+}
+.Mission-Visions{
+  margin-top: -36px;
+}
+.Misiion-Detail{
+  width: 92%;
+  font-size: 18px;
+  padding-left: 10px;
+font-weight: 600;
+line-height: 22px;
+word-spacing: 10px;
+color:rgb(72, 71, 71)
+}
+
 }
 
 
