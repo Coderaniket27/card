@@ -37,7 +37,7 @@ and healthy movement, not just a profit-making enterprise.
 Our aim is to empower people to choose reliable and quality 
 healthcare services and providers. Through this, we aim to 
 create a stronger, healthier society that prioritizes well-being 
-above all else
+above all else.
               </div>
 
             </div>
