@@ -1,73 +1,129 @@
-import React from 'react'
+import React from "react";
 
 const Otherbenefits = () => {
   return (
     <>
-    <div  id ="other"className='main'>
-    <div className='Other-Services'>
-            Other Services
-        </div>
-    <div className='Other-Main'>
-       
-<div className='Other-First'>
-    <div className='Other-icon'>
-<img  className="icon" src='3467830.png' alt="dental"/>
-    </div>
-    <div className='Dental-Head'>
-    Dental Care
-    </div>
-    <div className='Dental-Brief'>
-    Our expanded network coverage offers low-cost dental services for your employees and loved ones. We provide the option to subsidise or fully cover the cost of these services, ensuring that everyone has access to quality dental care.    </div>
-    <div className='Other-icon'>
-<img  className="icon" src='vaccph.png' alt="dental"/>
-    </div>
-    <div className='Dental-Head'>
-    Vaccination Drive
-    </div>
-    <div className='Dental-Brief'>
-    Nirog Sansar offers vaccination services for various diseases including flu, COVID, and typhoid. We provide vaccination at home or on-site camps, ensuring convenience and accessibility for your employees. Trust us to help keep your workplace healthy and safe.    </div>
-    <div className='Other-icon'>
-<img  className="icon" src='ffb.png' alt="dental"/>
-    </div>
-    <div className='Dental-Head'>
-    Friend's Care
-    </div>
-    <div className='Dental-Brief'>
-    Our team is dedicated to providing you with personalized and compassionate care wherever you are  whether it's at home,in the office,or at the hospital.With a quick response time,we are always available to help you.Trust us to be your true friends in times of need.
-        </div>
-</div>
-<div className='Other-Second'>
-<div className='Other-icon'>
-<img  className="icon" src='yga.png' alt="dental"/>
-    </div>
-    <div className='Dental-Head'>
-    Exercise Session
-    </div>
-    <div className='Dental-Brief'>
-    Nirog-Sansar helps organise exercise and online yoga activities to create a culture of health and wellness, promoting physical fitness for employees. They offer services to manage engagement activities and help employees stay healthy at work and outside of it.   </div>
-    <div className='Other-icon'>
-<img  className="icon" src='stress.png' alt="dental"/>
-    </div>
-    <div className='Dental-Head'>
-    Stress Care
-    </div>
-    <div className='Dental-Brief'>
-    Nirog Sansar can help you plan and execute various employee engagement activities, such as motivational sessions and online brain games. With our assistance, you can keep your employees motivated, engaged and productive.   </div>
-    <div className='Other-icon'>
-<img  className="icon" src='healthca.png' alt="dental"/>
-    </div>
-    <div className='Dental-Head'>
-    Health Master
-    </div>
-    <div className='Dental-Brief'>
-    Nirog Sansar offers tailored programs to help employees manage chronic health conditions like diabetes, hypertension, and weight issues. These programs are designed to meet individual needs and provide comprehensive support for improving overall health and wellbeing.  </div>
-    
-</div>
-    </div>
-    
-    </div>
-    </>
-  )
-}
+      <div className="Other-Benefitss">
+        <div className="Other-Mains">
+          <div className="Other-Headers font-sans">Our Services</div>
+          <div className="Other-Card">
+            <div className="Cardss">
+                <div className="Card-Headers">
+                    <div className="Card-Icon">
+                        <img  className="Card-Icons"src="yga.png" alt=""/>
 
-export default Otherbenefits
+                    </div>
+                    <div className="Card-Heading font-sans">
+                    Exercise Session
+                    </div>
+                </div>
+                <div className="Card-Bried italic">
+                Nirog-Sansar helps organise 
+exercise and online yoga activities 
+to create a culture of health and 
+wellness.
+                </div>
+                
+            </div>
+            <div className="Cardss">
+                <div className="Card-Headers">
+                    <div className="Card-Icon">
+                        <img  className="Card-Icons"src="Vaccine.png" alt=""/>
+
+                    </div>
+                    <div className="Card-Heading font-sans">
+                    Vaccination Drive
+
+                    </div>
+                </div>
+                <div className="Card-Bried italic">
+                Nirog Sansar offers vaccination 
+services for various diseases 
+including flu, COVID, and typhoid.
+                </div>
+                
+            </div>
+            <div className="Cardss">
+                <div className="Card-Headers">
+                    <div className="Card-Icon">
+                        <img  className="Card-Icons"src="dental.png" alt=""/>
+
+                    </div>
+                    <div className="Card-Heading font-sans">
+                    Dental Care
+
+                    </div>
+                </div>
+                <div className="Card-Bried italic">
+                Our expanded network coverage 
+offers low-cost dental services for 
+your employees and loved ones.
+                </div>
+                
+            </div>
+            <div className="Cardss">
+                <div className="Card-Headers">
+                    <div className="Card-Icon">
+                        <img  className="Card-Icons"src="ffb.png" alt=""/>
+
+                    </div>
+                    <div className="Card-Heading font-sans">
+                    Friend's Care
+
+                    </div>
+                </div>
+                <div className="Card-Bried italic">
+                Our team is dedicated to 
+providing you with personalized 
+and compassionate care 
+ at home,
+office,or anywhere.
+                </div>
+                
+            </div>
+            <div className="Cardss">
+                <div className="Card-Headers">
+                    <div className="Card-Icon">
+                        <img  className="Card-Icons"src="stress.png" alt=""/>
+
+                    </div>
+                    <div className="Card-Heading font-sans">
+                    Meditation Care
+
+                    </div>
+                </div>
+                <div className="Card-Bried italic">
+                Nirog Sansar can help you plan and 
+execute various employee 
+engagement activities & brain games.
+                </div>
+                
+            </div>
+            <div className="Cardss">
+                <div className="Card-Headers">
+                    <div className="Card-Icon">
+                        <img  className="Card-Icons"src="healthca.png" alt=""/>
+
+                    </div>
+                    <div className="Card-Heading font-sans">
+                    Health Master
+
+                    </div>
+                </div>
+                <div className="Card-Bried italic">
+                Nirog Sansar offers tailored 
+programs to help employees 
+manage chronic health conditions 
+
+                </div>
+                
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Otherbenefits;

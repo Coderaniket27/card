@@ -142,7 +142,6 @@
 
 .Mission-Heading {
   color: #083d77;
-  font-family: Inter;
   font-size: 38px;
   font-weight: 600;
   line-height: 46px;
@@ -152,12 +151,11 @@
 }
 .Misiion-Detail {
   width: 94%;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 15px;
   line-height: 26px;
-  word-spacing: 10px;
   color: rgb(72, 71, 71);
   text-align: center;
+  font-weight: bold;
 letter-spacing: 2px;
 }
 
@@ -179,12 +177,11 @@ letter-spacing: 2px;
 }
 .Vission-Detail{
   width: 100%;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 15px;
   line-height: 26px;
-  word-spacing: 10px;
   color: rgb(72, 71, 71);
   text-align: center;
+  font-weight: bold;
 letter-spacing: 2px;
 margin-left: 5px;
 }
@@ -206,7 +203,65 @@ margin-left: 5px;
 margin-left: 50px;
   border-radius: 20px;
 }
-
+.Other-Benefitss{
+  background-color: #083D77;
+  width:100%;
+  height: 270px;
+  
+}
+.Other-Headers{
+  color: #ffffff;
+  width: 100%;
+  font-weight: bolder;
+  font-size: 32px;
+  padding-top: 15px;
+  text-align: center;
+}
+.Other-Card{
+ display: flex;
+ width:100%;
+ flex-wrap: wrap;
+  margin-top: 25px;
+ justify-content: center;
+ align-items: center;
+ justify-content: space-around
+}
+.Cardss{
+  width: 15%;
+  height: 156px;
+  background-color: #E2EBEF;
+  border-radius: 05px;
+}
+.Card-Headers{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Card-Icon{
+  width: 25%;
+}
+.Card-Icons{
+  width:50px;
+  height: 50px;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+.Card-Heading{
+text-align: center;
+width: 100%;
+font-weight: bold;
+font-size: 12px;
+padding-top: 6px;
+}
+.Card-Bried{
+  font-size: 12px;
+  width: 100%;
+  font-weight: 500;
+  text-align: left;
+  padding-left: 11px;
+  padding-top: 6px;
+}
 /* .hover:hover{
   color: red;
 } */
@@ -230,9 +285,9 @@ margin-left: 50px;
     color: #ffffff;
     width: 88%;
     font-family: Inter;
-    font-size: 9px;
+    font-size: 11px;
     font-weight: bolder;
-    line-height: 12px;
+    line-height: 14px;
     text-align: center;
     padding-bottom: 2%;
   }
@@ -291,24 +346,22 @@ margin-left: 50px;
   }
   .Misiion-Detail {
     width: 92%;
-    padding: 3%;
-    font-size: 19px;
-    font-weight: 600;
+    padding-left: 3%;
+    font-size: 11.2px;
+    font-weight: bold;
     line-height: 20px;
-    word-spacing: 12px;
     color: rgb(72, 71, 71);
-    text-align: center;
+    text-align: left;
   }
   
   .Vission-Detail{
     width: 92%;
-    padding: 2%;
-    font-size: 19px;
-    font-weight: 600;
+    padding-left: 14px;
+    font-size: 11.2px;
+    font-weight: bold;
     line-height: 20px;
-    word-spacing: 12px;
     color: rgb(72, 71, 71);
-    text-align: center;
+    text-align: left;
   }
   .Vission-Image{
     width: 100%;
@@ -328,7 +381,7 @@ margin-left: 50px;
     margin-top: 10px;
     background-color: #e2ebef;
     padding-top: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
   
   }
   .Vission-Brief{
@@ -346,6 +399,25 @@ margin-left: 50px;
     margin-top: 10px;
   
   }
+  .Cardss {
+    width: 32%;
+    height: 180px;
+    background-color: #E2EBEF;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.Other-Benefitss {
+  background-color: #083D77;
+  width: 100%;
+  height: 468px;
+}
+.Card-Heading {
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  font-size: 10px;
+  padding-top: 6px;
+}
 }
 
 @media only screen and (min-width: 490px) and (max-width: 940px) {
@@ -425,12 +497,11 @@ margin-left: 50px;
   .Misiion-Detail {
     width: 92%;
     padding: 2%;
-    font-size: 26px;
-    font-weight: 600;
+    font-size: 17px;
+    font-weight: bold;
     line-height: 26px;
-    word-spacing: 10px;
     color: rgb(72, 71, 71);
-    text-align: center;
+    text-align: left;
     margin-left: 16px;
 
 
@@ -440,12 +511,11 @@ margin-left: 50px;
   .Vission-Detail{
     width: 91%;
     padding: 2%;
-    font-size: 26px;
-    font-weight: 600;
+    font-size: 17px;
+    font-weight: bold;
     line-height: 26px;
-    word-spacing: 10px;
     color: rgb(72, 71, 71);
-    text-align: center;
+    text-align: left;
     margin-left: 18px;
   }
   .Vission-Image{
@@ -485,7 +555,18 @@ margin-left: 50px;
     margin-top: 10px;
   
   }
-
+  .Cardss {
+    width: 29%;
+    height: 150px;
+    background-color: #E2EBEF;
+    border-radius: 5px;
+    margin-bottom: 08px;
+}
+.Other-Benefitss {
+  background-color: #083D77;
+  width: 100%;
+  height: 440px;
+}
 }
 @media only screen and (min-width: 950px) and (max-width: 1300px) {
   .About-Header {

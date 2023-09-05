@@ -7,7 +7,7 @@ const Aboutus = () => {
         <div className="About-Write">
           <div className="About-Header">About Us</div>
           <div className="About-flex">
-            <div className="About-Paragraph">
+            <div className="About-Paragraph font-serif">
               Nirog-Sansar offers premium-quality, affordable healthcare
               services through an innovative, technologically advanced platform.
               They provide online and offline consultations, emergency services,

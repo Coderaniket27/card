@@ -12,7 +12,7 @@ const Mission = () => {
             </div>
             <div className="Mission-Brief">
               <div className="Mission-Heading">Mission</div>
-              <div className="Misiion-Detail">
+              <div className="Misiion-Detail font-sans">
                 Our mission is to revolutionize the healthcare sector by turning
                 it into a robust and wholesome movement. We strive to inspire
                 individuals to give precedence to dependable and superior
@@ -31,7 +31,7 @@ const Mission = () => {
               <div className="Vission-Heading">
  Vision
               </div>
-              <div className="Vission-Detail">
+              <div className="Vission-Detail font-sans">
               We envision a healthcare industry driven by a powerful 
 and healthy movement, not just a profit-making enterprise. 
 Our aim is to empower people to choose reliable and quality 
