@@ -14,7 +14,7 @@ const Otherbenefits = () => {
                 </div>
                 <div className="Card-Heading font-sans">Exercise Session</div>
               </div>
-              <div className="Card-Bried italic">
+              <div className="Card-Bried font-sans">
                 Nirog-Sansar helps organise exercise and online yoga activities
                 to create a culture of health and wellness.
               </div>
@@ -26,7 +26,7 @@ const Otherbenefits = () => {
                 </div>
                 <div className="Card-Heading font-sans">Vaccination Drive</div>
               </div>
-              <div className="Card-Bried italic">
+              <div className="Card-Bried font-sans">
                 Nirog Sansar offers vaccination services for various diseases
                 including flu, COVID, and typhoid.
               </div>
@@ -38,7 +38,7 @@ const Otherbenefits = () => {
                 </div>
                 <div className="Card-Heading font-sans">Dental Care</div>
               </div>
-              <div className="Card-Bried italic">
+              <div className="Card-Bried font-sans">
                 Our expanded network coverage offers low-cost dental services
                 for your employees and loved ones.
               </div>
@@ -50,7 +50,7 @@ const Otherbenefits = () => {
                 </div>
                 <div className="Card-Heading font-sans">Friend's Care</div>
               </div>
-              <div className="Card-Bried italic">
+              <div className="Card-Bried font-sans">
                 Our team is dedicated to providing you with personalized and
                 compassionate care at home, office,or anywhere.
               </div>
@@ -62,7 +62,7 @@ const Otherbenefits = () => {
                 </div>
                 <div className="Card-Heading font-sans">Meditation Care</div>
               </div>
-              <div className="Card-Bried italic">
+              <div className="Card-Bried font-sans">
                 Nirog Sansar can help you plan and execute various employee
                 engagement activities & brain games.
               </div>
