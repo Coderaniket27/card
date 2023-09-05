@@ -1,42 +1,41 @@
-.App{
-  
+.App {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.About-us{
+.Mission-Visions{
+  overflow: hidden;
+}
+.About-us {
   width: 100%;
   height: auto;
   align-items: center;
-justify-content: center;
-display: flex;
-position: relative;
-bottom:8%;
-
+  justify-content: center;
+  display: flex;
+  position: relative;
+  bottom: 8%;
 }
-.About-Full{
+.About-Full {
   width: 97%;
-  
 }
-.About-Write{
-background-color: #083D77;
-border-radius: 60px;
-
+.About-Write {
+  background-color: #083d77;
+  border-radius: 60px;
 }
-.About-Header{
- text-align: center;
+.About-Header {
+  text-align: center;
   font-family: Inter;
-font-size: 38px;
-font-weight: 600;
-line-height: 46px;
-padding-top: 3%;
-padding-bottom: 1%;
-letter-spacing: 0em;
-color:#FFFFFF;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 46px;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  letter-spacing: 0em;
+  color: #ffffff;
 }
-.About-Paragraph{
-  color:#FFFFFF;
-  width:82%;
+.About-Paragraph {
+  color: #ffffff;
+  width: 82%;
   font-family: Inter;
   font-size: 18px;
   font-weight: 500;
@@ -44,14 +43,13 @@ color:#FFFFFF;
   letter-spacing: 2px;
   text-align: center;
   padding-bottom: 2%;
- 
 }
-.About-flex{
-display: flex;
-align-items: center;
-justify-content: center;
+.About-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.Card{
+.Card {
   width: 350px;
   height: 200px;
   margin-top: 100px;
@@ -59,7 +57,7 @@ justify-content: center;
   border: 1px solid white;
   border-radius: 5px;
 }
-.Navitems{
+.Navitems {
   list-style: none;
   display: flex;
   margin-top: 30px;
@@ -68,420 +66,536 @@ justify-content: center;
   font-family: Inter;
 }
 
-.list-item{
+.list-item {
   position: fixed;
-  top:40px;
-  right:50px;
+  top: 40px;
+  right: 50px;
 }
-.list-item1{
+.list-item1 {
   position: fixed;
-  top:50px;
-  right:180px;
+  top: 50px;
+  right: 180px;
 }
-.hamburger-list{
+.hamburger-list {
   padding: 5px;
   border: 1px solid black;
-  color:rgb(186, 9, 9);
-  background-color: #7FFFD4;
+  color: rgb(186, 9, 9);
+  background-color: #7fffd4;
   font-weight: bolder;
 }
-.hamburger-list:hover{
+.hamburger-list:hover {
   background-color: aqua;
 }
-.NavFull{
+.NavFull {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   overflow: hidden;
 }
 .Navlogo {
-margin-left: 20px;
-color:#0018A8;
-margin-top:16px;
-margin-left:52px
+  margin-left: 20px;
+  color: #0018a8;
+  margin-top: 16px;
+  margin-left: 52px;
 }
 .NavBar {
-  background-color: #E2EBEF;
+  background-color: #e2ebef;
   position: fixed;
   z-index: 1000;
   top: 0;
   overflow: hidden;
-
 }
-.Navlist{
+.Navlist {
   margin-left: 500px;
 }
 
-.Hamburger{
+.Hamburger {
   display: none;
 }
-.hovers{
+.hovers {
   cursor: pointer;
   color: blue;
   text-align: center;
-  
-  
 }
-.hovers:hover{
+.hovers:hover {
   color: red;
-  border-bottom:2px solid #1975d7;
-
-
+  border-bottom: 2px solid #1975d7;
 }
-.Mission{
-
+.Mission {
   width: 100%;
 }
-.Mission-Brief{
+.Mission-Brief {
   width: 100%;
 }
-.Mission-Full{
+.Mission-Full {
   display: flex;
- flex-wrap: nowrap;
-  background-color: #E2EBEF;
+  flex-wrap: nowrap;
+  background-color: #e2ebef;
   padding: 2%;
 }
-.Image-Mission{
+.Image-Mission {
   width: 90%;
   height: 230px;
-  padding-right: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
 }
-/* .Mission-Image{
-  width:32%;
-  border-radius: 90px;
-} */
-.Mission-Heading{
-  color:#083D77;
+
+.Mission-Heading {
+  color: #083d77;
   font-family: Inter;
-font-size: 38px;
-font-weight: 600;
-line-height: 46px;
-letter-spacing: 0em;
-text-align: center;
-padding-bottom: 30px;
-
-}
-.Misiion-Detail{
-  width: 94%;
-  font-size: 18px;
-font-weight: 600;
-line-height: 26px;
-word-spacing: 10px;
-color:rgb(72, 71, 71)
-}
-
-
-
-/* .hover:hover{
-  color: red;
-} */
-
-@media only screen and (min-width: 280px) 
-    and (max-width: 480px){
-      .Navitems{
-  display: none;
-}
-.About-Header{
-  text-align: center;
-   font-family: Inter;
- font-size: 25px;
- font-weight: 600;
- line-height: 46px;
- padding-top: 3%;
- padding-bottom: 1px;
- letter-spacing: 0em;
- color:#FFFFFF;
- }
-.About-Paragraph {
-  color: #FFFFFF;
-  width: 88%;
-  font-family: Inter;
-  font-size: 9px;
-  font-weight: bolder;
-  line-height: 12px;
-  text-align: center;
-  padding-bottom: 2%;
-}
-.Navlogo {
-  margin-left: 20px;
-  color:#0018A8;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  }
-  .NavFull{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-    overflow: hidden;
-  }
-.Hamburger{
-  display: block;
-}
-.Navlist{
-  margin-top: -59px;
-  margin-right: 15px;
-  margin-left: 85%;
-}
-
-.About-Write{
-  background-color: #083D77;
-  border-radius: 60px;
-  
-  }
-
-  .Mission-Full{
-    display: block;
-    background-color: #E2EBEF;
-    padding: 2%;
-  }
-  .Image-Mission{
-    width: 100%;
-    height: 230px;
-    padding-right: 10px;
-  }
-  .Mission-Image{
-    border-radius: 90px;
-  }
-  .Mission-Heading{
-    color:#083D77;
-    font-family: Inter;
   font-size: 38px;
   font-weight: 600;
   line-height: 46px;
   letter-spacing: 0em;
   text-align: center;
-  padding-bottom: 5px;
-  
-  }
-  .Mission-Visions{
-    margin-top: -36px;
-  }
-  .Misiion-Detail{
-    width: 92%;
-    padding: 3%;
-    font-size: 19px;
+  padding-bottom: 30px;
+}
+.Misiion-Detail {
+  width: 94%;
+  font-size: 18px;
   font-weight: 600;
-  line-height: 18px;
-  word-spacing: 12px;
-  color:rgb(72, 71, 71)
-  }
-
+  line-height: 26px;
+  word-spacing: 10px;
+  color: rgb(72, 71, 71);
+  text-align: center;
+letter-spacing: 2px;
 }
 
-@media only screen and (min-width: 490px) 
-    and (max-width: 940px){
-
-      .About-Header{
-        text-align: center;
-         font-family: Inter;
-       font-size: 45px;
-       font-weight: 600;
-       line-height: 50px;
-       padding-top: 3%;
-       padding-bottom: 18px;
-       letter-spacing: 0em;
-       color:#FFFFFF;
-       }
-      .About-Paragraph {
-        color: #FFFFFF;
-        width: 88%;
-        font-family: Inter;
-        font-size: 21px;
-        font-weight: bolder;
-        line-height: 32px;
-        text-align: center;
-        padding-bottom: 2%;
-      }
-      .Navlist{
-        margin-top: 30px;
-        margin-right: 20px;
-      }
-      .Navitems{
-  display: none;
-}
-.About-Write{
-  background-color: #083D77;
-  border-radius: 60px;
-  
-  }
-.Navlogo {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  }
-.Hamburger{
-  display: block;
-  
-}
-.NavFull{
+.Vission-Full{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: row-reverse;
   width: 100%;
-  overflow: hidden;
-}
+  margin-top: 10px;
+  background-color: #e2ebef;
+  padding-top: 30px;
+  padding-bottom: 30px;
 
-.Mission-Full{
-  display: block;
-  background-color: #E2EBEF;
-  padding: 2%;
 }
-.Image-Mission{
+.Vission-Brief{
+  width: 65%;
+}
+.Vission-Image{
+  width: 34%;
+}
+.Vission-Detail{
   width: 100%;
-  height: 290px;
-  padding-right: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  word-spacing: 10px;
+  color: rgb(72, 71, 71);
+  text-align: center;
+letter-spacing: 2px;
+margin-left: 5px;
 }
-.Mission-Image{
-  border-radius: 90px;
-}
-.Mission-Heading{
-  color:#083D77;
+.Vission-Heading{
+  color: #083d77;
   font-family: Inter;
-font-size: 38px;
-font-weight: 600;
-line-height: 46px;
-letter-spacing: 0em;
-text-align: center;
-padding-bottom: 5px;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-bottom: 30px;
+  margin-top: 15px;
 
 }
-.Mission-Visions{
-  margin-top: -36px;
+.Image-Vission {
+  width: 80%;
+  height: 230px;
+margin-left: 50px;
+  border-radius: 20px;
 }
-.Misiion-Detail{
-  width: 92%;
-  padding: 2%;
-  font-size: 26px;
-font-weight: 600;
-line-height: 26px;
-word-spacing: 10px;
-color:rgb(72, 71, 71)
-}
-}
-@media only screen and (min-width: 950px) 
-    and (max-width: 1300px){
 
-      .About-Header{
-        text-align: center;
-         font-family: Inter;
-       font-size: 45px;
-       font-weight: 600;
-       line-height: 48px;
-       padding-top: 3%;
-       padding-bottom: 18px;
-       letter-spacing: 0em;
-       color:#FFFFFF;
-       }
-      .About-Paragraph {
-        color: #FFFFFF;
-        width: 88%;
-        font-family: Inter;
-        font-size: 18px;
-        font-weight: bolder;
-        line-height: 30px;
-        text-align: center;
-        padding-bottom: 2%;
-      }
-      .Navlist{
-        margin-top: 30px;
-        margin-right: 20px;
-      }
-      .Navitems{
-  display: none;
-}
-.Navlogo {
-  padding-top: 8px;
-  padding-bottom: 8px;
+/* .hover:hover{
+  color: red;
+} */
 
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+  .Navitems {
+    display: none;
   }
-  .NavFull{
+  .About-Header {
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 46px;
+    padding-top: 3%;
+    padding-bottom: 1px;
+    letter-spacing: 0em;
+    color: #ffffff;
+  }
+  .About-Paragraph {
+    color: #ffffff;
+    width: 88%;
+    font-family: Inter;
+    font-size: 9px;
+    font-weight: bolder;
+    line-height: 12px;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  .Navlogo {
+    margin-left: 20px;
+    color: #0018a8;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  .NavFull {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
     overflow: hidden;
   }
-  .About-Write{
-    background-color: #083D77;
+  .Hamburger {
+    display: block;
+  }
+  .Navlist {
+    margin-top: -59px;
+    margin-right: 15px;
+    margin-left: 85%;
+  }
+
+  .About-Write {
+    background-color: #083d77;
     border-radius: 60px;
-    
-    }
-    .Hamburger{
-      display: block;
-     
-    }
-.About{
-  display: block;
+  }
 
-  width: 100%;
-  overflow: hidden;
-  padding-top: 2%;
+  .Mission-Full {
+    display: block;
+    background-color: #e2ebef;
+    padding: 2%;
+  }
+  .Image-Mission {
+    width: 100%;
+    height: 230px;
+    padding-right: 10px;
+  }
+  .Mission-Image {
+    border-radius: 90px;
+  }
+  .Mission-Heading {
+    color: #083d77;
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  .Mission-Visions {
+    margin-top: -36px;
+  }
+  .Misiion-Detail {
+    width: 92%;
+    padding: 3%;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 20px;
+    word-spacing: 12px;
+    color: rgb(72, 71, 71);
+    text-align: center;
+  }
+  
+  .Vission-Detail{
+    width: 92%;
+    padding: 2%;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 20px;
+    word-spacing: 12px;
+    color: rgb(72, 71, 71);
+    text-align: center;
+  }
+  .Vission-Image{
+    width: 100%;
+  }
+  .Image-Vission {
+    width: 93.6%;
+    height: 230px;
+  margin-left: 12px;
+    border-radius: 20px;
+  }
+  
+
+  .Vission-Full{
+  
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    background-color: #e2ebef;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  
+  }
+  .Vission-Brief{
+    width: 100%;
+  }
+  .Vission-Heading{
+    color: #083d77;
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 02px;
+    text-align: center;
+    padding-bottom: 02px;
+    margin-top: 10px;
+  
+  }
 }
 
-.Mission-Full{
-  display: flex;
-  background-color: #E2EBEF;
-  padding: 2%;
-}
-.Image-Mission{
-  width: 100%;
-  height: 260px;
-  padding-right: 10px;
-}
-.Mission-Image{
-  border-radius: 90px;
-}
-.Mission-Heading{
-  color:#083D77;
-  font-family: Inter;
-font-size: 38px;
-font-weight: 600;
-line-height: 46px;
-letter-spacing: 0em;
-text-align: center;
-padding-bottom: 10px;
+@media only screen and (min-width: 490px) and (max-width: 940px) {
+  .About-Header {
+    text-align: center;
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 50px;
+    padding-top: 3%;
+    padding-bottom: 18px;
+    letter-spacing: 0em;
+    color: #ffffff;
+  }
+  .About-Paragraph {
+    color: #ffffff;
+    width: 88%;
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: bolder;
+    line-height: 32px;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  .Navlist {
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+  .Navitems {
+    display: none;
+  }
+  .About-Write {
+    background-color: #083d77;
+    border-radius: 60px;
+  }
+  .Navlogo {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .Hamburger {
+    display: block;
+  }
+  .NavFull {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .Mission-Full {
+    display: block;
+    background-color: #e2ebef;
+    padding: 2%;
+  }
+  .Image-Mission {
+    width: 100%;
+    height: 320px;
+    padding-right: 10px;
+  }
+  .Mission-Image {
+    border-radius: 90px;
+  }
+  .Mission-Heading {
+    color: #083d77;
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  .Mission-Visions {
+    margin-top: -36px;
+  }
+  .Misiion-Detail {
+    width: 92%;
+    padding: 2%;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 26px;
+    word-spacing: 10px;
+    color: rgb(72, 71, 71);
+    text-align: center;
+    margin-left: 16px;
+
+
+  }
+  
+  
+  .Vission-Detail{
+    width: 91%;
+    padding: 2%;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 26px;
+    word-spacing: 10px;
+    color: rgb(72, 71, 71);
+    text-align: center;
+    margin-left: 18px;
+  }
+  .Vission-Image{
+    width: 100%;
+  }
+  .Image-Vission {
+    width: 92.5%;
+    height: 320px;
+  margin-left: 30px;
+    border-radius: 20px;
+    padding-top: 20px;
+  }
+  
+
+  .Vission-Full{
+  
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    background-color: #e2ebef;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  
+  }
+  .Vission-Brief{
+    width: 100%;
+  }
+  .Vission-Heading{
+    color: #083d77;
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 02px;
+    text-align: center;
+    padding-bottom: 02px;
+    margin-top: 10px;
+  
+  }
 
 }
-.Mission-Visions{
-  margin-top: -36px;
+@media only screen and (min-width: 950px) and (max-width: 1300px) {
+  .About-Header {
+    text-align: center;
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 48px;
+    padding-top: 3%;
+    padding-bottom: 18px;
+    letter-spacing: 0em;
+    color: #ffffff;
+  }
+  .About-Paragraph {
+    color: #ffffff;
+    width: 88%;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 30px;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  .Navlist {
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+  .Navitems {
+    display: none;
+  }
+  .Navlogo {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .NavFull {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+  }
+  .About-Write {
+    background-color: #083d77;
+    border-radius: 60px;
+  }
+  .Hamburger {
+    display: block;
+  }
+  .About {
+    display: block;
+
+    width: 100%;
+    overflow: hidden;
+    padding-top: 2%;
+  }
+
+  .Mission-Full {
+    display: flex;
+    background-color: #e2ebef;
+    padding: 2%;
+  }
+  .Image-Mission {
+    width: 100%;
+    height: 260px;
+    padding-right: 10px;
+  }
+  .Mission-Image {
+    border-radius: 90px;
+  }
+  .Mission-Heading {
+    color: #083d77;
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .Mission-Visions {
+    margin-top: -36px;
+  }
+  .Misiion-Detail {
+    width: 92%;
+    font-size: 18px;
+    padding-left: 10px;
+    font-weight: 600;
+    line-height: 22px;
+    word-spacing: 10px;
+    color: rgb(72, 71, 71);
+    text-align: center;
+
+  }
 }
-.Misiion-Detail{
-  width: 92%;
-  font-size: 18px;
-  padding-left: 10px;
-font-weight: 600;
-line-height: 22px;
-word-spacing: 10px;
-color:rgb(72, 71, 71)
-}
 
-}
-
-
-
-
-
-
-@keyframes changeImage{
-  0%{
+@keyframes changeImage {
+  0% {
     background-image: url("../public/d2.jpg");
+  }
+  25% {
+    background-image: url("../public/blood.jpg");
+  }
+  50% {
+    background-image: url("../public/ambulances.jpg");
+  }
 
+  75% {
+    background-image: url("../public/hospital.jpg");
+  }
+  100% {
+    background-image: url("../public/d2.jpg");
+  }
 }
-25%{
-  background-image: url("../public/blood.jpg");
-
-}
-50%{
-  background-image: url("../public/ambulances.jpg");
-
-}
-
-75%{
-  background-image: url("../public/hospital.jpg");
-
-}
-100%{
-  background-image: url("../public/d2.jpg");
-
-}
-} 
