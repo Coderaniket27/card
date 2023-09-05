@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
 }
-.Mission-Visions{
+.Mission-Visions {
   overflow: hidden;
 }
 .About-us {
@@ -20,7 +20,7 @@
 }
 .About-Write {
   background-color: #083d77;
-  border-radius: 60px;
+  border-radius: 20px;
 }
 .About-Header {
   text-align: center;
@@ -156,10 +156,10 @@
   color: rgb(72, 71, 71);
   text-align: center;
   font-weight: bold;
-letter-spacing: 2px;
+  letter-spacing: 2px;
 }
 
-.Vission-Full{
+.Vission-Full {
   display: flex;
   flex-direction: row-reverse;
   width: 100%;
@@ -167,25 +167,24 @@ letter-spacing: 2px;
   background-color: #e2ebef;
   padding-top: 30px;
   padding-bottom: 30px;
-
 }
-.Vission-Brief{
+.Vission-Brief {
   width: 65%;
 }
-.Vission-Image{
+.Vission-Image {
   width: 34%;
 }
-.Vission-Detail{
+.Vission-Detail {
   width: 100%;
   font-size: 15px;
   line-height: 26px;
   color: rgb(72, 71, 71);
   text-align: center;
   font-weight: bold;
-letter-spacing: 2px;
-margin-left: 5px;
+  letter-spacing: 2px;
+  margin-left: 5px;
 }
-.Vission-Heading{
+.Vission-Heading {
   color: #083d77;
   font-family: Inter;
   font-size: 38px;
@@ -195,21 +194,20 @@ margin-left: 5px;
   text-align: center;
   padding-bottom: 30px;
   margin-top: 15px;
-
 }
 .Image-Vission {
   width: 80%;
   height: 230px;
-margin-left: 50px;
+  margin-left: 50px;
   border-radius: 20px;
 }
-.Other-Benefitss{
-  background-color: #083D77;
-  width:100%;
+.Other-Benefitss {
+  background-color: #083d77;
+  width: 100%;
   height: 270px;
-  
+  margin-top: 8px;
 }
-.Other-Headers{
+.Other-Headers {
   color: #ffffff;
   width: 100%;
   font-weight: bolder;
@@ -217,44 +215,44 @@ margin-left: 50px;
   padding-top: 15px;
   text-align: center;
 }
-.Other-Card{
- display: flex;
- width:100%;
- flex-wrap: wrap;
+.Other-Card {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
   margin-top: 25px;
- justify-content: center;
- align-items: center;
- justify-content: space-around
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
 }
-.Cardss{
+.Cardss {
   width: 15%;
   height: 156px;
-  background-color: #E2EBEF;
+  background-color: #e2ebef;
   border-radius: 05px;
 }
-.Card-Headers{
+.Card-Headers {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.Card-Icon{
+.Card-Icon {
   width: 25%;
 }
-.Card-Icons{
-  width:50px;
+.Card-Icons {
+  width: 50px;
   height: 50px;
   margin-top: 12px;
   margin-left: 10px;
 }
-.Card-Heading{
-text-align: center;
-width: 100%;
-font-weight: bold;
-font-size: 12px;
-padding-top: 6px;
+.Card-Heading {
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  font-size: 12px;
+  padding-top: 6px;
 }
-.Card-Bried{
+.Card-Bried {
   font-size: 12px;
   width: 100%;
   font-weight: 500;
@@ -285,8 +283,8 @@ padding-top: 6px;
     color: #ffffff;
     width: 88%;
     font-family: Inter;
-    font-size: 11px;
-    font-weight: bolder;
+    font-size: 7px;
+    font-weight: bold;
     line-height: 14px;
     text-align: center;
     padding-bottom: 2%;
@@ -315,7 +313,7 @@ padding-top: 6px;
 
   .About-Write {
     background-color: #083d77;
-    border-radius: 60px;
+    border-radius: 10px;
   }
 
   .Mission-Full {
@@ -353,8 +351,8 @@ padding-top: 6px;
     color: rgb(72, 71, 71);
     text-align: left;
   }
-  
-  .Vission-Detail{
+
+  .Vission-Detail {
     width: 92%;
     padding-left: 14px;
     font-size: 11.2px;
@@ -363,31 +361,28 @@ padding-top: 6px;
     color: rgb(72, 71, 71);
     text-align: left;
   }
-  .Vission-Image{
+  .Vission-Image {
     width: 100%;
   }
   .Image-Vission {
     width: 93.6%;
     height: 230px;
-  margin-left: 12px;
+    margin-left: 12px;
     border-radius: 20px;
   }
-  
 
-  .Vission-Full{
-  
+  .Vission-Full {
     width: 100%;
     display: block;
     margin-top: 10px;
     background-color: #e2ebef;
     padding-top: 10px;
     padding-bottom: 10px;
-  
   }
-  .Vission-Brief{
+  .Vission-Brief {
     width: 100%;
   }
-  .Vission-Heading{
+  .Vission-Heading {
     color: #083d77;
     font-family: Inter;
     font-size: 38px;
@@ -397,36 +392,35 @@ padding-top: 6px;
     text-align: center;
     padding-bottom: 02px;
     margin-top: 10px;
-  
   }
   .Cardss {
     width: 32%;
     height: 140px;
-    background-color: #E2EBEF;
+    background-color: #e2ebef;
     border-radius: 5px;
     margin-bottom: 10px;
-}
-.Card-Bried{
-  font-size: 07.7px;
-  width: 100%;
-  font-weight: 500;
-  text-align: left;
-  padding-left: 11px;
-  padding-top: 6px;
-}
-.Other-Benefitss {
-  background-color: #083D77;
-  width: 100%;
-  height: 420px;
-}
-.Card-Heading {
-  text-align: center;
-  width: 100%;
-  font-weight: bold;
-  font-size: 8px;
-  padding-top: 6px;
-  padding-left: 5px;
-}
+  }
+  .Card-Bried {
+    font-size: 07.7px;
+    width: 100%;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 11px;
+    padding-top: 6px;
+  }
+  .Other-Benefitss {
+    background-color: #083d77;
+    width: 100%;
+    height: 420px;
+  }
+  .Card-Heading {
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    font-size: 8px;
+    padding-top: 6px;
+    padding-left: 5px;
+  }
 }
 
 @media only screen and (min-width: 490px) and (max-width: 940px) {
@@ -446,7 +440,7 @@ padding-top: 6px;
     width: 88%;
     font-family: Inter;
     font-size: 21px;
-    font-weight: bolder;
+    font-weight: bold;
     line-height: 32px;
     text-align: center;
     padding-bottom: 2%;
@@ -460,7 +454,7 @@ padding-top: 6px;
   }
   .About-Write {
     background-color: #083d77;
-    border-radius: 60px;
+    border-radius: 10px;
   }
   .Navlogo {
     padding-top: 8px;
@@ -512,12 +506,9 @@ padding-top: 6px;
     color: rgb(72, 71, 71);
     text-align: left;
     margin-left: 16px;
-
-
   }
-  
-  
-  .Vission-Detail{
+
+  .Vission-Detail {
     width: 91%;
     padding: 2%;
     font-size: 17px;
@@ -527,32 +518,29 @@ padding-top: 6px;
     text-align: left;
     margin-left: 18px;
   }
-  .Vission-Image{
+  .Vission-Image {
     width: 100%;
   }
   .Image-Vission {
     width: 92.5%;
     height: 320px;
-  margin-left: 30px;
+    margin-left: 30px;
     border-radius: 20px;
     padding-top: 20px;
   }
-  
 
-  .Vission-Full{
-  
+  .Vission-Full {
     width: 100%;
     display: block;
     margin-top: 10px;
     background-color: #e2ebef;
     padding-top: 10px;
     padding-bottom: 30px;
-  
   }
-  .Vission-Brief{
+  .Vission-Brief {
     width: 100%;
   }
-  .Vission-Heading{
+  .Vission-Heading {
     color: #083d77;
     font-family: Inter;
     font-size: 38px;
@@ -562,20 +550,19 @@ padding-top: 6px;
     text-align: center;
     padding-bottom: 02px;
     margin-top: 10px;
-  
   }
   .Cardss {
     width: 29%;
     height: 150px;
-    background-color: #E2EBEF;
+    background-color: #e2ebef;
     border-radius: 5px;
     margin-bottom: 08px;
-}
-.Other-Benefitss {
-  background-color: #083D77;
-  width: 100%;
-  height: 440px;
-}
+  }
+  .Other-Benefitss {
+    background-color: #083d77;
+    width: 100%;
+    height: 440px;
+  }
 }
 @media only screen and (min-width: 950px) and (max-width: 1300px) {
   .About-Header {
@@ -619,7 +606,7 @@ padding-top: 6px;
   }
   .About-Write {
     background-color: #083d77;
-    border-radius: 60px;
+    border-radius: 20px;
   }
   .Hamburger {
     display: block;
@@ -667,7 +654,6 @@ padding-top: 6px;
     word-spacing: 10px;
     color: rgb(72, 71, 71);
     text-align: center;
-
   }
 }
 
