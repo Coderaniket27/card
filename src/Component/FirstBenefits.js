@@ -4,18 +4,16 @@ import '../Benefits.css';
 const FirstBenefits = () => {
   return (
     <>
-    <div className='First-Head'>
-<div className='First-Heading'>
-    <div className='Heading'>All your health needs under one roof</div>
-    <div className='Paragraph'>Knit together by state-of-the-art technology and 24/7 customer support</div>
+   <div className='Benefits-Head'>
+    <h1 className='font-serif Benefits-Header'>
+    All your health needs under one roof
 
-</div>
-<div className='First-Pic'>
-    <img  className="First-icon" src='roof.png' alt="roof"/>
-
-</div>
-
+    </h1>
+    <div className='Benefits-Headmain'>
+<img src="roof.png" alt=""/>
     </div>
+
+   </div>
     
     </>
   )

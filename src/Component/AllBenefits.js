@@ -74,7 +74,7 @@ const AllBenefits = () => {
 
 </div>
 
-<div id="lab"  className='First-Heads'>
+{/* <div id="lab"  className='First-Heads'>
 <div className='First-Pics'>
     <img  className="First-icons" src='lbs.png' alt="roof"/>
 
@@ -496,7 +496,7 @@ const AllBenefits = () => {
       </div>
     </form>
       </Modal>
-</div>
+</div> */}
 
     </div>
     </>

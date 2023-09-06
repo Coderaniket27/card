@@ -39,11 +39,12 @@
 
 .First-Heads{
     width: 100%;
+    height: 625px;
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
     --tw-bg-opacity: 1;
-    background-color: #f9fafb;
+    background-color:#E2EBEF;
 }
 
 .First-Headings{
@@ -52,22 +53,21 @@
 }
 .Headings{
     font-size: 50px;
-    -tw-text-opacity: 1;
     color: #0d1a35;
     font-family: 'PT Serif';
     font-weight: 800;
-    padding-left: 15%;
+    padding-left: 5%;
 }
 .Paragraphs{
     font-size: 50px;
-    -tw-text-opacity: 1;
+    
     color: #7c8cab;
 
     font-family: 'PT Serif';
     font-size: 18px;
+    font-weight: bold;
     line-height: 1.5rem;
-    padding-left: 15%;
-    padding-right: 8%;
+    padding-left: 5%;
     margin-top: 20px;
 }
 .First-Pics{
@@ -80,26 +80,30 @@
     padding-left: 21%;
 }
 .First-icons{
-    height: 600px;
+    height: 700px;
     width: 100%;
-    padding-top: 50px;
+    padding-top: 100px;
     
 
 }
 .icons{
     height:65px;
-    width:50px
+    width:100px
+}
+.iconed{
+    height:65px;
+    width:70px
 }
 .points{
     display: flex;
     margin-top: 5%;
-    padding-left: 14%;
+    padding-left: 5%;
     position: relative;
 }
 .Points-Brief{
-    padding-right: 20%;
+   
     
-    padding-left: 4%;
+    padding-left: 2%;
 }
 .Points-Head{
     font-size: 20px;
@@ -247,8 +251,9 @@
 
         .First-Head{
             width: 100%;
-            overflow: hidden;
+            
             display: block;
+          
         }
         .First-Pic{
             padding-left: 0%;
@@ -297,7 +302,9 @@
 
 .First-Heads{
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
+    height: 750px;
+
     display: block;
     --tw-bg-opacity: 1;
     background-color: #f9fafb;
@@ -308,24 +315,23 @@
     width: 100%;
 }
 .Headings{
-    font-size: 50px;
+    font-size: 30px;
     -tw-text-opacity: 1;
     color: #0d1a35;
     font-family: 'PT Serif';
     font-weight: 800;
-    padding-left: 15%;
+    text-align: center;
 }
-.Paragraphs{
-    font-size: 50px;
+.Paragraphs {
+   
     -tw-text-opacity: 1;
     color: #7c8cab;
-
     font-family: 'PT Serif';
-    font-size: 18px;
-    line-height: 1.5rem;
-    padding-left: 15%;
-    padding-right: 8%;
-    margin-top: 20px;
+    font-size: 11px;
+    line-height: 18px;
+    padding-left: 5%;
+    padding-right: 15px;
+    margin-top: 1px;
 }
 .First-Pics{
     width: 100%;
@@ -340,12 +346,16 @@
 }
 .icons{
     height:65px;
-    width:50px
+    width:100px
+}
+.iconed{
+    height:65px;
+    width:70px
 }
 .points{
     display: flex;
     margin-top: 5%;
-    padding-left: 14%;
+    padding-left: 3%;
 }
 .Product-Brief{
     font-size: 15px;
@@ -360,12 +370,16 @@
     font-size: 20px;
     font-weight: 800;
     color:black;
+    padding-left: 10px;
 }
 .Points-point{
     -tw-text-opacity: 1;
     color: #7c8cab;
     line-height: 1.5rem;
-    margin-top: 10px;
+    margin-top: 5px;
+    font-size: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 .Products-Head{
     position: absolute;
@@ -468,8 +482,9 @@
       
 .First-Heads{
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     display: block;
+    height: 830px;
     --tw-bg-opacity: 1;
     background-color: #f9fafb;
 }
@@ -484,7 +499,7 @@
     color: #0d1a35;
     font-family: 'PT Serif';
     font-weight: 800;
-    padding-left: 15%;
+    text-align: center;
 }
 .Paragraphs{
     font-size: 50px;
@@ -494,8 +509,8 @@
     font-family: 'PT Serif';
     font-size: 18px;
     line-height: 1.5rem;
-    padding-left: 15%;
-    padding-right: 8%;
+    padding-left: 5%;
+    padding-right: 2%;
     margin-top: 20px;
 }
 .First-Pics{
@@ -503,19 +518,24 @@
     
 }
 .First-icons{
-    height: 250px;
+    height: 320px;
     width: 100%;
     padding-top: 02px;
 
 }
 .icons{
     height:65px;
-    width:50px
+    width:90px
+}
+.iconed{
+    height:65px;
+    width:70px
 }
 .points{
     display: flex;
     margin-top: 5%;
-    padding-left: 14%;
+    padding-left: 5%;
+    padding-right: 3%;
 }
 .Product-Brief{
     font-size: 15px;
@@ -643,6 +663,15 @@
             padding-left: 0px;
         
      
+}
+.First-Heads {
+    width: 100%;
+    height: 670px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    --tw-bg-opacity: 1;
+    background-color: #E2EBEF;
 }
 .Products-Head{
     position: absolute;
