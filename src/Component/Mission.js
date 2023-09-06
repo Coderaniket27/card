@@ -7,7 +7,7 @@ const Mission = () => {
       <div className="Mission-Visions">
         <div className="Mission">
           <div className="Mission-Full">
-            <div className="Mission-Images">
+            <div className="Mission-Image">
               <img className="Image-Mission" src="Mission.png" alt="" />
             </div>
             <div className="Mission-Brief">
