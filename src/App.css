@@ -65,6 +65,14 @@
   font-size: 19px;
   font-family: Inter;
 }
+.Navbenefits{
+  list-style: none;
+  display: flex;
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 17px;
+  color:black;
+}
 
 .list-item {
   position: fixed;
@@ -93,10 +101,10 @@
   overflow: hidden;
 }
 .Navlogo {
-  margin-left: 20px;
+  margin-left: 20px !important;
   color: #0018a8;
   margin-top: 16px;
-  margin-left: 52px;
+  margin-bottom: 06px;
 }
 .NavBar {
   background-color: #e2ebef;
@@ -108,17 +116,18 @@
 .Navlist {
   margin-left: 500px;
 }
-
+.Navlisted {
+  margin-left: 40px;
+}
 .Hamburger {
   display: none;
 }
 .hovers {
   cursor: pointer;
-  color: blue;
+  color: black;
   text-align: center;
 }
 .hovers:hover {
-  color: red;
   border-bottom: 2px solid #1975d7;
 }
 .Mission {
@@ -272,6 +281,9 @@
   .Navitems {
     display: none;
   }
+  .Navbenefits{
+display: none;
+  }
   .About-Header {
     text-align: center;
     font-family: Inter;
@@ -310,6 +322,11 @@
     display: block;
   }
   .Navlist {
+    margin-top: -59px;
+    margin-right: 15px;
+    margin-left: 85%;
+  }
+  .Navlisted{
     margin-top: -59px;
     margin-right: 15px;
     margin-left: 85%;
@@ -457,7 +474,14 @@
     margin-top: 30px;
     margin-right: 20px;
   }
+  .Navlisted{
+    margin-top: 30px;
+    margin-right: 20px;
+  }
   .Navitems {
+    display: none;
+  }
+  .Navbenefits{
     display: none;
   }
   .About-Write {
@@ -598,7 +622,14 @@
     margin-top: 30px;
     margin-right: 20px;
   }
+.Navlisted{
+  margin-top: 30px;
+  margin-right: 20px;
+}
   .Navitems {
+    display: none;
+  }
+  .Navbenefits{
     display: none;
   }
   .Navlogo {

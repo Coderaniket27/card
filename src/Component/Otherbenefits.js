@@ -3,7 +3,7 @@ import React from "react";
 const Otherbenefits = () => {
   return (
     <>
-      <div className="Other-Benefitss">
+      <div className="Other-Benefitss" id="other">
         <div className="Other-Mains">
           <div className="Other-Headers font-sans">Our Services</div>
           <div className="Other-Card">
