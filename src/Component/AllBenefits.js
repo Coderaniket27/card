@@ -28,7 +28,7 @@ const AllBenefits = () => {
   }
 
   return (
-    <>
+    <div>
     
     <div id="hospital" className='First-Heads'>
 <div  className='First-Headings'>
@@ -499,7 +499,141 @@ const AllBenefits = () => {
 </div> */}
 
     </div>
-    </>
+    <div id="lab" className='Left-Heads'>
+<div  className='First-Headings'>
+    <div style={{color:"black"}} className='Headings'>Lab Test</div>
+    <div style={{color:"white"}} className='Paragraphs'>In Bihar, you can schedule emergency hospital stays and operations from anywhere. Hospitals are readily available, and <b>Nirog Sansar</b> staff will assist you in booking a suitable slot.  </div>
+<div className='points'>
+    <div className='points-icon'>
+
+        <img  className="icons"src="MAP.png" alt="icon"/>
+    </div>
+    <div className='Points-Brief'>
+        <div style={{color:"black"}} className='Points-Head'>Bihar</div>
+    <div  style={{color:"white"}} className='Points-point'>   Our partnership guarantees consistent hospitalization experiences for your employees and loved ones across Bihar, providing accessible and reliable healthcare services.   </div>
+</div>
+
+</div>
+<div className='points'>
+    <div className='points-icon'>
+
+        <img  className="icons"src="CERTIFICAT.png" alt="icon"/>
+    </div>
+    <div className='Points-Brief'>
+        <div style={{color:"black"}} className='Points-Head'>Certified Connection</div>
+    <div style={{color:"white"}} className='Points-point'>    We work solely with NABH-certified partners, closely monitoring them to maintain exceptional service levels and offering our customers the highest quality of care.
+    </div>
+</div>
+
+</div>
+<div className='points'>
+    <div className='points-icon'>
+
+        <img  className="icons"src="PP.png" alt="icon"/>
+    </div>
+    <div className='Points-Brief'>
+        <div style={{color:"black"}} className='Points-Head'>Discount & Cashback</div>
+    <div style={{color:"white"}} className='Points-point'>   We provide up to 40% discounts on IPD, assistance during and after hospitalization, and affordable and secure treatments, valuing every life.    </div>
+</div>
+
+</div>
+</div>
+<div className='First-Pics'>
+    <img  className="Lab-icons" src='medicallab.png' alt="roof"/>
+
+</div>
+</div>
+<div id="radiology" className='First-Heads'>
+<div  className='First-Headings'>
+    <div className='Headings'>Radiology</div>
+    <div className='Paragraphs'>In Bihar, you can schedule emergency hospital stays and operations from anywhere. Hospitals are readily available, and <b>Nirog Sansar</b> staff will assist you in booking a suitable slot.  </div>
+<div className='points'>
+    <div className='points-icon'>
+
+        <img  className="icons"src="MAP.png" alt="icon"/>
+    </div>
+    <div className='Points-Brief'>
+        <div className='Points-Head'>Bihar</div>
+    <div className='Points-point'>   Our partnership guarantees consistent hospitalization experiences for your employees and loved ones across Bihar, providing accessible and reliable healthcare services.   </div>
+</div>
+
+</div>
+<div className='points'>
+    <div className='points-icon'>
+
+        <img  className="icons"src="CERTIFICAT.png" alt="icon"/>
+    </div>
+    <div className='Points-Brief'>
+        <div className='Points-Head'>Certified Connection</div>
+    <div className='Points-point'>    We work solely with NABH-certified partners, closely monitoring them to maintain exceptional service levels and offering our customers the highest quality of care.
+    </div>
+</div>
+
+</div>
+<div className='points'>
+    <div className='points-icon'>
+
+        <img  className="icons"src="PP.png" alt="icon"/>
+    </div>
+    <div className='Points-Brief'>
+        <div className='Points-Head'>Discount & Cashback</div>
+    <div className='Points-point'>   We provide up to 40% discounts on IPD, assistance during and after hospitalization, and affordable and secure treatments, valuing every life.    </div>
+</div>
+
+</div>
+</div>
+<div className='First-Pics'>
+    <img  className="First-icons" src='radiate.png' alt="roof"/>
+
+</div>
+</div>
+<div id="ambulance" className='Left-Heads'>
+<div  className='First-Headings'>
+    <div style={{color:"black"}} className='Headings'>Ambulance</div>
+    <div style={{color:"white"}} className='Paragraphs'>In Bihar, you can schedule emergency hospital stays and operations from anywhere. Hospitals are readily available, and <b>Nirog Sansar</b> staff will assist you in booking a suitable slot.  </div>
+<div className='points'>
+    <div className='points-icon'>
+
+        <img  className="icons"src="MAP.png" alt="icon"/>
+    </div>
+    <div className='Points-Brief'>
+        <div style={{color:"black"}} className='Points-Head'>Bihar</div>
+    <div  style={{color:"white"}} className='Points-point'>   Our partnership guarantees consistent hospitalization experiences for your employees and loved ones across Bihar, providing accessible and reliable healthcare services.   </div>
+</div>
+
+</div>
+<div className='points'>
+    <div className='points-icon'>
+
+        <img  className="icons"src="CERTIFICAT.png" alt="icon"/>
+    </div>
+    <div className='Points-Brief'>
+        <div style={{color:"black"}} className='Points-Head'>Certified Connection</div>
+    <div style={{color:"white"}} className='Points-point'>    We work solely with NABH-certified partners, closely monitoring them to maintain exceptional service levels and offering our customers the highest quality of care.
+    </div>
+</div>
+
+</div>
+<div className='points'>
+    <div className='points-icon'>
+
+        <img  className="icons"src="PP.png" alt="icon"/>
+    </div>
+    <div className='Points-Brief'>
+        <div style={{color:"black"}} className='Points-Head'>Discount & Cashback</div>
+    <div style={{color:"white"}} className='Points-point'>   We provide up to 40% discounts on IPD, assistance during and after hospitalization, and affordable and secure treatments, valuing every life.    </div>
+</div>
+
+</div>
+</div>
+<div className='First-Pics'>
+    <img  className="Lab-icons" src='ambula.png' alt="roof"/>
+
+</div>
+</div>
+    </div>
+
+
   )
 }
 
