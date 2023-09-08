@@ -583,7 +583,7 @@ const AllBenefits = () => {
 </div>
 </div>
 <div className='First-Pics'>
-    <img  className="First-icons" src='radiate.png' alt="roof"/>
+    <img  className="First-icons" src='radios.png' alt="roof"/>
 
 </div>
 </div>
@@ -627,7 +627,7 @@ const AllBenefits = () => {
 </div>
 </div>
 <div className='First-Pics'>
-    <img  className="Lab-icons" src='ambula.png' alt="roof"/>
+    <img  className="Lab-icons" src='AMS.png' alt="roof"/>
 
 </div>
 </div>
