@@ -70,7 +70,7 @@ const AllBenefits = () => {
 </div>
 </div>
 <div className='First-Pics'>
-    <img  className="First-icons" src='hosps.png' alt="roof"/>
+    <img  className="First-icons" src='hospitaled.png' alt="roof"/>
 
 </div>
 
