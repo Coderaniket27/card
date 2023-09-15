@@ -1,80 +1,90 @@
-import React from 'react'
-import ReactWhatsapp from 'react-whatsapp';
-import 'react-responsive-modal/styles.css';
-import { Modal } from 'react-responsive-modal';
-import { useState } from 'react';
+import React from "react";
+import ReactWhatsapp from "react-whatsapp";
+import "react-responsive-modal/styles.css";
+import { Modal } from "react-responsive-modal";
+import { useState } from "react";
 const AllBenefits = () => {
-    const [open, setOpen] = useState(false);
-    const [inputs, setInputs] = useState({
-        username:"",
-        number:"",
-        email:""
-    });
-    const [Service, setService] = useState("Hospitalization");
+  const [open, setOpen] = useState(false);
+  const [inputs, setInputs] = useState({
+    username: "",
+    number: "",
+    email: "",
+  });
+  const [Service, setService] = useState("Hospitalization");
 
   const onOpenModal = () => setOpen(true);
   const onCloseModal = () => setOpen(false);
   const handleChange = (e) => {
-    setInputs({...inputs, [e.target.name]:e.target.value})
-  }
+    setInputs({ ...inputs, [e.target.name]: e.target.value });
+  };
   const handleChanges = (event) => {
-    setService(event.target.value)
-  }
+    setService(event.target.value);
+  };
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(inputs);
     console.log(Service);
-
-  }
+  };
 
   return (
     <div>
-    
-    <div id="hospital" className='First-Heads'>
-<div  className='First-Headings'>
-    <div className='Headings'>Hospital</div>
-    <div className='Paragraphs'>In Bihar, you can schedule emergency hospital stays and operations from anywhere. Hospitals are readily available, and <b>Nirog Sansar</b> staff will assist you in booking a suitable slot.  </div>
-<div className='points'>
-    <div className='points-icon'>
+      <div id="hospital" className="First-Heads">
+        <div className="First-Headings">
+          <div className="Headings">Hospital</div>
+          <div className="Paragraphs">
+            In Bihar, you can schedule emergency hospital stays and operations
+            from anywhere. Hospitals are readily available, and{" "}
+            <b>Nirog Sansar</b> staff will assist you in booking a suitable
+            slot.  
+          </div>
+          <div className="points">
+            <div className="points-icon">
+              <img className="icons" src="MAP.png" alt="icon" />
+            </div>
+            <div className="Points-Brief">
+              <div className="Points-Head">Bihar</div>
+              <div className="Points-point">
+                {" "}
+                Our partnership guarantees consistent hospitalization
+                experiences for your employees and loved ones across Bihar,
+                providing accessible and reliable healthcare services.{" "}
+              </div>
+            </div>
+          </div>
+          <div className="points">
+            <div className="points-icon">
+              <img className="icons" src="CERTIFICAT.png" alt="icon" />
+            </div>
+            <div className="Points-Brief">
+              <div className="Points-Head">Certified Connection</div>
+              <div className="Points-point">
+                {" "}
+                Our partnership guarantees consistent hospitalization
+                experiences for your employees and loved ones across Bihar,
+                providing accessible and reliable healthcare services.{" "}
+              </div>
+            </div>
+          </div>
+          <div className="points">
+            <div className="points-icon">
+              <img className="icons" src="hot.png" alt="icon" />
+            </div>
+            <div className="Points-Brief">
+              <div className="Points-Head">Discount & Cashback</div>
+              <div className="Points-point">
+                {" "}
+                Our partnership guarantees consistent hospitalization
+                experiences for your employees and loved ones across Bihar,
+                providing accessible and reliable healthcare services.{" "}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="First-Pics">
+          <img className="First-icons" src="hospitaled.png" alt="roof" />
+        </div>
 
-        <img  className="icons"src="MAP.png" alt="icon"/>
-    </div>
-    <div className='Points-Brief'>
-        <div className='Points-Head'>Bihar</div>
-    <div className='Points-point'>   Our partnership guarantees consistent hospitalization experiences for your employees and loved ones across Bihar, providing accessible and reliable healthcare services.   </div>
-</div>
-
-</div>
-<div className='points'>
-    <div className='points-icon'>
-
-        <img  className="icons"src="CERTIFICAT.png" alt="icon"/>
-    </div>
-    <div className='Points-Brief'>
-        <div className='Points-Head'>Certified Connection</div>
-    <div className='Points-point'>    We work solely with NABH-certified partners, closely monitoring them to maintain exceptional service levels and offering our customers the highest quality of care.
-    </div>
-</div>
-
-</div>
-<div className='points'>
-    <div className='points-icon'>
-
-        <img  className="icons"src="PP.png" alt="icon"/>
-    </div>
-    <div className='Points-Brief'>
-        <div className='Points-Head'>Discount & Cashback</div>
-    <div className='Points-point'>   We provide up to 40% discounts on IPD, assistance during and after hospitalization, and affordable and secure treatments, valuing every life.    </div>
-</div>
-
-</div>
-</div>
-<div className='First-Pics'>
-    <img  className="First-icons" src='hospitaled.png' alt="roof"/>
-
-</div>
-
-{/* <div id="lab"  className='First-Heads'>
+        {/* <div id="lab"  className='First-Heads'>
 <div className='First-Pics'>
     <img  className="First-icons" src='lbs.png' alt="roof"/>
 
@@ -497,144 +507,465 @@ const AllBenefits = () => {
     </form>
       </Modal>
 </div> */}
-
+      </div>
+      <div id="lab" className="Left-Heads">
+        <div className="First-Headings">
+          <div style={{ color: "black" }} className="Headings">
+            Lab Test
+          </div>
+          <div style={{ color: "white" }} className="Paragraphs">
+            In Bihar, you can schedule emergency hospital stays and operations
+            from anywhere. Hospitals are readily available, and{" "}
+            <b>Nirog Sansar</b> staff will assist you in booking a suitable
+            slot.  
+          </div>
+          <div className="points">
+            <div className="points-icon">
+              <img className="icons" src="MAP.png" alt="icon" />
+            </div>
+            <div className="Points-Brief">
+              <div className="Points-Head">Bihar</div>
+              <div style={{color:"white"}}className="Points-point">
+                {" "}
+                Our partnership guarantees consistent hospitalization
+                experiences for your employees and loved ones across Bihar,
+                providing accessible and reliable healthcare services.{" "}
+              </div>
+            </div>
+          </div>
+          <div className="points">
+            <div className="points-icon">
+              <img className="icons" src="CERTIFICAT.png" alt="icon" />
+            </div>
+            <div className="Points-Brief">
+              <div className="Points-Head">Certified Connection</div>
+              <div style={{color:"white"}}className="Points-point">
+                {" "}
+                Our partnership guarantees consistent hospitalization
+                experiences for your employees and loved ones across Bihar,
+                providing accessible and reliable healthcare services.{" "}
+              </div>
+            </div>
+          </div>
+          <div className="points">
+            <div className="points-icon">
+              <img className="icons" src="hot.png" alt="icon" />
+            </div>
+            <div className="Points-Brief">
+              <div className="Points-Head">Discount & Cashback</div>
+              <div style={{color:"white"}} className="Points-point">
+                {" "}
+                Our partnership guarantees consistent hospitalization
+                experiences for your employees and loved ones across Bihar,
+                providing accessible and reliable healthcare services.{" "}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="First-Pics">
+          <img className="Lab-icons" src="medicallab.png" alt="roof" />
+        </div>
+      </div>
+      <div id="radiology" className="First-Heads">
+        <div className="First-Headings">
+          <div className="Headings">Radiology</div>
+          <div className="Paragraphs">
+            In Bihar, you can schedule emergency hospital stays and operations
+            from anywhere. Hospitals are readily available, and{" "}
+            <b>Nirog Sansar</b> staff will assist you in booking a suitable
+            slot.  
+          </div>
+          <div className="points">
+            <div className="points-icon">
+              <img className="icons" src="MAP.png" alt="icon" />
+            </div>
+            <div className="Points-Brief">
+              <div className="Points-Head">Bihar</div>
+              <div className="Points-point">
+                {" "}
+                Our partnership guarantees consistent hospitalization
+                experiences for your employees and loved ones across Bihar,
+                providing accessible and reliable healthcare services.{" "}
+              </div>
+            </div>
+          </div>
+          <div className="points">
+            <div className="points-icon">
+              <img className="icons" src="CERTIFICAT.png" alt="icon" />
+            </div>
+            <div className="Points-Brief">
+              <div className="Points-Head">Certified Connection</div>
+              <div className="Points-point">
+                {" "}
+                Our partnership guarantees consistent hospitalization
+                experiences for your employees and loved ones across Bihar,
+                providing accessible and reliable healthcare services.{" "}
+              </div>
+            </div>
+          </div>
+          <div className="points">
+            <div className="points-icon">
+              <img className="icons" src="hot.png" alt="icon" />
+            </div>
+            <div className="Points-Brief">
+              <div className="Points-Head">Discount & Cashback</div>
+              <div className="Points-point">
+                {" "}
+                Our partnership guarantees consistent hospitalization
+                experiences for your employees and loved ones across Bihar,
+                providing accessible and reliable healthcare services.{" "}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="First-Pics">
+          <img className="First-icons" src="radios.png" alt="roof" />
+        </div>
+      </div>
+      <div id="ambulance" className="Left-Heads">
+        <div className="First-Headings">
+          <div style={{ color: "black" }} className="Headings">
+            Ambulance
+          </div>
+          <div style={{ color: "white" }} className="Paragraphs">
+            In Bihar, you can schedule emergency hospital stays and operations
+            from anywhere. Hospitals are readily available, and{" "}
+            <b>Nirog Sansar</b> staff will assist you in booking a suitable
+            slot.  
+          </div>
+          <div className="points">
+            <div className="points-icon">
+              <img className="icons" src="MAP.png" alt="icon" />
+            </div>
+            <div className="Points-Brief">
+              <div className="Points-Head">Bihar</div>
+              <div style={{color:"white"}}className="Points-point">
+                {" "}
+                Our partnership guarantees consistent hospitalization
+                experiences for your employees and loved ones across Bihar,
+                providing accessible and reliable healthcare services.{" "}
+              </div>
+            </div>
+          </div>
+          <div className="points">
+            <div className="points-icon">
+              <img className="icons" src="CERTIFICAT.png" alt="icon" />
+            </div>
+            <div className="Points-Brief">
+              <div className="Points-Head">Certified Connection</div>
+              <div style={{color:"white"}}className="Points-point">
+                {" "}
+                Our partnership guarantees consistent hospitalization
+                experiences for your employees and loved ones across Bihar,
+                providing accessible and reliable healthcare services.{" "}
+              </div>
+            </div>
+          </div>
+          <div className="points">
+            <div className="points-icon">
+              <img className="icons" src="hot.png" alt="icon" />
+            </div>
+            <div className="Points-Brief">
+              <div className="Points-Head">Discount & Cashback</div>
+              <div style={{color:"white"}} className="Points-point">
+                {" "}
+                Our partnership guarantees consistent hospitalization
+                experiences for your employees and loved ones across Bihar,
+                providing accessible and reliable healthcare services.{" "}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="First-Pics">
+          <img className="Lab-icons" src="AMS.png" alt="roof" />
+        </div>
+      </div>
+      <div id="bloodbank" className="First-Heads">
+        <div className="First-Headings">
+          <div className="Headings">Blood Bank</div>
+          <div className="Paragraphs">
+            In Bihar, you can schedule emergency hospital stays and operations
+            from anywhere. Hospitals are readily available, and{" "}
+            <b>Nirog Sansar</b> staff will assist you in booking a suitable
+            slot.  
+          </div>
+          <div className="points">
+            <div className="points-icon">
+              <img className="icons" src="MAP.png" alt="icon" />
+            </div>
+            <div className="Points-Brief">
+              <div className="Points-Head">Bihar</div>
+              <div className="Points-point">
+                {" "}
+                Our partnership guarantees consistent hospitalization
+                experiences for your employees and loved ones across Bihar,
+                providing accessible and reliable healthcare services.{" "}
+              </div>
+            </div>
+          </div>
+          <div className="points">
+            <div className="points-icon">
+              <img className="icons" src="CERTIFICAT.png" alt="icon" />
+            </div>
+            <div className="Points-Brief">
+              <div className="Points-Head">Certified Connection</div>
+              <div className="Points-point">
+                {" "}
+                Our partnership guarantees consistent hospitalization
+                experiences for your employees and loved ones across Bihar,
+                providing accessible and reliable healthcare services.{" "}
+              </div>
+            </div>
+          </div>
+          <div className="points">
+            <div className="points-icon">
+              <img className="icons" src="hot.png" alt="icon" />
+            </div>
+            <div className="Points-Brief">
+              <div className="Points-Head">Discount & Cashback</div>
+              <div className="Points-point">
+                {" "}
+                Our partnership guarantees consistent hospitalization
+                experiences for your employees and loved ones across Bihar,
+                providing accessible and reliable healthcare services.{" "}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="First-Pics">
+          <img className="First-icons" src="bloodbank.png" alt="roof" />
+        </div>
+      </div>
+      <div id="doctor" className="Left-Heads">
+        <div className="First-Headings">
+          <div style={{ color: "black" }} className="Headings">
+            Doctor Consultation
+          </div>
+          <div style={{ color: "white" }} className="Paragraphs">
+            In Bihar, you can schedule emergency hospital stays and operations
+            from anywhere. Hospitals are readily available, and{" "}
+            <b>Nirog Sansar</b> staff will assist you in booking a suitable
+            slot.  
+          </div>
+          <div className="points">
+            <div className="points-icon">
+              <img className="icons" src="MAP.png" alt="icon" />
+            </div>
+            <div className="Points-Brief">
+              <div className="Points-Head">Bihar</div>
+              <div style={{color:"white"}}className="Points-point">
+                {" "}
+                Our partnership guarantees consistent hospitalization
+                experiences for your employees and loved ones across Bihar,
+                providing accessible and reliable healthcare services.{" "}
+              </div>
+            </div>
+          </div>
+          <div className="points">
+            <div className="points-icon">
+              <img className="icons" src="CERTIFICAT.png" alt="icon" />
+            </div>
+            <div className="Points-Brief">
+              <div className="Points-Head">Certified Connection</div>
+              <div style={{color:"white"}}className="Points-point">
+                {" "}
+                Our partnership guarantees consistent hospitalization
+                experiences for your employees and loved ones across Bihar,
+                providing accessible and reliable healthcare services.{" "}
+              </div>
+            </div>
+          </div>
+          <div className="points">
+            <div className="points-icon">
+              <img className="icons" src="hot.png" alt="icon" />
+            </div>
+            <div className="Points-Brief">
+              <div className="Points-Head">Discount & Cashback</div>
+              <div style={{color:"white"}} className="Points-point">
+                {" "}
+                Our partnership guarantees consistent hospitalization
+                experiences for your employees and loved ones across Bihar,
+                providing accessible and reliable healthcare services.{" "}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="First-Pics">
+          <img className="Lab-icons" src="onlinedr.png" alt="roof" />
+        </div>
+      </div>
+      <div id="homecare" className="First-Heads">
+        <div className="First-Headings">
+          <div className="Headings">Home Care</div>
+          <div className="Paragraphs">
+            In Bihar, you can schedule emergency hospital stays and operations
+            from anywhere. Hospitals are readily available, and{" "}
+            <b>Nirog Sansar</b> staff will assist you in booking a suitable
+            slot.  
+          </div>
+          <div className="points">
+            <div className="points-icon">
+              <img className="icons" src="MAP.png" alt="icon" />
+            </div>
+            <div className="Points-Brief">
+              <div className="Points-Head">Bihar</div>
+              <div className="Points-point">
+                {" "}
+                Our partnership guarantees consistent hospitalization
+                experiences for your employees and loved ones across Bihar,
+                providing accessible and reliable healthcare services.{" "}
+              </div>
+            </div>
+          </div>
+          <div className="points">
+            <div className="points-icon">
+              <img className="icons" src="CERTIFICAT.png" alt="icon" />
+            </div>
+            <div className="Points-Brief">
+              <div className="Points-Head">Certified Connection</div>
+              <div className="Points-point">
+                {" "}
+                Our partnership guarantees consistent hospitalization
+                experiences for your employees and loved ones across Bihar,
+                providing accessible and reliable healthcare services.{" "}
+              </div>
+            </div>
+          </div>
+          <div className="points">
+            <div className="points-icon">
+              <img className="icons" src="hot.png" alt="icon" />
+            </div>
+            <div className="Points-Brief">
+              <div className="Points-Head">Discount & Cashback</div>
+              <div className="Points-point">
+                {" "}
+                Our partnership guarantees consistent hospitalization
+                experiences for your employees and loved ones across Bihar,
+                providing accessible and reliable healthcare services.{" "}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="First-Pics">
+          <img className="First-icons" src="home.png" alt="roof" />
+        </div>
+      </div>
+      <div id="healthcamp" className="Left-Heads">
+        <div className="First-Headings">
+          <div style={{ color: "black" }} className="Headings">
+            Health Camp
+          </div>
+          <div style={{ color: "white" }} className="Paragraphs">
+            In Bihar, you can schedule emergency hospital stays and operations
+            from anywhere. Hospitals are readily available, and{" "}
+            <b>Nirog Sansar</b> staff will assist you in booking a suitable
+            slot.  
+          </div>
+          <div className="points">
+            <div className="points-icon">
+              <img className="icons" src="MAP.png" alt="icon" />
+            </div>
+            <div className="Points-Brief">
+              <div className="Points-Head">Bihar</div>
+              <div style={{color:"white"}} className="Points-point">
+                {" "}
+                Our partnership guarantees consistent hospitalization
+                experiences for your employees and loved ones across Bihar,
+                providing accessible and reliable healthcare services.{" "}
+              </div>
+            </div>
+          </div>
+          <div className="points">
+            <div className="points-icon">
+              <img className="icons" src="CERTIFICAT.png" alt="icon" />
+            </div>
+            <div className="Points-Brief">
+              <div className="Points-Head">Certified Connection</div>
+              <div style={{color:"white"}}className="Points-point">
+                {" "}
+                Our partnership guarantees consistent hospitalization
+                experiences for your employees and loved ones across Bihar,
+                providing accessible and reliable healthcare services.{" "}
+              </div>
+            </div>
+          </div>
+          <div className="points">
+            <div className="points-icon">
+              <img className="icons" src="hot.png" alt="icon" />
+            </div>
+            <div className="Points-Brief">
+              <div className="Points-Head">Discount & Cashback</div>
+              <div style={{color:"white"}}className="Points-point">
+                {" "}
+                Our partnership guarantees consistent hospitalization
+                experiences for your employees and loved ones across Bihar,
+                providing accessible and reliable healthcare services.{" "}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="First-Pics">
+          <img className="Lab-icons" src="camp.png" alt="roof" />
+        </div>
+      </div>
+      <div id="mentalhealth" className="First-Heads">
+        <div className="First-Headings">
+          <div className="Headings">Mental Health</div>
+          <div className="Paragraphs">
+            In Bihar, you can schedule emergency hospital stays and operations
+            from anywhere. Hospitals are readily available, and{" "}
+            <b>Nirog Sansar</b> staff will assist you in booking a suitable
+            slot.  
+          </div>
+          <div className="points">
+            <div className="points-icon">
+              <img className="icons" src="MAP.png" alt="icon" />
+            </div>
+            <div className="Points-Brief">
+              <div className="Points-Head">Bihar</div>
+              <div className="Points-point">
+                {" "}
+                Our partnership guarantees consistent hospitalization
+                experiences for your employees and loved ones across Bihar,
+                providing accessible and reliable healthcare services.{" "}
+              </div>
+            </div>
+          </div>
+          <div className="points">
+            <div className="points-icon">
+              <img className="icons" src="CERTIFICAT.png" alt="icon" />
+            </div>
+            <div className="Points-Brief">
+              <div className="Points-Head">Certified Connection</div>
+              <div className="Points-point">
+                {" "}
+                Our partnership guarantees consistent hospitalization
+                experiences for your employees and loved ones across Bihar,
+                providing accessible and reliable healthcare services.{" "}
+              </div>
+            </div>
+          </div>
+          <div className="points">
+            <div className="points-icon">
+              <img className="icons" src="hot.png" alt="icon" />
+            </div>
+            <div className="Points-Brief">
+              <div className="Points-Head">Discount & Cashback</div>
+              <div className="Points-point">
+                {" "}
+                Our partnership guarantees consistent hospitalization
+                experiences for your employees and loved ones across Bihar,
+                providing accessible and reliable healthcare services.{" "}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="First-Pics">
+          <img className="First-icons" src="home.png" alt="roof" />
+        </div>
+      </div>
     </div>
-    <div id="lab" className='Left-Heads'>
-<div  className='First-Headings'>
-    <div style={{color:"black"}} className='Headings'>Lab Test</div>
-    <div style={{color:"white"}} className='Paragraphs'>In Bihar, you can schedule emergency hospital stays and operations from anywhere. Hospitals are readily available, and <b>Nirog Sansar</b> staff will assist you in booking a suitable slot.  </div>
-<div className='points'>
-    <div className='points-icon'>
+  );
+};
 
-        <img  className="icons"src="MAP.png" alt="icon"/>
-    </div>
-    <div className='Points-Brief'>
-        <div style={{color:"black"}} className='Points-Head'>Bihar</div>
-    <div  style={{color:"white"}} className='Points-point'>   Our partnership guarantees consistent hospitalization experiences for your employees and loved ones across Bihar, providing accessible and reliable healthcare services.   </div>
-</div>
-
-</div>
-<div className='points'>
-    <div className='points-icon'>
-
-        <img  className="icons"src="CERTIFICAT.png" alt="icon"/>
-    </div>
-    <div className='Points-Brief'>
-        <div style={{color:"black"}} className='Points-Head'>Certified Connection</div>
-    <div style={{color:"white"}} className='Points-point'>    We work solely with NABH-certified partners, closely monitoring them to maintain exceptional service levels and offering our customers the highest quality of care.
-    </div>
-</div>
-
-</div>
-<div className='points'>
-    <div className='points-icon'>
-
-        <img  className="icons"src="PP.png" alt="icon"/>
-    </div>
-    <div className='Points-Brief'>
-        <div style={{color:"black"}} className='Points-Head'>Discount & Cashback</div>
-    <div style={{color:"white"}} className='Points-point'>   We provide up to 40% discounts on IPD, assistance during and after hospitalization, and affordable and secure treatments, valuing every life.    </div>
-</div>
-
-</div>
-</div>
-<div className='First-Pics'>
-    <img  className="Lab-icons" src='medicallab.png' alt="roof"/>
-
-</div>
-</div>
-<div id="radiology" className='First-Heads'>
-<div  className='First-Headings'>
-    <div className='Headings'>Radiology</div>
-    <div className='Paragraphs'>In Bihar, you can schedule emergency hospital stays and operations from anywhere. Hospitals are readily available, and <b>Nirog Sansar</b> staff will assist you in booking a suitable slot.  </div>
-<div className='points'>
-    <div className='points-icon'>
-
-        <img  className="icons"src="MAP.png" alt="icon"/>
-    </div>
-    <div className='Points-Brief'>
-        <div className='Points-Head'>Bihar</div>
-    <div className='Points-point'>   Our partnership guarantees consistent hospitalization experiences for your employees and loved ones across Bihar, providing accessible and reliable healthcare services.   </div>
-</div>
-
-</div>
-<div className='points'>
-    <div className='points-icon'>
-
-        <img  className="icons"src="CERTIFICAT.png" alt="icon"/>
-    </div>
-    <div className='Points-Brief'>
-        <div className='Points-Head'>Certified Connection</div>
-    <div className='Points-point'>    We work solely with NABH-certified partners, closely monitoring them to maintain exceptional service levels and offering our customers the highest quality of care.
-    </div>
-</div>
-
-</div>
-<div className='points'>
-    <div className='points-icon'>
-
-        <img  className="icons"src="PP.png" alt="icon"/>
-    </div>
-    <div className='Points-Brief'>
-        <div className='Points-Head'>Discount & Cashback</div>
-    <div className='Points-point'>   We provide up to 40% discounts on IPD, assistance during and after hospitalization, and affordable and secure treatments, valuing every life.    </div>
-</div>
-
-</div>
-</div>
-<div className='First-Pics'>
-    <img  className="First-icons" src='radios.png' alt="roof"/>
-
-</div>
-</div>
-<div id="ambulance" className='Left-Heads'>
-<div  className='First-Headings'>
-    <div style={{color:"black"}} className='Headings'>Ambulance</div>
-    <div style={{color:"white"}} className='Paragraphs'>In Bihar, you can schedule emergency hospital stays and operations from anywhere. Hospitals are readily available, and <b>Nirog Sansar</b> staff will assist you in booking a suitable slot.  </div>
-<div className='points'>
-    <div className='points-icon'>
-
-        <img  className="icons"src="MAP.png" alt="icon"/>
-    </div>
-    <div className='Points-Brief'>
-        <div style={{color:"black"}} className='Points-Head'>Bihar</div>
-    <div  style={{color:"white"}} className='Points-point'>   Our partnership guarantees consistent hospitalization experiences for your employees and loved ones across Bihar, providing accessible and reliable healthcare services.   </div>
-</div>
-
-</div>
-<div className='points'>
-    <div className='points-icon'>
-
-        <img  className="icons"src="CERTIFICAT.png" alt="icon"/>
-    </div>
-    <div className='Points-Brief'>
-        <div style={{color:"black"}} className='Points-Head'>Certified Connection</div>
-    <div style={{color:"white"}} className='Points-point'>    We work solely with NABH-certified partners, closely monitoring them to maintain exceptional service levels and offering our customers the highest quality of care.
-    </div>
-</div>
-
-</div>
-<div className='points'>
-    <div className='points-icon'>
-
-        <img  className="icons"src="PP.png" alt="icon"/>
-    </div>
-    <div className='Points-Brief'>
-        <div style={{color:"black"}} className='Points-Head'>Discount & Cashback</div>
-    <div style={{color:"white"}} className='Points-point'>   We provide up to 40% discounts on IPD, assistance during and after hospitalization, and affordable and secure treatments, valuing every life.    </div>
-</div>
-
-</div>
-</div>
-<div className='First-Pics'>
-    <img  className="Lab-icons" src='AMS.png' alt="roof"/>
-
-</div>
-</div>
-    </div>
-
-
-  )
-}
-
-export default AllBenefits
+export default AllBenefits;
