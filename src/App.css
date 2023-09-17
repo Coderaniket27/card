@@ -22,6 +22,7 @@
   background-color: #083d77;
   border-radius: 20px;
 }
+
 .About-Header {
   text-align: center;
   font-family: Inter;
@@ -85,10 +86,11 @@
   right: 180px;
 }
 .hamburger-list {
-  padding: 5px;
+  padding: 10px 25px 10px 25px;
   border: 1px solid black;
-  color: rgb(186, 9, 9);
-  background-color: #7fffd4;
+  color: white;
+  text-align: center;
+  background-color: #083d77;
   font-weight: bolder;
 }
 .hamburger-list:hover {

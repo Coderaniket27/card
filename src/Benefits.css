@@ -113,9 +113,12 @@
 }
 .Points-Brief{
    
-    
+    width:85%;
     padding-left: 2%;
 }
+.points-icon{
+    width: 60px;
+  }
 .Points-Head{
     font-size: 20px;
     font-weight: 800;
