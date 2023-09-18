@@ -29,6 +29,60 @@ const AllBenefits = () => {
   return (
     <div>
       <div id="hospital" className="First-Heads">
+      <div className='Modal'>
+    
+    <img    className='Modal-Button vibrate'onClick={onOpenModal} src ="support.png" alt=""/>
+   
+    <Modal className="Modal-Color" open={open} onClose={onCloseModal} center>
+        <p style={{textAlign:"center",fontFamily:"cursive",fontSize:"30px"}}>Booking Details</p>
+       <form className='Form-Modal'>
+        <div className='Input-Align'>
+      <label>Enter your name:<br/>
+        <input  type="text" 
+        name="username" 
+        value={inputs.username} 
+        onChange={handleChange} className='Modal-Input' />
+      </label>
+      <br/>
+      <label>Enter your number:<br/>
+        <input  type="number" 
+        name="number" 
+        value={inputs.number} 
+        onChange={handleChange} className='Modal-Input'  />
+      </label>
+      <br/>
+      <label>Enter your email:<br/>
+        <input 
+        name="email" 
+        value={inputs.email} 
+        onChange={handleChange} className='Modal-Input' type="text" />
+      </label>
+      <br/>
+      <label>Select your service:<br/>
+      
+      <select value={Service} onChange={handleChanges} className='Select-Input'>
+        <option value="Hospitalization">Hospitalization</option>
+        <option value="Lab">Lab Test</option>
+        <option value="Ambulance">Ambulance</option>
+        <option value="Doctor Consultation">Doctor Consultation</option>
+        <option value="Home Care">Home Care</option>
+
+        <option value="Health Camp">Health Camp</option>
+        <option value="Mental Health">Mental Health</option>
+
+
+      </select>
+        
+      </label>
+     <div className='Button-align'>
+      <div onClick={handleSubmit} className='button-book'><ReactWhatsapp onClick={onOpenModal} className='whatsapp-button' number="7277706637" message={`${inputs.username} contact-${inputs.number}, ${inputs.email}  Service-${Service}`}>
+          Click To Book
+        </ReactWhatsapp> </div>     
+      </div>
+      </div>
+    </form>
+      </Modal>
+</div>
         <div className="First-Headings">
           <div className="Headings">Hospital</div>
           <div className="Paragraphs">
@@ -918,7 +972,11 @@ const AllBenefits = () => {
         <div className="First-Pics">
           <img className="First-icons" src="mentals.png" alt="roof" />
         </div>
+
       </div>
+
+      
+    
     </div>
   );
 };

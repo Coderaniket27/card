@@ -189,14 +189,38 @@
     padding-bottom: 10px;
 }
 .Modal-Button{
-    width: 150px;
-    height: 40px;
-    margin-left: 640px;
-    border: 1px solid greenyellow;
-    border-radius: 50px;
-    background-color: rgb(144, 229, 17);
-    box-shadow: 5px 5px greenyellow;
+    width: 70px;
+    height: 70px;
+    position: -webkit-sticky;
+  position: fixed;
+  z-index: 4000;
+  top: 85%;
+  left:90%;
+
 }
+/* In your CSS file or as inline styles */
+.vibrate {
+    animation: vibrate 2s infinite;
+  }
+  
+  @keyframes vibrate {
+    0% {
+      transform: translate(0);
+    }
+    25% {
+      transform: translate(-2px, 2px);
+    }
+    50% {
+      transform: translate(2px, -2px);
+    }
+    75% {
+      transform: translate(-2px, 2px);
+    }
+    100% {
+      transform: translate(2px, -2px);
+    }
+  }
+  
 .Modal{
     padding-bottom: 10px;
 }
@@ -230,18 +254,8 @@
     justify-content: center;
    
 }
-.Modal-Button:hover{
-    background-color: red;
-    box-shadow: 5px 5px rgb(153, 8, 8);
-}
-.Modal-Button{
-   font-weight: 800;
-   font-family:cursive;
-    border: 1px solid greenyellow;
-    border-radius: 50px;
-    background-color: rgb(144, 229, 17);
-    box-shadow: 5px 5px greenyellow;
-}
+
+
 .Modal-Color{
     background-color: red;
 }
@@ -419,15 +433,13 @@
 }
 
 .Modal-Button{
-    width: 150px;
-    height: 40px;
-    font-weight: 800;
-    font-family: cursive;
-    margin-left: 0;
-    border: 1px solid greenyellow;
-    border-radius: 50px;
-    background-color: rgb(144, 229, 17);
-    box-shadow: 5px 5px greenyellow;
+    width: 60px;
+    height: 60px;
+    position: -webkit-sticky;
+  position: fixed;
+  top: 85%;
+  left:75%;
+  z-index: 4000;
 }
 .Modal{
     padding-bottom: 10px;
@@ -595,15 +607,13 @@ text-align: center;
     padding-top: 20px;
 }
 .Modal-Button{
-    width: 150px;
-    height: 40px;
-    font-weight: 800;
-    font-family: cursive;
-    margin-left: 0;
-    border: 1px solid greenyellow;
-    border-radius: 50px;
-    background-color: rgb(144, 229, 17);
-    box-shadow: 5px 5px greenyellow;
+    width: 70px;
+    height: 70px;
+    position: -webkit-sticky;
+  position: fixed;
+  z-index: 4000;
+  top: 85%;
+  left:87%;
 }
 .Modal{
     padding-bottom: 10px;
@@ -710,13 +720,13 @@ text-align: center;
     padding-top: 20px;
 }
 .Modal-Button{
-    width: 150px;
-    height: 40px;
-    margin-left: 420px;
-    border: 1px solid greenyellow;
-    border-radius: 50px;
-    background-color: rgb(144, 229, 17);
-    box-shadow: 5px 5px greenyellow;
+    width: 70px;
+    height: 70px;
+    position: -webkit-sticky;
+  position: fixed;
+  z-index: 1000;
+  top: 85%;
+  left:87%;
 }
 .Modal{
     padding-bottom: 10px;
