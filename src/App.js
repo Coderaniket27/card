@@ -1,31 +1,47 @@
-import './App.css';
-import Benefits from './Component/Benefits';
-import Home from './Component/Home';
-import Products from './Component/Products';
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
-import CardDownload from './Component/CardDownload';
-
- 
+import Navigation from "./components/Navigation";
+import { Link, Route, Routes } from "react-router-dom";
+import Banner from "./components/Banner";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import "./styles/footer.css";
+import "./styles/contact.css";
+import "./styles/banner.css";
+import "./styles/bannerdown.css";
+import BannerDown from "./components/BannerDown";
+import "./styles/about.css";
+import Mission from "./components/Mission";
+import About from "./components/About";
+import Services from "./components/Services";
+import Home from "./components/Home";
+import Products from "./components/Products";
+import "./App.css";
+import "./styles/navigation.css";
+import Card from "./components/Card";
+import "./styles/reset.css";
+import "./styles/common.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Benifits from "./components/Benifits";
+import Offers from "./components/Offers";
 function App() {
   return (
-    <div >
-        {/* <Home/>
-<Benefits/> */}
-<BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Home/>} />
-      <Route exact path="/benefits" element={<Benefits />} />
-      <Route exact path="/products" element={<Products />} />
-<Route exact path ="/card" element={<CardDownload/>}/>
+    <>
+      <Navigation />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/benifits" element={<Benifits />} />
+        <Route path="/card" element={<Card />} />
+        <Route path="/products" element={<Products />} />
 
-    </Routes>
-  </BrowserRouter>,
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/offers" element={<Offers />} />
 
-    </div>
+        <Route path="/contact" element={<Contact />} />
+        
+      </Routes>
+      <Footer />
+ 
+    </>
   );
 }
 

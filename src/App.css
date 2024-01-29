@@ -1,762 +1,104 @@
-.App {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.Mission-Visions {
-  overflow: hidden;
-}
-.About-us {
-  width: 100%;
-  height: auto;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  position: relative;
-  bottom: 8%;
-}
-.About-Full {
-  width: 97%;
-}
-.About-Write {
-  background-color: #083d77;
-  border-radius: 20px;
-}
-
-.About-Header {
-  text-align: center;
-  font-family: Inter;
-  font-size: 38px;
-  font-weight: 600;
-  line-height: 46px;
-  padding-top: 3%;
-  padding-bottom: 1%;
-  letter-spacing: 0em;
-  color: #ffffff;
-}
-.About-Paragraph {
-  color: #ffffff;
-  width: 82%;
-  font-family: Inter;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 40px;
-  letter-spacing: 2px;
-  text-align: center;
-  padding-bottom: 2%;
-}
-.About-flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.Card {
-  width: 350px;
-  height: 200px;
-  margin-top: 100px;
-  background-color: aqua;
-  border: 1px solid white;
-  border-radius: 5px;
-}
-.Navitems {
-  list-style: none;
-  display: flex;
-  margin-top: 30px;
-  font-weight: 900;
-  font-size: 19px;
-  font-family: Inter;
-}
-.Navbenefits{
-  list-style: none;
-  display: flex;
-  margin-top: 25px;
-  font-weight: bold;
-  font-size: 17px;
-  color:black;
-}
-
-.list-item {
-  position: fixed;
-  top: 40px;
-  right: 50px;
-}
-.list-item1 {
-  position: fixed;
-  top: 50px;
-  right: 180px;
-}
-.hamburger-list {
-  padding: 10px 25px 10px 25px;
-  border: 1px solid black;
-  color: white;
-  text-align: center;
-  background-color: #083d77;
-  font-weight: bolder;
-}
-.hamburger-list:hover {
-  background-color: aqua;
-}
-.NavFull {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  overflow: hidden;
-}
-.Navlogo {
-  margin-left: 20px !important;
-  color: #0018a8;
-  margin-top: 16px;
-  margin-bottom: 06px;
-}
-.NavBar {
-  background-color: #e2ebef;
-  position: fixed;
-  z-index: 1000;
-  top: 0;
-  overflow: hidden;
-}
-.Navlist {
-  margin-left: 500px;
-}
-.Navlisted {
-  margin-left: 40px;
-}
-.Hamburger {
-  display: none;
-}
-.hovers {
-  cursor: pointer;
-  color: black;
-  text-align: center;
-}
-.hovers:hover {
-  border-bottom: 2px solid #1975d7;
-}
-.Mission {
-  width: 100%;
-}
-.Mission-Brief {
-  width: 100%;
-}
-.Mission-Full {
-  display: flex;
-  flex-wrap: nowrap;
-  background-color: #e2ebef;
-  padding: 2%;
-}
-.Image-Mission {
-  width: 90%;
-  height: 230px;
-  margin-right: 10px;
-  border-radius: 20px;
-}
-.Mission-Image{
-  width:45%
-}
-.Mission-Heading {
-  color: #083d77;
-  font-size: 38px;
-  font-weight: 600;
-  line-height: 46px;
-  letter-spacing: 0em;
-  text-align: center;
-  padding-bottom: 30px;
-}
-.Misiion-Detail {
-  width: 94%;
-  font-size: 15px;
-  line-height: 26px;
-  color: rgb(72, 71, 71);
-  text-align: center;
-  font-weight: bold;
-  letter-spacing: 2px;
-}
-
-.Vission-Full {
-  display: flex;
-  flex-direction: row-reverse;
-  width: 100%;
-  margin-top: 10px;
-  background-color: #e2ebef;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-.Vission-Brief {
-  width: 65%;
-}
-.Vission-Image {
-  width: 34%;
-}
-.Vission-Detail {
-  width: 100%;
-  font-size: 15px;
-  line-height: 26px;
-  color: rgb(72, 71, 71);
-  text-align: center;
-  font-weight: bold;
-  letter-spacing: 2px;
-  margin-left: 5px;
-}
-.Vission-Heading {
-  color: #083d77;
-  font-family: Inter;
-  font-size: 38px;
-  font-weight: 600;
-  line-height: 46px;
-  letter-spacing: 0em;
-  text-align: center;
-  padding-bottom: 30px;
-  margin-top: 15px;
-}
-.Image-Vission {
-  width: 80%;
-  height: 230px;
-  margin-left: 50px;
-  border-radius: 20px;
-}
-.Other-Benefitss {
-  background-color: #083d77;
-  width: 100%;
-  height: 270px;
-  margin-top: 8px;
-}
-.Other-Headers {
-  color: #ffffff;
-  width: 100%;
-  font-weight: bolder;
-  font-size: 32px;
-  padding-top: 6px;
-  text-align: center;
-}
-.Other-Card {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  margin-top: 10px;
-  align-items: center;
-  justify-content: space-around;
-  padding-left: 4px;
-  padding-right: 4px;
-}
-.Cardss {
-  width: 15%;
-  height: 156px;
-  background-color: #e2ebef;
-  border-radius: 05px;
-}
-.Card-Headers {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.Card-Icon {
-  width: 25%;
-}
-.Card-Icons {
-  width: 50px;
-  height: 50px;
-  margin-top: 12px;
-  margin-left: 10px;
-}
-.Card-Heading {
-  text-align: center;
-  width: 100%;
-  font-weight: bold;
-  font-size: 12px;
-  padding-top: 6px;
-}
-.Card-Bried {
-  font-size: 12px;
-  width: 100%;
-  font-weight: 500;
-  text-align: left;
-  padding-left: 11px;
-  padding-top: 6px;
-  padding-right: 5px;
-}
-.Benefits-Head{
-  background-color: #D9D9D9;
-  width: 100%;
-  margin-top: 5%;
-}
-.Benefits-Header{
-font-size: 50px;
-text-align: center;
-font-weight: bolder;
-width: 100%;
-padding-top: 40px;
-}
-.Benefits-Headmain {
-display: flex;
-width: 100%;
-justify-content: center;
-
-
-}
-/* .hover:hover{
-  color: red;
-} */
-
-@media only screen and (min-width: 280px) and (max-width: 480px) {
-  .Navitems {
-    display: none;
-  }
-  .Navbenefits{
-display: none;
-  }
-  .About-Header {
-    text-align: center;
-    font-family: Inter;
-    font-size: 25px;
-    font-weight: 600;
-    line-height: 46px;
-    padding-top: 3%;
-    padding-bottom: 1px;
-    letter-spacing: 0em;
-    color: #ffffff;
-  }
-  .About-Paragraph {
-    color: #ffffff;
-    width: 88%;
-    font-family: Inter;
-    font-size: 7px;
-    font-weight: bold;
-    line-height: 14px;
-    text-align: center;
-    padding-bottom: 2%;
-  }
-  .Navlogo {
-    margin-left: 20px;
-    color: #0018a8;
-    padding-top: 2px;
-    padding-bottom: 2px;
-  }
-  .NavFull {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-    overflow: hidden;
-  }
-  .Hamburger {
-    display: block;
-  }
-  .Navlist {
-    margin-top: -59px;
-    margin-right: 15px;
-    margin-left: 85%;
-  }
-  .Navlisted{
-    margin-top: -59px;
-    margin-right: 15px;
-    margin-left: 85%;
-  }
-
-  .About-Write {
-    background-color: #083d77;
-    border-radius: 10px;
-  }
-
-  .Mission-Full {
-    display: block;
-    background-color: #e2ebef;
-    padding: 2%;
-  }
-  .Image-Mission {
-    width: 100%;
-    height: 230px;
-    padding-right: 4px;
-    padding-left: 3px;
-  }
-  .Mission-Image {
-    border-radius: 90px;
-    width:100%;
-  }
-  .Mission-Heading {
-    color: #083d77;
-    font-family: Inter;
-    font-size: 38px;
-    font-weight: 600;
-    line-height: 46px;
-    letter-spacing: 0em;
-    text-align: center;
-    padding-bottom: 5px;
-  }
-  .Mission-Visions {
-    margin-top: -36px;
-  }
-  .Misiion-Detail {
-    width: 100%;
-    padding-left: 2%;
-    font-size: 11px;
-    font-weight: bold;
-    line-height: 20px;
-    color: rgb(72, 71, 71);
-    text-align: left;
-  }
-
-  .Vission-Detail {
-    width: 96%;
-    padding-left: 11px;
-    font-size: 11px;
-    font-weight: bold;
-    line-height: 20px;
-    color: rgb(72, 71, 71);
-    text-align: left;
-  }
-  .Vission-Image {
-    width: 100%;
-  }
-  .Image-Vission {
-    width: 93.6%;
-    height: 230px;
-    margin-left: 12px;
-    border-radius: 20px;
-  }
-
-  .Vission-Full {
-    width: 100%;
-    display: block;
-    margin-top: 10px;
-    background-color: #e2ebef;
+.content-para {
+    padding-left: 30px;
+    padding-right: 530px;
     padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  .Vission-Brief {
+    color: gray;
     width: 100%;
-  }
-  .Vission-Heading {
-    color: #083d77;
-    font-family: Inter;
-    font-size: 38px;
-    font-weight: 600;
-    line-height: 46px;
-    letter-spacing: 02px;
+}
+
+.csh {
+    color: #086328 !important;
+}
+.mission-area {
+    padding: 20px;
+    padding-bottom: 60px !important;
+}
+.work-content {
+    color: rgb(124, 116, 116) !important;
+}
+.work-content h5{
+    font-size: 1.1rem !important;
+
+}
+.read-more {
+    color: #69bb6f !important;
+}
+
+.card-workarea {
+    padding: 40px 15px 15px;
+    background-color: #69bb6f;
+    border: 1px solid #4053A0;
+    border-radius: 7px;
+    height: 100% !important;
+    transition: 0.4s;
+}
+
+.heading-wrap {
+    margin-bottom: 45px;
+}
+
+.workarea-img {
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
     text-align: center;
-    padding-bottom: 02px;
-    margin-top: 10px;
-  }
-  .Cardss {
-    width: 32%;
-    height: 140px;
-    background-color: #e2ebef;
+    display: inline-block;
     border-radius: 5px;
-    margin-bottom: 10px;
-  }
-  .Card-Bried {
-    font-size: 07.7px;
-    width: 100%;
+    position: relative;
+    margin-bottom: 22px;
+
+
+}
+
+.read-more {
+    margin-top: 10px;
+    display: inline-block;
     font-weight: 500;
-    text-align: left;
-    padding-left: 11px;
-    padding-top: 6px;
-    padding-right: 5px;
-
-  }
-  .Other-Benefitss {
-    background-color: #083d77;
-    width: 100%;
-    height: 372px;
-  }
-  .Card-Heading {
-    text-align: center;
-    width: 100%;
-    font-weight: bold;
-    font-size: 8px;
-    padding-top: 6px;
-    padding-left: 5px;
-  }
-  .Benefits-Head{
-    background-color: #D9D9D9;
-    width: 100%;
-    margin-top: 18%;
-  }
-  .Benefits-Header{
-  font-size: 20px;
-  text-align: center;
-  font-weight: bolder;
-  width: 100%;
-  padding-top: 40px;
-  }
-  
+    color: #002147;
 }
 
-@media only screen and (min-width: 490px) and (max-width: 940px) {
-  .About-Header {
-    text-align: center;
-    font-family: Inter;
-    font-size: 45px;
-    font-weight: 600;
-    line-height: 50px;
-    padding-top: 3%;
-    padding-bottom: 18px;
-    letter-spacing: 0em;
-    color: #ffffff;
-  }
-  .About-Paragraph {
-    color: #ffffff;
-    width: 88%;
-    font-family: Inter;
-    font-size: 21px;
-    font-weight: bold;
-    line-height: 32px;
-    text-align: center;
-    padding-bottom: 2%;
-  }
-  .Navlist {
-    margin-top: 30px;
-    margin-right: 20px;
-  }
-  .Navlisted{
-    margin-top: 30px;
-    margin-right: 20px;
-  }
-  .Navitems {
-    display: none;
-  }
-  .Navbenefits{
-    display: none;
-  }
-  .About-Write {
-    background-color: #083d77;
-    border-radius: 10px;
-  }
-  .Navlogo {
-    padding-top: 8px;
-    padding-bottom: 8px;
-  }
-  .Hamburger {
-    display: block;
-  }
-  .NavFull {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
+.work-card-para {
+    color: black;
+    font-size: 14px;
     overflow: hidden;
-  }
-
-  .Mission-Full {
-    display: block;
-    background-color: #e2ebef;
-    padding: 2%;
-  }
-  .Image-Mission {
-    width: 100%;
-    height: 320px;
-    padding-right: 10px;
-  }
-  .Mission-Image {
-    border-radius: 90px;
-    width: 100%;
-  }
-  .Mission-Heading {
-    color: #083d77;
-    font-family: Inter;
-    font-size: 38px;
-    font-weight: 600;
-    line-height: 46px;
-    letter-spacing: 0em;
-    text-align: center;
-    padding-bottom: 5px;
-  }
-  .Mission-Visions {
-    margin-top: -36px;
-  }
-  .Misiion-Detail {
-    width: 96%;
-    padding: 1%;
-    font-size: 17px;
-    font-weight: bold;
-    line-height: 26px;
-    color: rgb(72, 71, 71);
-    text-align: left;
-    margin-left: 16px;
-}
-  .Vission-Detail {
-    width: 96%;
-    padding: 1%;
-    font-size: 17px;
-    font-weight: bold;
-    line-height: 26px;
-    color: rgb(72, 71, 71);
-    text-align: left;
-    margin-left: 38px;
-  }
-  .Vission-Image {
-    width: 100%;
-  }
-  .Image-Vission {
-    width: 94.5%;
-    height: 320px;
-    margin-left: 22px;
-    border-radius: 20px;
-    padding-top: 20px;
-  }
-
-  .Vission-Full {
-    width: 100%;
-    display: block;
-    margin-top: 10px;
-    background-color: #e2ebef;
-    padding-top: 10px;
-    padding-bottom: 30px;
-  }
-  .Vission-Brief {
-    width: 100%;
-  }
-  .Vission-Heading {
-    color: #083d77;
-    font-family: Inter;
-    font-size: 38px;
-    font-weight: 600;
-    line-height: 46px;
-    letter-spacing: 02px;
-    text-align: center;
-    padding-bottom: 02px;
-    margin-top: 10px;
-  }
-  .Cardss {
-    width: 29%;
-    height: 150px;
-    background-color: #e2ebef;
-    border-radius: 5px;
-    margin-bottom: 08px;
-  }
-  .Other-Benefitss {
-    background-color: #083d77;
-    width: 100%;
-    height: 440px;
-  }
-  .Benefits-Head{
-    background-color: #D9D9D9;
-    width: 100%;
-    margin-top: 10%;
-  }
-  .Benefits-Header{
-  font-size: 35px;
-  text-align: center;
-  font-weight: bolder;
-  width: 100%;
-  padding-top: 40px;
-  }
-}
-@media only screen and (min-width: 950px) and (max-width: 1300px) {
-  .About-Header {
-    text-align: center;
-    font-family: Inter;
-    font-size: 45px;
-    font-weight: 600;
-    line-height: 48px;
-    padding-top: 3%;
-    padding-bottom: 18px;
-    letter-spacing: 0em;
-    color: #ffffff;
-  }
-  .About-Paragraph {
-    color: #ffffff;
-    width: 88%;
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: bolder;
-    line-height: 30px;
-    text-align: center;
-    padding-bottom: 2%;
-  }
-  .Navlist {
-    margin-top: 30px;
-    margin-right: 20px;
-  }
-.Navlisted{
-  margin-top: 30px;
-  margin-right: 20px;
-}
-  .Navitems {
-    display: none;
-  }
-  .Navbenefits{
-    display: none;
-  }
-  .Navlogo {
-    padding-top: 8px;
-    padding-bottom: 8px;
-  }
-  .NavFull {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-    overflow: hidden;
-  }
-  .About-Write {
-    background-color: #083d77;
-    border-radius: 20px;
-  }
-  .Hamburger {
-    display: block;
-  }
-  .About {
-    display: block;
-
-    width: 100%;
-    overflow: hidden;
-    padding-top: 2%;
-  }
-
-  .Mission-Full {
-    display: flex;
-    background-color: #e2ebef;
-    padding: 2%;
-  }
-  .Image-Mission {
-    width: 100%;
-    height: 260px;
-    padding-right: 10px;
-  }
-  .Mission-Image {
-    border-radius: 90px;
-  }
-  .Mission-Heading {
-    color: #083d77;
-    font-family: Inter;
-    font-size: 38px;
-    font-weight: 600;
-    line-height: 46px;
-    letter-spacing: 0em;
-    text-align: center;
-    padding-bottom: 10px;
-  }
-  .Mission-Visions {
-    margin-top: -36px;
-  }
-  .Misiion-Detail {
-    width: 92%;
-    font-size: 18px;
-    padding-left: 10px;
-    font-weight: 600;
-    line-height: 22px;
-    word-spacing: 10px;
-    color: rgb(72, 71, 71);
-    text-align: center;
-  }
 }
 
-@keyframes changeImage {
-  0% {
-    background-image: url("../public/d2.jpg");
-  }
-  25% {
-    background-image: url("../public/blood.jpg");
-  }
-  50% {
-    background-image: url("../public/ambulances.jpg");
-  }
+.work-card-para:hover {
+    color: white;
+}
 
-  75% {
-    background-image: url("../public/hospital.jpg");
-  }
-  100% {
-    background-image: url("../public/d2.jpg");
-  }
+.mission-area {
+    background: url(https://png.pngtree.com/back_origin_pic/03/65/73/341ab63409afde565d7f5bf58c9b6275.jpg);
+    background-size: cover;
+}
+
+.heading-wrap {
+    row-gap: 40px !important;
+}
+
+.card-workarea:hover {
+    background-color: #69bb6f;
+    color: white !important;
+    border: 0;
+}
+
+.banner-down-content:hover {
+    background-color: #69bb6f;
+
+}
+
+/* offers.css */
+
+.offer-left-part{
+    padding-top: 100px;
+}
+.offer-main-head h1{
+    color: #086328 !important;
+}
+.offer-box h1{
+    color: white !important;
+}
+
+.offer-box .card{
+    background-color: rgb(173, 173, 232) ;
 }

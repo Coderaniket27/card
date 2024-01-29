@@ -1,0 +1,115 @@
+.about-left-content-wrapper {
+    /* background-image: url(/public/aboutimg2.jpg); */
+    height: 388.33px;
+    width: 520px;
+    max-width: 100%;
+    background-size: cover !important;
+}
+.about-right-content-wrapper
+{
+    padding: 35px;
+}
+.about-para{
+    color: gray;
+}
+
+@media (max-width: 800px) {
+    .about-left-content-wrapper {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .about-right-content-wrapper
+{
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .about-icon {
+        margin-left: -20px;
+        border-radius: 7px;
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 700px) {
+    .about-right-content-wrapper {
+        padding: 0;
+        text-align: left;
+    }
+}
+
+@media (max-width: 700px) {
+    .about-sub-head h5{
+        font-size: 16px !important;
+        text-align: left !important;
+    }
+}
+
+@media (max-width: 800px) {
+    .about-title h2{
+        font-size: 32px !important;
+        text-align: left !important;
+        line-height: 42.819px;
+        padding: 0;
+        margin: 0;
+    }
+    .about-area{
+        padding: 20px;
+    }
+}
+
+.about-left-content-wrapper .about-icon img {
+    border-radius: 7px;
+}
+
+.left-about-bottom-content {
+    padding: 30px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.07);
+    background: #FFF;
+    bottom: -14%;
+    margin: 0 40px;
+    margin-top: 200px;
+    border-radius: 7px;
+}
+
+.underline {
+    bottom: 0;
+    left: 5%;
+    height: 4px;
+    margin-top: 03px;
+    width: 90%;
+    background-color: rgb(192, 205, 50)
+}
+
+
+.single-list-inner.style-check-box-grid .media .media-left {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 7px;
+    background: #FDC800;
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+    color:#002147;
+}
+.single-list-inner .media .media-left {
+    margin-right: 16px;
+}
+
+
+.single-list-inner.style-check-box-grid {
+    margin-bottom: 26px;
+}
+.single-list-wrap li {
+    list-style: none;
+}
+
+.about-area{
+    background: linear-gradient(45deg, #FBFEE8, transparent);
+}

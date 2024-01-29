@@ -1,0 +1,254 @@
+.benifit-page-bg-container {
+    background: url(http://www.rideaufht.ca/wp-content/uploads/2016/07/AdobeStock_92345619.jpeg);
+    background-size: cover;
+    height: 500px;
+}
+
+.benifit-bg-heading {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.benifit-bg-heading h1 {
+    padding: 11rem;
+    font-size: 70px;
+    color: #69bb6f !important;
+}
+
+.left-benifit-container {
+    padding: 30px;
+}
+
+.cg20 {
+    gap: 30px;
+}
+
+.benifit-container {
+    padding: 40px;
+}
+
+.right-benifit-container {
+    padding-top: 140px;
+}
+
+.benefit-box {
+    margin-bottom: 30px;
+    background-color: #fbfee8;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.benefit-box:hover {
+    background-color: #69bb6f;
+}
+
+.imag-benifit {
+    margin-top: 60px;
+}
+
+/* card.css */
+
+.card-bg {
+    background: url(https://www.backhousemedia.com/website/wp-content/uploads/2017/05/Website-design-BG.jpg);
+
+}
+
+.card-heading h1 {
+    color: white !important;
+}
+
+.form-group {
+    padding-top: 50px;
+}
+
+.form-control {
+    margin-bottom: 40px;
+}
+
+.card-layout {
+    background: #FBFEE8;
+    border: 1px solid #69bb6f;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    width: 400px;
+    height:250px !important;
+
+    max-width: 100%;
+    padding: 40px;
+}
+.card-header h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2c2cd0;
+}
+
+.card-header h5 {
+    font-size: 18px;
+    color: #07710e !important;
+    font-weight: 600;
+    text-transform: lowercase;
+}
+
+.card-phno h4 {
+    font-size: 14px;
+    color: red;
+}
+
+.card-mail h5 {
+    font-size: 18px;
+    color: #07710e !important;
+    font-weight: 600;
+    text-transform: lowercase;
+}
+
+.nirog-card {
+    display: flex;
+    justify-content: center;
+
+}
+
+.pt-70 {
+    padding-top: 70px;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+
+.download {
+    font-size: 14px;
+}
+
+.download:hover {
+    color: #2c2cd0 !important;
+}
+
+/* products.css */
+.product-page {
+    background: url(https://static.vecteezy.com/system/resources/previews/002/563/549/original/white-3d-pedestal-background-with-realistic-palm-leaves-for-cosmetic-product-presentation-or-fashion-magazine-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.prod-head h1{
+    padding: 100px ;
+    font-size: 66px;
+}
+
+.prod-head h2{
+    color: #69bb6f !important;
+}
+.prod-head p{
+text-align:left ;
+padding: 40px !important;}
+
+
+
+
+.pricing-area {
+    background: url(../../public/Vector\ 15.png);
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    background-size: cover;
+    padding-bottom: 70px;
+    
+}
+
+.pricing-content {
+    padding-top: 111px;
+}
+
+.para-pricing p {
+    color: #FFF !important;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: 25px;
+    text-transform: capitalize;
+}
+
+.para-pricing {
+    margin-bottom: 62px;
+    font-size: 15px;
+
+}
+
+.pricing-card {
+    border-radius: 10px;
+    background: #FFF;
+    padding-top: 24px;
+    padding-left: 27px;
+    min-height: 100%;
+    padding-right: 27px;
+    padding-bottom: 32px;
+    text-align: left;
+    /* margin-bottom: 147px; */
+    box-shadow: 0px 4px 34px 0px rgba(0, 0, 0, 0.05);
+}
+
+.plan-sub-title {
+    color: #04073F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    text-transform: capitalize;
+}
+
+
+
+.price {
+    color: #69bb6f;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.list-items-pricing {
+    color: #04073F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 228.571% */
+    text-transform: capitalize;
+}
+
+.pricing-list-content {
+    margin-bottom: 54px;
+}
+.rg-30{
+    row-gap: 30px;
+}
+@media(max-width:480px) {
+    .prod-head h1 {
+        padding: 57px;
+        font-size: 35px;
+    }
+    .nirog-card {
+        display: block !important;
+    
+    }
+    .offer-left-part{
+        padding: 0;
+    }
+}
+@media(max-width:992px) {
+    .benifit-container{
+        padding: 37px;
+    }
+}
+
+@media(max-width:660px) {
+  .benifit-page-bg-container{
+    display: none;
+  }
+}

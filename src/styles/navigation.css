@@ -1,0 +1,77 @@
+.navbar-area {
+    position: relative;
+    z-index: 2;
+}
+
+.navbar-container {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 40px !important;
+}
+
+.main-logo {
+    padding-left: 24px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    margin: 0;
+
+}
+
+.navlink {
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    color: #4053A0 !important;
+}
+
+.navlink:hover {
+    color: #086328 !important;
+}
+
+
+.navbar-area .btn-primary {
+    background-color: #4053A0;
+    border: 0;
+    font-size: 16px;
+}
+
+.navbar-area .btn-primary:hover {
+    background-color: #69bb6f;
+    border: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+.navbar-area .btn-primary:active {
+    background-color: #69bb6f;
+    border: 0;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-collapse {
+        padding-left: 38px !important;
+        padding-top: 25px !important;
+    }
+
+    .navlink {
+        color: black !important;
+    }
+
+    .navbar-area .btn-primary {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar-area .btn-primary {
+        display: none;
+    }
+}
+
+.support.fixed-bottom {
+    position: fixed !important;
+    right: 60px ;
+    bottom: 80px ;
+    /* left: 0; */
+    /* z-index: 1030; */
+}

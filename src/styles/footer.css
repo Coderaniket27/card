@@ -1,0 +1,113 @@
+.footer-area {
+    background-color: #FBFEE8;
+}
+
+.footer-container {
+    padding-top: 63px;
+    padding-bottom: 54px;
+}
+
+.footer-para-content p {
+    color: #211f1f !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.188px;
+    /* 188.672% */
+    text-transform: capitalize;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+
+}
+
+.title-footer {
+    color: #4053A0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 27px;
+    line-height: 30.188px;
+    /* 150.938% */
+    text-transform: capitalize;
+}
+
+.footer-icon {
+    width: 26px;
+    height: 26px;
+    flex-shrink: 0;
+
+}
+
+.footer-service-items {
+    color: #2a2626 !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.188px;
+    text-transform: capitalize;
+}
+
+.footer-contact-items {
+    color: #000000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.188px;
+    /* 188.672% */
+    text-transform: capitalize;
+}
+
+.footer-botom-sec {
+    background-color: #69bb6f;
+    color: #4053A0;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    padding-top: 13px;
+    padding-bottom: 17px;
+    font-weight: 500;
+    line-height: 30.188px;
+    /* 188.672% */
+    text-transform: capitalize;
+}
+
+.social-links-items{
+    font-size: 32px;
+}
+
+.whatsapp_float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.whatsapp-icon {
+    margin-top: 16px;
+}
+    
+
+/* for mobile */
+@media screen and (max-width: 767px) {
+    .whatsapp-icon {
+        margin-top: 10px;
+    }
+
+    .whatsapp_float {
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        right: 10px;
+        font-size: 22px;
+    }
+}

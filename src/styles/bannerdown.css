@@ -1,0 +1,91 @@
+.banner-down {
+    margin-top: -90px;
+    position: relative;
+    z-index: 2;
+}
+
+.banner-down-container {
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+
+.bannerdown-heading {
+    color: white !important;
+}
+
+.banner-down-content {
+    padding: 40px;
+    padding-bottom: 20px !important;
+    border-right: 0.2px solid #727b83;
+}
+
+.banner-down-main-heading h3 {
+    color: white;
+    font-size: 22px;
+    padding-bottom: 12px;
+    border-bottom: 20%;
+    border-bottom: 1.2px solid #086328;
+    border-width: 3px;
+}
+
+.banner-down ul {
+
+    padding: 0;
+    margin: 0;
+}
+
+
+.inner-content {
+    padding: 20px;
+}
+
+col {
+    border-right: 1px;
+}
+
+.paragraphh {
+    font-size: 20px;
+}
+
+.bannerdown-para {
+    color: white !important;
+    font-size: 14px !important;
+    padding-top: 20px;
+
+}
+
+.inner-content-heading {
+    font-size: 16px;
+    color:
+        white;
+}
+
+
+.banner-down-container .col-lg-4 {
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.banner-down-container .col-md-4 {
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media  (max-width: 540px) {
+    .button-banner{
+        justify-content: center;
+        display:flex ;
+        padding-bottom: 40px;
+    }
+    .banner-area{
+        padding-top: 0;
+        padding-bottom: 180px;
+    }
+    .about-left-content-wrapper{
+display: none;    }
+.mission-area{
+    padding: 20px !important;
+}
+.content-para{
+    padding: 0 !important;
+}
+}
