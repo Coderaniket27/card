@@ -88,7 +88,10 @@
 }
 
 /* offers.css */
+.DKV0Md{
 
+    visibility: hidden !important;
+}
 .offer-left-part{
     padding-top: 100px;
 }
