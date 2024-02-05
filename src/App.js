@@ -23,6 +23,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Benifits from "./components/Benifits";
 import Offers from "./components/Offers";
 function App() {
+  document.title = "New Title"; // Set your desired title here
+
   return (
     <>
       <Navigation />
