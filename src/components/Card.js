@@ -95,7 +95,7 @@ const Card = () => {
               <div class="d-flex">
                 <div class="card-layout">
                   <div class="card-logo">
-                    <img src="logo (1).png" width={50} height={50} />
+                    <img src="SANSAR.png" width={50} height={50} />
                   </div>
 
                   <div class="card-header">

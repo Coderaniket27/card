@@ -17,7 +17,7 @@ function Footer() {
             <div className="col-sm-12 col-md-4 ">
               <div className="logo-container">
                 <img
-                  src="/logo (1).png"
+                  src="/SANSAR.png"
                   alt="footer-logo"
                   height={24}
                   width={65}

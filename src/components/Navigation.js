@@ -9,7 +9,7 @@ function Navigation() {
       <Navbar expand="lg" className="navbar-area">
         <nav className="container-fluid d-flex navbar-container">
           <Navbar.Brand href="#home" className="main-logo">
-            <img src="/logo (1).png" height={74} width={90} alt="Logo" />
+            <img src="/SANSAR.png" height={74} width={90} alt="Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className="ms-auto" />
           <Navbar.Collapse
