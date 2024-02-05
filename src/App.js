@@ -22,11 +22,19 @@ import "./styles/common.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Benifits from "./components/Benifits";
 import Offers from "./components/Offers";
+import { Helmet, HelmetProvider } from "react-helmet-async";
+
 function App() {
-  document.title = "New Title"; // Set your desired title here
 
   return (
     <>
+        <HelmetProvider>
+        <Helmet>
+        <title>Your Page Title</title>
+        <meta name="description" content="Your page description" />
+        {/* Add any other head elements you need */}
+      </Helmet>
+
       <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -42,7 +50,8 @@ function App() {
         
       </Routes>
       <Footer />
- 
+      </HelmetProvider>
+
     </>
   );
 }
