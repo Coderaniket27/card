@@ -105,3 +105,6 @@
 .offer-box .card{
     background-color: rgb(173, 173, 232) ;
 }
+.Member-detail{
+    display: flex;
+}

@@ -1,68 +1,99 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import axios from "axios";
+import { ToastContainer, toast } from 'react-toastify';
 
 const Card = () => {
-  const handleDownload = () => {
-    // Get the HTML content of the card
-    const cardElement = document.querySelector(".card-layout");
-    const cardHTML = cardElement.outerHTML;
-    // css
-    const cardStyles = `.card-layout {
-        background: #FBFEE8;
-        align-items: center;
-            text-align: center;
-            width:400px !important; 
-
-            border-radius: 20px;
-            height:300px !important;
-            padding: 20px;
-        
-        }
-        
-        .card-header h4 {
-            font-size: 20px;
-            font-weight: 700;
-            color: #2c2cd0;
-        }
-        
-        .card-header h5 {
-            font-size: 18px;
-            color: #07710e !important;
-            font-weight: 600;
-            text-transform: lowercase;
-        }
-        
-        .card-phno h4 {
-            font-size: 18px;
-            color: red;
-        }
-        
-        .card-mail h5 {
-            font-size: 18px;
-            color: #07710e !important;
-            font-weight: 600;
-            text-transform: lowercase;
-        }
-        
-    
-        
-      `;
-    const fullContent = `<html><head><style>${cardStyles}</style></head><body>${cardHTML}</body></html>`;
-
-    // Create a Blob and trigger the download
-    const blob = new Blob([fullContent], { type: "text/html" });
-    const link = document.createElement("a");
-    link.href = URL.createObjectURL(blob);
-    link.download = "nirog_card.html";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+  const [phone, setPhone] = useState("");
+  const [aadhar, setAadhar] = useState("");
+  const [sent, setSent] = useState("");
+  const[data,setData]=useState("")
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await axios.post(
+        "https://api-nirog.vercel.app/downloadCard",
+        { aadhar: sent }
+      );
+      toast.success("Your Card Data Fetched")
+      // Handle successful response here
+      setData(response.data)
+      console.log(response.data)
+    } catch (error) {
+      console.error("Error:", error);
+      // Handle error here
+    }
   };
+  const handleChange = (e) => {
+    // Remove any non-numeric characters from the input
+    const inputValue = e.target.value.replace(/\D/g, "");
+    setSent(inputValue);
+    // Split the input value into chunks of 4 digits
+    const formattedNumber = inputValue.match(/\d{1,4}/g)?.join(" ");
+
+    // Update the state with the formatted number
+    setAadhar(formattedNumber || "");
+  };
+
+  // const handleDownload = () => {
+  //   // Get the HTML content of the card
+  //   const cardElement = document.querySelector(".card-layout");
+  //   const cardHTML = cardElement.outerHTML;
+  //   // css
+  //   const cardStyles = `.card-layout {
+  //       background: #FBFEE8;
+  //       align-items: center;
+  //           text-align: center;
+  //           width:400px !important;
+
+  //           border-radius: 20px;
+  //           height:300px !important;
+  //           padding: 20px;
+
+  //       }
+
+  //       .card-header h4 {
+  //           font-size: 20px;
+  //           font-weight: 700;
+  //           color: #2c2cd0;
+  //       }
+
+  //       .card-header h5 {
+  //           font-size: 18px;
+  //           color: #07710e !important;
+  //           font-weight: 600;
+  //           text-transform: lowercase;
+  //       }
+
+  //       .card-phno h4 {
+  //           font-size: 18px;
+  //           color: red;
+  //       }
+
+  //       .card-mail h5 {
+  //           font-size: 18px;
+  //           color: #07710e !important;
+  //           font-weight: 600;
+  //           text-transform: lowercase;
+  //       }
+
+  //     `;
+  //   const fullContent = `<html><head><style>${cardStyles}</style></head><body>${cardHTML}</body></html>`;
+
+  //   // Create a Blob and trigger the download
+  //   const blob = new Blob([fullContent], { type: "text/html" });
+  //   const link = document.createElement("a");
+  //   link.href = URL.createObjectURL(blob);
+  //   link.download = "nirog_card.html";
+  //   document.body.appendChild(link);
+  //   link.click();
+  //   document.body.removeChild(link);
+  // };
   return (
-    <>
+    <div>
       <div className="navbar-area pb-70">
         <div className="container-fluid">
-          <div className="card-bg">
+          <div className="card-bg" >
             <div className="row">
               <div className="col-lg-5 col-md-5 col-sm-12">
                 <div className="card-boxx p-5">
@@ -74,13 +105,23 @@ const Card = () => {
                       type="text"
                       className="form-control"
                       placeholder="Enter your Aadhar No."
+                      value={aadhar}
+                      onChange={handleChange}
+                      maxLength={14}
                     />
                     <input
                       type="text"
                       className="form-control"
                       placeholder="Enter your Registered No."
+                      value={phone}
+                      onChange={(e) => setPhone(e.target.value)}
                     />
-                    <button className="btn btn-primary">Submit</button>
+                    <button
+                      onClick={(e) => handleSubmit(e)}
+                      className="btn btn-primary"
+                    >
+                      Submit
+                    </button>
                   </div>
                 </div>
               </div>
@@ -88,10 +129,7 @@ const Card = () => {
           </div>
           <h1 className="text-center pt-70">Download Our Card Now !</h1>
           <div class="nirog-card">
-            <div
-              class="col-lg-4 col-md-4 col-sm-12 p-4 d-flex
-    "
-            >
+            <div class="col-lg-4 col-md-4 col-sm-12 p-4 d-flex">
               <div class="d-flex">
                 <div class="card-layout">
                   <div class="card-logo">
@@ -109,6 +147,20 @@ const Card = () => {
                     <div class="card-mail">
                       <h5> info@nirogsansar.com</h5>
                     </div>
+                    <div className="Member-detail">
+                      <div>
+                        Membership id:
+                      </div>
+                      <div>{data?.data?.member}
+                      </div>
+                    </div>
+                    <div className="Member-detail">
+                      <div>
+                        Member Name:
+                      </div>
+                      <div>{data?.data?.name}
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -116,7 +168,7 @@ const Card = () => {
           </div>
           <div className="btn-card d-flex justify-content-center">
             <button
-              onClick={handleDownload}
+              onClick={(e) => handleSubmit(e)}
               className="text-center btn-primary btn download"
             >
               Download!
@@ -124,7 +176,7 @@ const Card = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
