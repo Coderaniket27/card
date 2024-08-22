@@ -86,7 +86,7 @@ function Footer() {
 
             <div className="col-sm-12 col-md-4">
               <div className="footer-heading">
-                <h4 className="title-footer">Contact Us</h4>
+                <h4 className="title-footer">Contact Us-</h4>
               </div>
               <div className="footer-contact-list">
                 <ul>
