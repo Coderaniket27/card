@@ -22,6 +22,7 @@ import "./styles/common.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Benifits from "./components/Benifits";
 import Offers from "./components/Offers";
+import FormCard from "./components/Cardmaker";
 function App() {
 
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/benifits" element={<Benifits />} />
         <Route path="/card" element={<Card />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/Card-Maker" element={<FormCard/>} />
 
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />

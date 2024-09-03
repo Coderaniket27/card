@@ -108,3 +108,51 @@
 .Member-detail{
     display: flex;
 }
+
+
+.form-card {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .form-media, .form-body {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .form-media {
+    overflow: hidden;
+    border-radius: 15px 0 0 15px;
+  }
+  
+  .form-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px 0 0 15px;
+  }
+  
+  .form-body {
+    flex: 1;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 0 15px 15px 0;
+  }
+  
+  button {
+    font-weight: bold;
+  }
+  
+  .form-card .form-label {
+    font-size: 14px;
+  }
+  
+  .form-card .form-control {
+    font-size: 14px;
+    padding: 5px;
+  }
+  
