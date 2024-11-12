@@ -113,7 +113,7 @@ const Services = () => {
             <div className="col-lg-3 col-md-6">
               <div className="bg-grey text-center card-workarea">
                 <div className="workarea-img">
-                  <img src="/ffb.png" alt="work-img " />
+                  <img src="/medicallab.png" alt="work-img " />
                 </div>
                 <div className="work-content">
                   <h5>Diagnostic Services</h5>
@@ -128,7 +128,7 @@ const Services = () => {
             <div className="col-lg-3 col-md-6">
               <div className="bg-grey text-center card-workarea">
                 <div className="workarea-img">
-                  <img src="/medicallab.png" alt="work-img " />
+                  <img src="/AMS.png" alt="work-img " />
                 </div>
                 <div className="work-content">
                   <h5>Emergency Care</h5>
