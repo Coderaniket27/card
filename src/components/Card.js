@@ -89,8 +89,16 @@ const Card = () => {
   //   link.click();
   //   document.body.removeChild(link);
   // };
+    const divStyle = {
+    width: '100%',
+    backgroundImage: 'url(/walls.png)', // Only one closing parenthesis
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+  };
+
   return (
-    <div>
+    <div style={divStyle} >
       <div className="navbar-area pb-70">
         <div className="container-fluid">
           <div className="card-bg" >
