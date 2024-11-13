@@ -55,10 +55,9 @@
 
 }
 
-.card-heading h1 {
+/* .card-heading h1 {
     color: white !important;
-}
-
+} */
 .form-group {
     padding-top: 50px;
 }
@@ -241,6 +240,16 @@ padding: 40px !important;}
     .offer-left-part{
         padding: 0;
     }
+    .card-layout {
+        background: #FBFEE8;
+        border: 1px solid #69bb6f;
+        align-items: center;
+        text-align: center;
+        border-radius: 20px;
+        max-width: 100%;
+        padding: 40px;
+    }
+    
 }
 @media(max-width:992px) {
     .benifit-container{
@@ -252,4 +261,14 @@ padding: 40px !important;}
   .benifit-page-bg-container{
     display: none;
   }
+  .card-layout {
+    background: #FBFEE8;
+    border: 1px solid #69bb6f;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    max-width: 100%;
+    padding: 40px;
+}
+
 }

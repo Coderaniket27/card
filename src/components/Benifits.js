@@ -22,7 +22,7 @@ const Benifits = () => {
                   </p>
                 </div>
                 <div className="imag-benifit">
-                  <img src="/hospitaled.png" className="img-fluid" />
+                  <img style={{height:"280px"}} src="/hospitaled.png" className="img-fluid" />
                 </div>
               </div>
               <div className="col-lg-9 col-md-12 col-sm-12">
@@ -142,7 +142,7 @@ const Benifits = () => {
                   </p>
                 </div>
                 <div className="imag-benifit">
-                  <img src="/radios.png" className="img-fluid" />
+                  <img style={{height:"280px"}} src="/radios.png" className="img-fluid" />
                 </div>
               </div>
               <div className="col-lg-9 col-md-12 col-sm-12">
@@ -176,7 +176,7 @@ const Benifits = () => {
                     </div>{" "}
                     <div className="bg-grey text-center card-workarea col-sm-12 col-lg-3 col-md-12">
                       <div className="workarea-img">
-                        <img src="/hot.png" alt="work-img " />
+                        <img  src="/hot.png" alt="work-img " />
                       </div>
                       <div className="work-content">
                         <h5>Discount & Cashback</h5>

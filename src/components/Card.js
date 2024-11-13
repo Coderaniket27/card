@@ -135,9 +135,9 @@ const Card = () => {
               </div>
             </div>
           </div>
-          <h1 className="text-center pt-70">Download Our Card Now !</h1>
+          <h1 className="text-center pt-70 mb-20">Download Our Card Now !</h1>
           <div class="nirog-card">
-            <div class="col-lg-4 col-md-4 col-sm-12 p-4 d-flex">
+            <div class="col-lg-4 col-md-4 col-sm-12">
               <div class="d-flex">
                 <div class="card-layout">
                   <div class="card-logo">
@@ -168,19 +168,20 @@ const Card = () => {
                       </div>
                       <div>{data?.data?.name}
                       </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="btn-card d-flex justify-content-center">
+                      {/* <div className="btn-card d-flex justify-content-center">
             <button
               onClick={(e) => handleSubmit(e)}
               className="text-center btn-primary btn download"
             >
               Download!
             </button>
+          </div> */}
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
